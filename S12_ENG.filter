@@ -253,6 +253,7 @@ ItemDisplay[(ma7) RARE]:%YELLOW%Burnt %CORAL%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(ma11) RARE]:%YELLOW%Pleasant %CORAL%Pastures %RED%Relic %CONTINUE%
 ItemDisplay[(ma12) RARE]:%YELLOW%Baleful %CORAL%Alcazar %RED%Relic %CONTINUE%
 ItemDisplay[(ma13) RARE]:%YELLOW%Decomposing %CORAL%Settlement %RED%Relic %CONTINUE%
+ItemDisplay[MAP !ID !(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13)]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[(ma10 OR ma11) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[(ma4 OR ma8 OR ma9 OR ma13) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
@@ -781,6 +782,40 @@ ItemDisplay[MAG jew STAT138>0]: %GREEN%Maek %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[MAG jew STAT22>0]: %PURPLE%Max %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[MAG (cm1 OR cm3 OR cm2) ID ILVL>94]:%NAME%%ORANGE%[L%ILVL%] <<MONEY>>
 ItemDisplay[MAG (cm1 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
+
+ItemDisplay[jew UNI ID (STAT329=5 AND STAT333=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %RED%(Fire) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %RED%F  %ORANGE%i  %YELLOW%r  %RED%e  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT334=5 AND STAT330=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %YELLOW%(Lightning) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %YELLOW%L  i  %ORANGE%g  h  %GOLD%t  h  %TAN%n  i  %YELLOW%n  g   %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT335=5 AND STAT331=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %BLUE%(Cold) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %BLUE%C  %GREEN%o  %PURPLE%l  %BLUE%d  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT336=5 AND STAT332=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %GREEN%(Poison) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %GREEN%P  %DARK_GREEN%o  %GOLD%i  %WHITE%s  %DARK_GREEN%o  %GREEN%n  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT358=5 AND STAT357=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %ORANGE%(Magic) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %BLUE%C  %GREEN%o  %PURPLE%l  %BLUE%d  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT399=5 AND STAT400=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %WHITE%(Physical) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %GREEN%P  %DARK_GREEN%o  %GOLD%i  %WHITE%s  %DARK_GREEN%o  %GREEN%n  %GOLD%J  e  w  e l%NL%}
+
+ItemDisplay[jew UNI ID]:%RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet%CONTINUE%
+ItemDisplay[jew UNI ID STAT333>0]:%NAME% %NL% %RED%(Fire)%CONTINUE%
+ItemDisplay[jew UNI ID STAT334>0]:%NAME% %NL% %YELLOW%(Lightning)%CONTINUE%
+ItemDisplay[jew UNI ID STAT335>0]:%NAME% %NL% %BLUE%(Cold)%CONTINUE%
+ItemDisplay[jew UNI ID STAT336>0]:%NAME% %NL% %GREEN%(Poison)%CONTINUE%
+ItemDisplay[jew UNI ID STAT358>0]:%NAME% %NL% %ORANGE%(Magic)%CONTINUE%
+ItemDisplay[jew UNI ID STAT399>0]:%NAME% %NL% %WHITE%(Physical)%CONTINUE%
+//FIRE
+ItemDisplay[jew UNI ID STAT329>2]:%NAME% %PURPLE%+%STAT(329)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT333>2]:%NAME% %WHITE%-%STAT(333)%%
+//COLD
+ItemDisplay[jew UNI ID STAT331>2]:%NAME% %PURPLE%+%STAT(331)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT335>2]:%NAME% %WHITE%-%STAT(335)%%
+//LIGHTNING
+ItemDisplay[jew UNI ID STAT330>2]:%NAME% %PURPLE%+%STAT(330)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT334>2]:%NAME% %WHITE%-%STAT(334)%%
+//poison
+ItemDisplay[jew UNI ID STAT332>2]:%NAME% %PURPLE%+%STAT(332)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT336>2]:%NAME% %WHITE%-%STAT(336)%%
+//Magic
+ItemDisplay[jew UNI ID STAT358>2]:%NAME% %PURPLE%+%STAT(358)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT357>2]:%NAME% %WHITE%-%STAT(357)%%
+//Physic
+ItemDisplay[jew UNI ID STAT399>2]:%NAME% %PURPLE%+%STAT(399)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT400>2]:%NAME% %WHITE%-%STAT(400)%%
+
 ////Unique Charms
 ItemDisplay[UNI !ID cm1]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %TEAL%Annihilius %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>>
 ItemDisplay[UNI !ID cm2]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%Hellfire Torch %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>> 
