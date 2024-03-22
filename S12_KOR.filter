@@ -253,6 +253,7 @@ ItemDisplay[(ma7) RARE]:%YELLOW%번트 포레스트 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma11) RARE]:%YELLOW%플레전트 패스쳐 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma12) RARE]:%YELLOW%밸풀 알카자르 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma13) RARE]:%YELLOW%디콤포징 세틀먼트 %RED%렐릭 %CONTINUE%
+ItemDisplay[MAP !ID !(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13)]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[(ma10 OR ma11) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma4 OR ma8 OR ma9 OR ma13) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
@@ -758,6 +759,40 @@ ItemDisplay[MAG jew STAT138>0]: %GREEN%마상 %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[MAG jew STAT22>0]: %PURPLE%맥뎀 %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[MAG (cm1 OR cm3 OR cm2) ID ILVL>94]:%NAME%%ORANGE%[L%ILVL%] <<MONEY>>
 ItemDisplay[MAG (cm1 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
+
+ItemDisplay[jew UNI ID (STAT329=5 AND STAT333=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %RED%(파이어) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %RED%F  %ORANGE%i  %YELLOW%r  %RED%e  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT334=5 AND STAT330=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %YELLOW%(라이트닝) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %YELLOW%L  i  %ORANGE%g  h  %GOLD%t  h  %TAN%n  i  %YELLOW%n  g   %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT335=5 AND STAT331=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %BLUE%(콜드) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %BLUE%C  %GREEN%o  %PURPLE%l  %BLUE%d  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT336=5 AND STAT332=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %GREEN%(포이즌) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %GREEN%P  %DARK_GREEN%o  %GOLD%i  %WHITE%s  %DARK_GREEN%o  %GREEN%n  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT358=5 AND STAT357=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %ORANGE%(매직) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %BLUE%C  %GREEN%o  %PURPLE%l  %BLUE%d  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT399=5 AND STAT400=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %WHITE%(물리) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %GREEN%P  %DARK_GREEN%o  %GOLD%i  %WHITE%s  %DARK_GREEN%o  %GREEN%n  %GOLD%J  e  w  e l%NL%}
+
+ItemDisplay[jew UNI ID]:%RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %CONTINUE%
+ItemDisplay[jew UNI ID STAT333>0]:%NAME% %NL% %RED%(파이어)%CONTINUE%
+ItemDisplay[jew UNI ID STAT334>0]:%NAME% %NL% %YELLOW%(라이트닝)%CONTINUE%
+ItemDisplay[jew UNI ID STAT335>0]:%NAME% %NL% %BLUE%(콜드)%CONTINUE%
+ItemDisplay[jew UNI ID STAT336>0]:%NAME% %NL% %GREEN%(포이즌)%CONTINUE%
+ItemDisplay[jew UNI ID STAT358>0]:%NAME% %NL% %ORANGE%(매직)%CONTINUE%
+ItemDisplay[jew UNI ID STAT399>0]:%NAME% %NL% %WHITE%(물리)%CONTINUE%
+//FIRE
+ItemDisplay[jew UNI ID STAT329>2]:%NAME% %PURPLE%+%STAT(329)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT333>2]:%NAME% %WHITE%-%STAT(333)%%
+//COLD
+ItemDisplay[jew UNI ID STAT331>2]:%NAME% %PURPLE%+%STAT(331)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT335>2]:%NAME% %WHITE%-%STAT(335)%%
+//LIGHTNING
+ItemDisplay[jew UNI ID STAT330>2]:%NAME% %PURPLE%+%STAT(330)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT334>2]:%NAME% %WHITE%-%STAT(334)%%
+//poison
+ItemDisplay[jew UNI ID STAT332>2]:%NAME% %PURPLE%+%STAT(332)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT336>2]:%NAME% %WHITE%-%STAT(336)%%
+//Magic
+ItemDisplay[jew UNI ID STAT358>2]:%NAME% %PURPLE%+%STAT(358)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT357>2]:%NAME% %WHITE%-%STAT(357)%%
+//Physic
+ItemDisplay[jew UNI ID STAT399>2]:%NAME% %PURPLE%+%STAT(399)%%%CONTINUE%
+ItemDisplay[jew UNI ID STAT400>2]:%NAME% %WHITE%-%STAT(400)%%
+
 ////Unique Charms
 ItemDisplay[UNI !ID cm1]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%애니힐러스 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>>
 ItemDisplay[UNI !ID cm2]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%지옥의 횃불 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>> 
