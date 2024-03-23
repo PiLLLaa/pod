@@ -1,7 +1,7 @@
 Attribute[Author]: 필라
 Attribute[Name]: 한글 필터, 폴더내 Item.Filter로 저장됨
-Attribute[Version]: 1.0
-Attribute[Date]: 2024/03/13 
+Attribute[Version]: 1.1
+Attribute[Date]: 2024/03/20 
 //                                      Filter Level                                           //
 FilterLevel[1]: 일반 //FILTLVL>0 
 FilterLevel[2]: 매직링 삭제  //FILTLVL>1
