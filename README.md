@@ -74,6 +74,8 @@
 ----------------------------------------------------------------------------------------------------------------------
      8. 25.Mar,2024
       1) Map Immunes Info. Updated for New maps
+      2) Lifetap, Teleport and Lower resi farming notification added
+      3) Wand/Claw/Scepter Markming change
       4) Bug fixed
          - Runeword expression for Enigma and Plague
          
