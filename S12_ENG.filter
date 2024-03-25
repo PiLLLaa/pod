@@ -1,7 +1,7 @@
 Attribute[Author]: PILLLA
 Attribute[Name]: English Version filter(Item.Filter in Folder)
 Attribute[Version]: 1.1
-Attribute[Date]: 20/Mar/2024 
+Attribute[Date]: 25/Mar/2024 
 //                                      Filter Level                                           //
 FilterLevel[1]: Standard //FILTLVL>0 
 FilterLevel[2]: Magic Ring Deletion  //FILTLVL>1
