@@ -1115,7 +1115,7 @@ ItemDisplay[UNI !ID uld ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE
 ItemDisplay[UNI !ID uar !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%티리얼 OR %GREEN%기사단의 권능%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
 ItemDisplay[UNI !ID uar ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%기사%ORANGE%단의 %GOLD%권%WHITE%능%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 //Unique Shields
-ItemDisplay[UNI !ID uit !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%PURPLE%폭%ORANGE%풍%GOLD%막%WHITE%이%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
+ItemDisplay[UNI !ID uit !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%폭%ORANGE%풍%GOLD%막%WHITE%이%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
 ItemDisplay[UNI !ID uit ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%폭%ORANGE%풍%GOLD%막%WHITE%이%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 //Unique Gloves
 ItemDisplay[UNI !ID mgl !ETH]: %GOLD%*********************%NL%%NL%%RED%기회의 장갑%NL%%NL%%GOLD%********************* <<UNIQUE2>>
