@@ -2304,6 +2304,8 @@ ItemDisplay[CRAFT rin ID (STAT360>0 AND STAT105=20)]: %NAME% %YELLOW%10%패캐{%
 ItemDisplay[CRAFT rin ID (STAT360>0 AND STAT96=10)]: %NAME% %YELLOW%10%달려{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT rin ID (STAT360>0 AND STAT36=5)]: %NAME% %YELLOW%5%뎀감{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT rin ID (STAT360>0 AND STAT36=6)]: %NAME% %YELLOW%6%뎀감{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT amu ID (STAT360>0 AND ALLSK=1)]: %NAME% %YELLOW%+1모든 스킬{%NAME%}%CONTINUE%
+
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) (WEAPON OR ARMOR OR aq2 OR cq2 OR amu OR rin) ID STAT360>0]: %NAME% %RED%타락됨{%NAME%}%CONTINUE%
 //                                     UPGRADE RECIPE                                          //
 ItemDisplay[WEAPON ID UNI NORM]:%NAME% {%YELLOW%(업그레이드:%GOLD%랄%WHITE%+%GOLD%솔%WHITE%+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)%NL%%NAME%}%CONTINUE%
