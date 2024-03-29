@@ -6,8 +6,8 @@ Attribute[Date]: 2024/03/26
 FilterLevel[1]: 일반 //FILTLVL>0 
 FilterLevel[2]: 매직링 삭제  //FILTLVL>1
 FilterLevel[3]: +라지참 삭제 //FILTLVL>2
-FilterLevel[4]: +크래프트 베이스+포션 삭제 //FILTLVL>2
-FilterLevel[5]: +매직 아이템 삭제 //FILTLVL>2
+FilterLevel[4]: +크래프트 베이스+포션 삭제 //FILTLVL>3
+FilterLevel[5]: +매직 아이템 삭제 //FILTLVL>4
 FilterLevel[6]: +세트 아이템 삭제 //FILTLVL>5
 FilterLevel[7]: +엄선된 유니크만(사용 주의) //FILTLVL>6
 FilterLevel[8]: +모든 베이스템 삭제 //FILTLVL>7
