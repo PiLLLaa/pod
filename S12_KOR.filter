@@ -1,20 +1,21 @@
 Attribute[Author]: 필라
 Attribute[Name]: 한글 필터, 폴더내 Item.Filter로 저장됨
 Attribute[Version]: 1.1
-Attribute[Date]: 2024/03/26 
+Attribute[Date]: 2024/03/30 
 //                                      Filter Level                                           //
 FilterLevel[1]: 일반 //FILTLVL>0 
 FilterLevel[2]: 매직링 삭제  //FILTLVL>1
 FilterLevel[3]: +라지참 삭제 //FILTLVL>2
-FilterLevel[4]: +크래프트 베이스+포션 삭제 //FILTLVL>3
-FilterLevel[5]: +매직 아이템 삭제 //FILTLVL>4
+FilterLevel[4]: +크래프트 베이스+HP포션 삭제 //FILTLVL>3
+FilterLevel[5]: +매직 아이템+MP포션 삭제 //FILTLVL>4
 FilterLevel[6]: +세트 아이템 삭제 //FILTLVL>5
 FilterLevel[7]: +엄선된 유니크만(사용 주의) //FILTLVL>6
 FilterLevel[8]: +모든 베이스템 삭제 //FILTLVL>7
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0]: 
 ItemDisplay[MAG (cm2) FILTERLVL>1]:
-ItemDisplay[(hp5 OR mp5 OR yps) FILTERLVL>3]:
+ItemDisplay[(hp5 OR yps) FILTERLVL>3]:
+ItemDisplay[(mp5) FILTERLVL>4]:
 ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>3]:
 ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>3]:
 ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>4]:
@@ -218,6 +219,47 @@ ItemDisplay[SOCK=6 !RW]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) NORM]:%NAME%{%WHITE%[%ORANGE%노말%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) EXC]:%NAME%{%WHITE%[%GREEN%익셉셔널%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ELT]:%NAME%{%WHITE%[%CORAL%엘리트%WHITE%]}%CONTINUE%
+//                                            CRAFT                                              //
+ItemDisplay[CRAFT amu STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT rin STAT2>0 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT amu FCR>0 STAT27>0 STAT9>0]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT rin STAT1>0 STAT9>0 STAT27>0]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT amu STAT96>0 (STAT60>0 OR STAT61>0) LIFE>0]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT rin STAT0>0 LIFE>0 (STAT60>0 OR STAT61>0)]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT amu STAT20>0 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT rin STAT3>0 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[CRAFT ID WEAPON ED>0 STAT60>0 STAT7>0]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ6 STAT135>9 STAT60>0 LIFE>9]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ4 STAT136>4 STAT60>0 LIFE>9]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ5 STAT74>4 STAT60>0 LIFE>9]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ1 STAT141>4 STAT60>0 LIFE>9]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ2 STAT139>0 STAT60>0 LIFE>9]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ3 STAT78>0 STAT60>0 LIFE>9]:%RED%Blood %ORANGE%%NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[CRAFT ID WEAPON STAT77>0 STAT27>0 STAT9>0]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ6 FCR>9 STAT27>3 STAT9>9]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ4 STAT27>0 STAT138>0 STAT9>9]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ5 STAT77>4 STAT27>3 STAT9>9]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ1 STAT62>0 STAT27>3 STAT9>9]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ2 STAT138>0 STAT27>3 STAT9>9]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ3 STAT20>0 STAT27>3 STAT9>9]:%PURPLE%Caster %ORANGE%%NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[CRAFT ID WEAPON ED>0 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ6 STAT114>4 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ4 STAT81>0 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ5 STAT33>0 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ1 STAT32>0 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ2 STAT99>24 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ3 STAT20>9 STAT78>0]:%BLUE%HitPower %ORANGE%%NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[CRAFT ID WEAPON ED>9 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ6 ED>9 STAT45>4 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ4 ED>9 STAT43>4 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ5 ED>9 STAT39>4 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ1 ED>9 STAT41>4 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ2 ED>9 STAT118>0 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ3 ED>9 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
 //                                            Relic                                            //
 ItemDisplay[(ma1) NMAG]:%GRAY%아이시 %WHITE%케이번 %LIGHT_GRAY%렐릭 %CONTINUE%
 ItemDisplay[(ma5) NMAG]:%GRAY%프리지드 %WHITE%플레토우 %LIGHT_GRAY%렐릭 %CONTINUE%
