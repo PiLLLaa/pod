@@ -528,19 +528,19 @@ ItemDisplay[(r04)]:%WHITE%네%GRAY%프%TAN%룬 %GOLD%[4]
 ItemDisplay[(r05)]:%GOLD%에%WHITE%드%GOLD%룬 %GOLD%[5]
 ItemDisplay[(r06)]:%BLUE%아%GRAY%이%WHITE%드 %GOLD%[6]
 ItemDisplay[(r07)]:%DGREEN%탈%WHITE%룬 %GOLD%[7]
-ItemDisplay[(r08)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GRAY%랄%WHITE%룬 %GOLD%[8] %GRAY%(repair) %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r11)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %ORANGE%엠%WHITE%룬 %GOLD%[11] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r12)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%솔%WHITE%룬 %GOLD%[12] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r15)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %WHITE%헬%BLUE%룬 %GOLD%[15] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r18)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %DGREEN%코%WHITE%룬 %GOLD%[18] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r19)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%팔%WHITE%룬 %GOLD%[19] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r09)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%오르트%WHITE%룬 %GOLD%[09] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r10)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %YELLOW%주울%WHITE%룬 %GOLD%[10] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r13)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %ORANGE%샤에%WHITE%룬 %GOLD%[13] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r14)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %WHITE%돌%BLUE%룬 %GOLD%[14] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r16)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%아이오%WHITE%룬 %GOLD%[16] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r17)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%룸%WHITE%룬 %GOLD%[17] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r20)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%렘%WHITE%룬 %GOLD%[20] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<MONEY>>
+ItemDisplay[(r08)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%랄%WHITE%룬 %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r11)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%엠%WHITE%룬 %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r12)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%솔%WHITE%룬 %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r15)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%헬%BLUE%룬 %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r18)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%코%WHITE%룬 %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r19)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%팔%WHITE%룬 %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r09)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%오르트%WHITE%룬 %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r10)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%주울%WHITE%룬 %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r13)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%샤에%WHITE%룬 %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r14)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%돌%BLUE%룬 %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r16)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%아이오%WHITE%룬 %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r17)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%룸%WHITE%룬 %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r20)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%렘%WHITE%룬 %GOLD%[20] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<MONEY>>
 ItemDisplay[(r21)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %WHITE%풀%BLUE%룬%GOLD%[21]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
 ItemDisplay[(r22)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %GREEN%우%BLUE%움%WHITE%룬%GOLD%[22]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
 ItemDisplay[(r23)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %ORANGE%말%BLUE%룬%GOLD%[23]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++ <<HIGH>>
