@@ -2182,18 +2182,22 @@ ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK150>2) SOCK=0]: %GRAY%%NAME%%NL%%GR
 ItemDisplay[CL2 !ETH !RW NMAG (SK149>2 AND SK150>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Bo %YELLOW%+3 GrimWa %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[CL2 !ETH !RW NMAG SK154>2 SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 WarCry %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[CL2 !ETH !RW NMAG SK149>2 SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Bo %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
-//Druid pelts magic
+//Druid pelts magic //SK226	Oak Sage
 ItemDisplay[CL1 !ETH !RW NMAG (SK250>2 AND SK249>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Hurri %YELLOW%+3 Arma. %ORANGE%[Delirium+Dream] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK250>2 AND SK245>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Hurri %YELLOW%+3 Torna. %ORANGE%[Delirium+Dream] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK249>2 AND SK245>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Arma. %YELLOW%+3 Torna. %ORANGE%[Delirium+Dream] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK237>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Grizzly %YELLOW%+3 Dwolf %ORANGE%[Delirium+Dream] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK227>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Grizzly %YELLOW%+3 SWolf %ORANGE%[Delirium+Dream] {%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK226>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Grizzly %WHITE%+3 Oak%ORANGE%[Grizzly+Oak] {%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK238>2 AND SK226>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Rabies %WHITE%+3 Oak%ORANGE%[Rabies] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK238>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 Rabies %ORANGE%[Rabies] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK250>2 AND SK249>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Hurri %YELLOW%+3 Arma. %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK250>2 AND SK245>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Hurri %YELLOW%+3 Torna. %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK249>2 AND SK245>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Arma. %YELLOW%+3 Torna. %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK237>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Grizzly %YELLOW%+3 Dwolf %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK227>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Grizzly %YELLOW%+3 SWolf %ORANGE%[Delirium+Dream] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK238>2 AND SK226>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Rabies %WHITE%+3 Oak %ORANGE%[Rabies]  {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK226>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Grizzly %WHITE%+3 Oak %ORANGE%[Grizzly+Oak]  {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK238>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 Rabies %ORANGE%[Rabies]  {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 //imbue
 ItemDisplay[ci3 !ETH NMAG SOCK=0]: %NAME% %ORANGE%[imbue] {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
