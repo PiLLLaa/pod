@@ -528,19 +528,19 @@ ItemDisplay[(r04)]:%WHITE%N%GRAY%e%TAN%f %GOLD%[4]
 ItemDisplay[(r05)]:%GOLD%E%WHITE%t%GOLD%h %GOLD%[5]
 ItemDisplay[(r06)]:%BLUE%I%GRAY%t%WHITE%h %GOLD%[6]
 ItemDisplay[(r07)]:%DGREEN%T%WHITE%a%TAN%l %GOLD%[7]
-ItemDisplay[(r08)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GRAY%Ral %GOLD%[8] %GRAY%(repair) %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r11)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %ORANGE%Amn %GOLD%[11] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r12)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%Sol %GOLD%[12] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r15)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %WHITE%Hel %GOLD%[15] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r18)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %DGREEN%Ko %GOLD%[18] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r19)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%Fal %GOLD%[19] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r09)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%Ort %GOLD%[09] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r10)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %YELLOW%Thul %GOLD%[10] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r13)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %ORANGE%Shael %GOLD%[13] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r14)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %WHITE%Dol %GOLD%[14] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r16)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%Io %GOLD%[16] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r17)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%Lum %GOLD%[17] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r20)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%Lem %GOLD%[20] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<MONEY>>
+ItemDisplay[(r08)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%Ral %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r11)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Amn %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r12)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Sol %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r15)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Hel %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r18)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%Ko %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r19)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Fal %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r09)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Ort %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r10)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%Thul %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r13)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Shael %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r14)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Dol %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r16)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Io %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r17)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Lum %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r20)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Lem %GOLD%[20] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<MONEY>>
 ItemDisplay[(r21)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %WHITE%Pul%GOLD%[21]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
 ItemDisplay[(r22)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %GREEN%Um%GOLD%[22]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
 ItemDisplay[(r23)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %ORANGE%Mal%GOLD%[23]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++ <<HIGH>>
@@ -580,13 +580,13 @@ ItemDisplay[gsy CLVL<70]: %GRAY%Regular%ORANGE%[%YELLOW%@%ORANGE%]
 ItemDisplay[sku CLVL<70]: %GRAY%Regular%ORANGE%[%GOLD%@%ORANGE%]
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) CLVL>69]:
 //Gems flawless
-ItemDisplay[gzv]: %NL%   %TEAL%(flawless) %PURPLE%Amethyst[%PURPLE%@%ORANGE%]   %NL%{%NL%%GOLD%Weapon Soc%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_Amethyst%NL%} <<ANTI>>
-ItemDisplay[glw]: %TEAL%(flawless) %WHITE%Diamond%ORANGE%[%WHITE%@%ORANGE%]{%NL%%GOLD%Unique Armor Up%NL%%ORANGE%TAL%WHITE%+%ORANGE%SHALE%WHITE%+%TAN%P_Diamond%RED%<Exc>%NL%%ORANGE%KO%WHITE%+%ORANGE%LEM%WHITE%+%TAN%P_Diamond%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[glg]: %NL%   %TEAL%(flawless) %GREEN%Emerald[%GREEN%@%ORANGE%]   %NL%{%NL%%GOLD%Unique Weapon Up%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DGREEN%P_Emerald%RED%<Exc>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DGREEN%P_Emerald%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[glr]: %NL%   %TEAL%(flawless) %RED%Ruby[%RED%@%ORANGE%]   %NL%{%NL%%GREEN%Set Weapon Up%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_Ruby%RED%<Exc>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_Ruby%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[glb]: %TEAL%(flawless) %BLUE%sapphire%ORANGE%[%BLUE%@%ORANGE%]{%NL%%YELLOW%Rare Weapon Up%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_Sappire%RED%<Exc>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_Sappire%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[gly]: %WHITE%%TEAL%(flawless) %YELLOW%Topaz%ORANGE%[%YELLOW%@%ORANGE%]{%NL%%GREEN%Set Armor Up%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_Topaz%RED%<Exc>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_Topaz%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[skl]: %NL%   %WHITE%%TEAL%(flawless) %GOLD%Skull[%GOLD%@%ORANGE%]   %NL%{%NL%%YELLOW%Rare Option Change %NL%%ORANGE%P_Skull*6%WHITE%+%YELLOW%Rare Item%NL%} <<ANTI>>
+ItemDisplay[gzv]:%PURPLE%Amethyst[%PURPLE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Weapon Soc%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_Amethyst%NL%} <<ANTI>>
+ItemDisplay[glw]:%WHITE%Diamond%ORANGE%[%WHITE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Unique Armor Up%NL%%ORANGE%TAL%WHITE%+%ORANGE%SHALE%WHITE%+%TAN%P_Diamond%RED%<Exc>%NL%%ORANGE%KO%WHITE%+%ORANGE%LEM%WHITE%+%TAN%P_Diamond%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[glg]:%GREEN%Emerald[%GREEN%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Unique Weapon Up%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DGREEN%P_Emerald%RED%<Exc>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DGREEN%P_Emerald%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[glr]:%RED%Ruby[%RED%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GREEN%Set Weapon Up%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_Ruby%RED%<Exc>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_Ruby%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[glb]:%BLUE%sapphire%ORANGE%[%BLUE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%YELLOW%Rare Weapon Up%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_Sappire%RED%<Exc>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_Sappire%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[gly]:%YELLOW%Topaz%ORANGE%[%YELLOW%@%ORANGE%]%NL%%WHITE%%TEAL%(flawless){%NL%%GREEN%Set Armor Up%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_Topaz%RED%<Exc>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_Topaz%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[skl]:%GOLD%Skull[%GOLD%@%ORANGE%]%NL%%WHITE%%TEAL%(flawless){%NL%%YELLOW%Rare Option Change %NL%%ORANGE%P_Skull*6%WHITE%+%YELLOW%Rare Item%NL%} <<ANTI>>
 //Gems Perfect
 ItemDisplay[gpv]: %CORAL%P %GOLD%Perfect %PURPLE%Amethyst{%NL%%GOLD%Weapon Soc%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_Amethyst%NL%} <<ANTI>>
 ItemDisplay[gpw]: %CORAL%P %GOLD%Perfect %WHITE%Diamond{%NL%%GOLD%Unique Armor Up%NL%%ORANGE%TAL%WHITE%+%ORANGE%SHALE%WHITE%+%TAN%P_Diamond%RED%<Exc>%NL%%ORANGE%KO%WHITE%+%ORANGE%LEM%WHITE%+%TAN%P_Diamond%RED%<Elite>%NL%} <<ANTI>>
