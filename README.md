@@ -80,6 +80,15 @@
          - Runeword expression for Enigma and Plague
          
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     9. 04.Apr,2024
+      1) Runeword Marking added for battle order and auras
+      2) Rare weapon has Ehanced damage now
+      3) Rune drop expression was changed from No.8 to No.20
+      4) Flawless Gems expression was changed
+      5) Jewel & Charms expression was changed
+         
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
