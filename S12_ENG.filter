@@ -448,7 +448,7 @@ ItemDisplay[gzv]:%PURPLE%Amethyst[%PURPLE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GO
 ItemDisplay[glw]:%WHITE%Diamond%ORANGE%[%WHITE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Unique Armor Up%NL%%ORANGE%TAL%WHITE%+%ORANGE%SHALE%WHITE%+%TAN%P_Diamond%RED%<Exc>%NL%%ORANGE%KO%WHITE%+%ORANGE%LEM%WHITE%+%TAN%P_Diamond%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[glg]:%GREEN%Emerald[%GREEN%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Unique Weapon Up%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DGREEN%P_Emerald%RED%<Exc>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DGREEN%P_Emerald%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[glr]:%RED%Ruby[%RED%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GREEN%Set Weapon Up%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_Ruby%RED%<Exc>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_Ruby%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[glb]:%BLUE%sapphire%ORANGE%[%BLUE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%YELLOW%Rare Weapon Up%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_Sappire%RED%<Exc>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_Sappire%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[glb]:%BLUE%Sapphire%ORANGE%[%BLUE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%YELLOW%Rare Weapon Up%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_Sappire%RED%<Exc>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_Sappire%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[gly]:%YELLOW%Topaz%ORANGE%[%YELLOW%@%ORANGE%]%NL%%WHITE%%TEAL%(flawless){%NL%%GREEN%Set Armor Up%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_Topaz%RED%<Exc>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_Topaz%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[skl]:%GOLD%Skull[%GOLD%@%ORANGE%]%NL%%WHITE%%TEAL%(flawless){%NL%%YELLOW%Rare Option Change %NL%%ORANGE%P_Skull*6%WHITE%+%YELLOW%Rare Item%NL%} <<ANTI>>
 //Gems Perfect
@@ -755,10 +755,10 @@ ItemDisplay[(MAG OR RARE) jew STAT86>0]:%PURPLE%[%ORANGE%Laek: %WHITE%%STAT(86)%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT22>0]:%PURPLE%[%TAN%Max: %WHITE%%STAT(22)%%PURPLE%] %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT0>0]:%ORANGE%Str: %WHITE%%STAT(0)% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT2>0]:%GREEN%Dex: %WHITE%%STAT(2)% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT96>0]:%ORANGE%Frw: %WHITE%%STAT(96)%% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT99>0]:%GREEN%%TEAL%Fhr: %WHITE%%STAT(99)%% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI RES>0]:%PURPLE%[%WHITE%Ares: %WHITE%%RES%%%PURPLE%] %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI LIFE>0]:%RED%Life: %WHITE%%STAT(7)% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT96>0]:%ORANGE%F%RED%r%PURPLE%w: %WHITE%%STAT(96)%% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT99>0]:%RED%%GREEN%F%WHITE%h%PURPLE%r: %WHITE%%STAT(99)%% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI RES>0]:%PURPLE%[%WHITE%A%RED%r%PURPLE%e%ORANGE%s: %WHITE%%RES%%%PURPLE%] %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI LIFE>0]:%RED%L%YELLOW%i%ORANGE%f%GOLD%e: %WHITE%%STAT(7)% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT9>0]:%BLUE%Mana: %WHITE%%STAT(9)% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT80>0]:%GREEN%%SAGE%Mf: %WHITE%%STAT(80)%% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT79>0]:%GOLD%Gf: %WHITE%%STAT(79)%% %NAME%%CONTINUE%
