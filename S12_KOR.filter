@@ -2167,12 +2167,16 @@ ItemDisplay[CL1 !ETH !RW NMAG (SK250>2 AND SK245>2) SOCK=3]: %GRAY%%NAME%%NL%%GR
 ItemDisplay[CL1 !ETH !RW NMAG (SK249>2 AND SK245>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 아마겟돈 %YELLOW%+3 토네 %ORANGE%[착란+꿈베이스] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK237>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 그리즐리 %YELLOW%+3 다이어울프 %ORANGE%[착란+꿈베이스] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK227>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 그리즐리 %YELLOW%+3 스피릿울프 %ORANGE%[착란+꿈베이스] {%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK226>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 그리즐리 %YELLOW%+3 오크 %ORANGE%[그리즐리+오크] {%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK238>2 AND SK226>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 레비즈 %YELLOW%+3 오크 %ORANGE%[레비즈+오크] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK238>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 레비즈 %ORANGE%[레비즈] {%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK250>2 AND SK249>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 허리케인 %YELLOW%+3 아마겟돈 %ORANGE%[착란+꿈베이스] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK250>2 AND SK245>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 허리케인 %YELLOW%+3 토네 %ORANGE%[착란+꿈베이스] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK249>2 AND SK245>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 아마겟돈 %YELLOW%+3 토네 %ORANGE%[착란+꿈베이스] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK237>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 그리즐리 %YELLOW%+3 다이어울프 %ORANGE%[착란+꿈베이스] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK227>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 그리즐리 %YELLOW%+3 스피릿울프 %ORANGE%[착란+꿈베이스] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK247>2 AND SK226>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 그리즐리 %YELLOW%+3 오크 %ORANGE%[그리즐리+오크] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
+ItemDisplay[CL1 !ETH !RW NMAG (SK238>2 AND SK226>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 레비즈 %ORANGE%[레비즈+오크] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
 ItemDisplay[CL1 !ETH !RW NMAG (SK238>2) SOCK=0]: %GRAY%%NAME%%NL%%GREEN%+3 레비즈 %ORANGE%[레비즈] {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
 
 //imbue
