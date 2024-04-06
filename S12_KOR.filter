@@ -295,11 +295,11 @@ ItemDisplay[(ma7) RARE]:%YELLOW%번트 포레스트 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma11) RARE]:%YELLOW%플레전트 패스쳐 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma12) RARE]:%YELLOW%밸풀 알카자르 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma13) RARE]:%YELLOW%디콤포징 세틀먼트 %RED%렐릭 %CONTINUE%
-ItemDisplay[MAP !ID !(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13)]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[(ma10 OR ma11) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma4 OR ma8 OR ma9 OR ma13) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma2 OR ma6 OR ma7 OR ma12) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
+ItemDisplay[MAP !ID !(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13)]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID STAT372<800 STAT372>599 !STAT375>0]:%NAME%{%GREEN%O    %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID STAT372>799 !STAT375>0]:%NAME%{%GREEN%O    %WHITE%매우 %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma11) ID]:%NAME%{%GREEN%O      %RED%카%ORANGE%우 %GREEN%렐%PURPLE%릭      %GREEN%O%NL%%NAME%}%CONTINUE%
@@ -734,15 +734,15 @@ ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT0>0]:%ORANGE%힘: 
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT2>0]:%GREEN%덱스: %WHITE%%STAT(2)% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT96>0]:%ORANGE%달려: %WHITE%%STAT(96)%% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT99>0]:%GREEN%%TEAL%패히트: %WHITE%%STAT(99)%% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI RES>0]:%PURPLE%[%WHITE%저항: %WHITE%%RES%%%PURPLE%] %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI RES>0]:%PURPLE%[%WHITE%올%RED%저%PURPLE%항%ORANGE%: %WHITE%%RES%%%PURPLE%] %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI LIFE>0]:%RED%라이프: %WHITE%%STAT(7)% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT9>0]:%BLUE%마나: %WHITE%%STAT(9)% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT80>0]:%GREEN%%SAGE%매찬: %WHITE%%STAT(80)%% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT79>0]:%GOLD%골찬: %WHITE%%STAT(79)%% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT39>0]:%CORAL%파레: %WHITE%%STAT(39)%% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT41>0]:%YELLOW%라레: %WHITE%%STAT(41)%% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT43>0]:%BLUE%콜레: %WHITE%%STAT(43)%% %NAME%%CONTINUE%
-ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT45>0]:%GREEN%포레: %WHITE%%STAT(45)%% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT39>0 !(STAT41>0 OR STAT43>0 OR STAT45>0)]:%CORAL%파레: %WHITE%%STAT(39)%% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT41>0 !(STAT39>0 OR STAT43>0 OR STAT45>0)]:%YELLOW%라레: %WHITE%%STAT(41)%% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT43>0 !(STAT39>0 OR STAT41>0 OR STAT45>0)]:%BLUE%콜레: %WHITE%%STAT(43)%% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STAT45>0 !(STAT39>0 OR STAT41>0 OR STAT43>0)]:%GREEN%포레: %WHITE%%STAT(45)%% %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG) !UNI STAT48>0 STAT49>0]:%RED%파뎀 %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG) !UNI STAT50>0 STAT51>0]:%YELLOW%라뎀 %NAME%%CONTINUE%
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG) !UNI STAT54>0 STAT55>0]:%BLUE%콜뎀 %NAME%%CONTINUE%
