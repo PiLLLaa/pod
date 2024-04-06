@@ -2053,11 +2053,11 @@ ItemDisplay[7cr !ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=6)]: %NAME%%NL%%RED%*%YELLOW
 ItemDisplay[(7gd OR 7wa OR 7gi OR 7gm) ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=6)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%증뎀 %ORANGE%[죽숨/마소재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* <<MONEY>> {%NAME%}
 ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) !ETH !RW NMAG ED=15 !SOCK=1]: %NAME%%BLUE% +15%증뎀 {%NAME%}
 ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) !ETH !RW NMAG ED>0 ED<15 !SOCK=1]: %NAME%%BLUE% 증뎀 {%NAME%}
-ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) ETH !RW NMAG ED=15 !SOCK=1]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% +15%증뎀 {%NAME%}
-ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) ETH !RW NMAG ED>0 ED<15 !SOCK=1]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% 증뎀 {%NAME%}
-ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) !SUP ETH !RW NMAG SOCK=0]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY% %NAME% {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
-ItemDisplay[(7cr OR 7ws) !SUP !ETH !RW NMAG SOCK=0]: %GRAY% %NAME% 	{%NAME%}		  
-ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) ETH !RW NMAG !SOCK=1]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY% %NAME% {%NAME%}
+ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) ETH !RW NMAG ED=15 !SOCK=1]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% +15%증뎀 {%NAME%}
+ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) ETH !RW NMAG ED>0 ED<15 !SOCK=1]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% 증뎀 {%NAME%}
+ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) !SUP ETH !RW NMAG SOCK=0]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY% %NAME% {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
+ItemDisplay[(7cr OR 7ws) !SUP !ETH !RW NMAG SOCK=0]: %GRAY% %NAME% 	{%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}		  
+ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) ETH !RW NMAG !SOCK=1]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY% %NAME% {%NAME%}
 ItemDisplay[(7cr OR 7ws) !ETH !RW NMAG !SOCK=1]: %GRAY% %NAME% {%NAME%}
 //Polearm+SPEAR ALL//giant thresher 7wc/ colossus voulge 7vo/thresher 7s8/great poleaxe 7h7/mancatcher 7br/war pike 7p7
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%증뎀 %ORANGE%[죽숨재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
