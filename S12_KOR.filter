@@ -444,13 +444,13 @@ ItemDisplay[gsy CLVL<70]: %GRAY%토파즈%ORANGE%[%YELLOW%@%ORANGE%]
 ItemDisplay[sku CLVL<70]: %GRAY%해골%ORANGE%[%GOLD%@%ORANGE%]
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) CLVL>69]:
 //Gems flawless
-ItemDisplay[gzv]: %NL%   %YELLOW%!%ORANGE%자수정[%PURPLE%@%ORANGE%]   %NL%{%NL%%GOLD%무기 소켓 추가%NL%%ORANGE%랄%WHITE%+%RED%엠%WHITE%+%RED%퍼펙트 자수정%NL%} <<ANTI>>
-ItemDisplay[glw]: %YELLOW%!%GRAY%다이아몬드%ORANGE%[%WHITE%@%ORANGE%]{%NL%%GOLD%유니크 방어구 업%NL%%ORANGE%탈%WHITE%+%RED%샤에%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<익셉셔널업>%NL%%ORANGE%코%WHITE%+%RED%렘%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[glg]: %NL%   %YELLOW%!%ORANGE%에메랄드[%GREEN%@%ORANGE%]   %NL%{%NL%%GOLD%유니크 무기 업%NL%%ORANGE%랄%WHITE%+%RED%솔%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<익셉셔널업>%NL%%ORANGE%룸%WHITE%+%RED%풀%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[glr]: %NL%   %YELLOW%!%ORANGE%루비[%RED%@%ORANGE%]   %NL%{%NL%%GREEN%세트 무기 업%NL%%ORANGE%엘%WHITE%+%RED%에드%WHITE%+%RED%퍼펙트 루비%RED%<익셉셔널업>%NL%%ORANGE%돌%WHITE%+%RED%말%WHITE%+%RED%퍼펙트 루비%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[glb]: %YELLOW%!%GRAY%사파이어%ORANGE%[%BLUE%@%ORANGE%]{%NL%%YELLOW%레어 무기 업%NL%%ORANGE%오르트%WHITE%+%RED%엠%WHITE%+%BLUE%퍼펙트 사파이어%RED%<익셉셔널업>%NL%%ORANGE%팔%WHITE%+%RED%움%WHITE%+%BLUE%퍼펙트 사파이어%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[gly]: %YELLOW%!%GRAY%토파즈%ORANGE%[%YELLOW%@%ORANGE%]{%NL%%GREEN%세트 방어구 업%NL%%ORANGE%엘드%WHITE%+%RED%아이드%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<익셉셔널업>%NL%%ORANGE%헬%WHITE%+%RED%아이오%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[skl]: %NL%   %YELLOW%!%ORANGE%해골[%GOLD%@%ORANGE%]   %NL% <<MONEY>>{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*6개%WHITE%+%YELLOW%레어템%NL%}
+ItemDisplay[gzv]: %NL%   %YELLOW%!%PURPLE%자수정%ORANGE%[%PURPLE%@%ORANGE%]   %NL%{%NL%%GOLD%무기 소켓 추가%NL%%ORANGE%랄%WHITE%+%RED%엠%WHITE%+%RED%퍼펙트 자수정%NL%} <<ANTI>>
+ItemDisplay[glw]: %YELLOW%!%WHITE%다이아몬드%ORANGE%[%WHITE%@%ORANGE%]{%NL%%GOLD%유니크 방어구 업%NL%%ORANGE%탈%WHITE%+%RED%샤에%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<익셉셔널업>%NL%%ORANGE%코%WHITE%+%RED%렘%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<엘리트업>%NL%} <<ANTI>>
+ItemDisplay[glg]: %NL%   %YELLOW%!%GREEN%에메랄드%ORANGE%[%GREEN%@%ORANGE%]   %NL%{%NL%%GOLD%유니크 무기 업%NL%%ORANGE%랄%WHITE%+%RED%솔%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<익셉셔널업>%NL%%ORANGE%룸%WHITE%+%RED%풀%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<엘리트업>%NL%} <<ANTI>>
+ItemDisplay[glr]: %NL%   %YELLOW%!%RED%루비%ORANGE%[%RED%@%ORANGE%]   %NL%{%NL%%GREEN%세트 무기 업%NL%%ORANGE%엘%WHITE%+%RED%에드%WHITE%+%RED%퍼펙트 루비%RED%<익셉셔널업>%NL%%ORANGE%돌%WHITE%+%RED%말%WHITE%+%RED%퍼펙트 루비%RED%<엘리트업>%NL%} <<ANTI>>
+ItemDisplay[glb]: %YELLOW%!%BLUE%사파이어%ORANGE%[%BLUE%@%ORANGE%]{%NL%%YELLOW%레어 무기 업%NL%%ORANGE%오르트%WHITE%+%RED%엠%WHITE%+%BLUE%퍼펙트 사파이어%RED%<익셉셔널업>%NL%%ORANGE%팔%WHITE%+%RED%움%WHITE%+%BLUE%퍼펙트 사파이어%RED%<엘리트업>%NL%} <<ANTI>>
+ItemDisplay[gly]: %YELLOW%!%YELLOW%토파즈%ORANGE%[%YELLOW%@%ORANGE%]{%NL%%GREEN%세트 방어구 업%NL%%ORANGE%엘드%WHITE%+%RED%아이드%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<익셉셔널업>%NL%%ORANGE%헬%WHITE%+%RED%아이오%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<엘리트업>%NL%} <<ANTI>>
+ItemDisplay[skl]: %NL%   %YELLOW%!%TAN%해골%ORANGE%[%GOLD%@%ORANGE%]   %NL% <<MONEY>>{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*6개%WHITE%+%YELLOW%레어템%NL%}
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P %PURPLE%자수정{%NL%%GOLD%무기 소켓 추가%NL%%ORANGE%랄%WHITE%+%RED%엠%WHITE%+%RED%퍼펙트 자수정%NL%} <<ANTI>>
 ItemDisplay[gpw]: %ORANGE%P %WHITE%다이아몬드{%NL%%GOLD%유니크 방어구 업%NL%%ORANGE%탈%WHITE%+%RED%샤에%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<익셉셔널업>%NL%%ORANGE%코%WHITE%+%RED%렘%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<엘리트업>%NL%} <<ANTI>>
