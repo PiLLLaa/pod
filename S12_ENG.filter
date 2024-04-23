@@ -444,13 +444,13 @@ ItemDisplay[gsy CLVL<70]: %GRAY%Regular%ORANGE%[%YELLOW%@%ORANGE%]
 ItemDisplay[sku CLVL<70]: %GRAY%Regular%ORANGE%[%GOLD%@%ORANGE%]
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) CLVL>69]:
 //Gems flawless
-ItemDisplay[gzv]:%PURPLE%Amethyst[%PURPLE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Weapon Soc%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_Amethyst%NL%} <<ANTI>>
+ItemDisplay[gzv]:%PURPLE%Amethyst%ORANGE%[%PURPLE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Weapon Soc%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_Amethyst%NL%} <<ANTI>>
 ItemDisplay[glw]:%WHITE%Diamond%ORANGE%[%WHITE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Unique Armor Up%NL%%ORANGE%TAL%WHITE%+%ORANGE%SHALE%WHITE%+%TAN%P_Diamond%RED%<Exc>%NL%%ORANGE%KO%WHITE%+%ORANGE%LEM%WHITE%+%TAN%P_Diamond%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[glg]:%GREEN%Emerald[%GREEN%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Unique Weapon Up%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DGREEN%P_Emerald%RED%<Exc>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DGREEN%P_Emerald%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[glr]:%RED%Ruby[%RED%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GREEN%Set Weapon Up%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_Ruby%RED%<Exc>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_Ruby%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[glg]:%GREEN%Emerald%ORANGE%[%GREEN%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GOLD%Unique Weapon Up%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DGREEN%P_Emerald%RED%<Exc>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DGREEN%P_Emerald%RED%<Elite>%NL%} <<ANTI>>
+ItemDisplay[glr]:%RED%Ruby%ORANGE%[%RED%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%GREEN%Set Weapon Up%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_Ruby%RED%<Exc>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_Ruby%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[glb]:%BLUE%Sapphire%ORANGE%[%BLUE%@%ORANGE%]%NL%%TEAL%(flawless){%NL%%YELLOW%Rare Weapon Up%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_Sappire%RED%<Exc>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_Sappire%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[gly]:%YELLOW%Topaz%ORANGE%[%YELLOW%@%ORANGE%]%NL%%WHITE%%TEAL%(flawless){%NL%%GREEN%Set Armor Up%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_Topaz%RED%<Exc>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_Topaz%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[skl]:%GOLD%Skull[%GOLD%@%ORANGE%]%NL%%WHITE%%TEAL%(flawless){%NL%%YELLOW%Rare Option Change %NL%%ORANGE%P_Skull*6%WHITE%+%YELLOW%Rare Item%NL%} <<ANTI>>
+ItemDisplay[skl]:%GOLD%Skull%ORANGE%[%GOLD%@%ORANGE%]%NL%%WHITE%%TEAL%(flawless){%NL%%YELLOW%Rare Option Change %NL%%ORANGE%P_Skull*6%WHITE%+%YELLOW%Rare Item%NL%} <<ANTI>>
 //Gems Perfect
 ItemDisplay[gpv]: %CORAL%P %GOLD%Perfect %PURPLE%Amethyst{%NL%%GOLD%Weapon Soc%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_Amethyst%NL%} <<ANTI>>
 ItemDisplay[gpw]: %CORAL%P %GOLD%Perfect %WHITE%Diamond{%NL%%GOLD%Unique Armor Up%NL%%ORANGE%TAL%WHITE%+%ORANGE%SHALE%WHITE%+%TAN%P_Diamond%RED%<Exc>%NL%%ORANGE%KO%WHITE%+%ORANGE%LEM%WHITE%+%TAN%P_Diamond%RED%<Elite>%NL%} <<ANTI>>
