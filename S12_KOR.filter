@@ -58,7 +58,7 @@ ItemDisplay[NMAG (spl) !ID]:%NL%	%GREEN%Sazabi's Ghost Liberator%NL%%NL%%ORANGE%
 ItemDisplay[NMAG (plt) !ID]:%NL% %GOLD%Guardian Angel%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링 %GOLD%****%NL%
 ItemDisplay[NMAG (fld) !ID]:%NL% %GREEN%M'avina's Embrace%NL%%NL%%GOLD%Toothrow%NL%%GOLD%Leviathan%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링 %GOLD%****%NL%
 ItemDisplay[NMAG (gth) !ID]:%NL% %GREEN%Tal Rasha's Guardianship%NL%%NL%%GOLD%Atma's Wail%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링 %GOLD%****%NL%
-ItemDisplay[NMAG (ltp) !ID]:%NL%%WHITE%Heavenly Garb%NL%%ORANGE%Que-Hegan's Wisdom%NL%%RED%Purgatory%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL% 
+ItemDisplay[NMAG (ltp) !ID]:%NL%%WHITE%Heavenly Garb%NL%%ORANGE%Que-Hegan's Wisdom%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL% 
 ItemDisplay[NMAG (ful) !ID]:%NL%%GREEN%Trang-Oul's Scales%NL%%GREEN%Aldur's Deception%NL%%NL%%WHITE%Goldskin%NL%%ORANGE%Black Hades%NL%%RED%Steel Carapace%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL% 
 ItemDisplay[NMAG (aar) !ID]:%NL%%GREEN%Griswold's Heart%NL%%GREEN%Immortal King's Soul Cage%NL%%NL%%WHITE%Corpsemourn%NL%%ORANGE%Templar's Might%NL%%RED%Tyrael's Might%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL% 
 ItemDisplay[NMAG (kit) !ID]:%NL%%RED%Stormshield%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL%  
