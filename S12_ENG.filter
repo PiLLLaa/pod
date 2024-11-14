@@ -147,7 +147,7 @@ ItemDisplay[NMAG (am2) !ID]:%NL%  %GREEN%M'avina's Caster%NL%%NL%%GOLD%  Lycande
 ItemDisplay[NMAG (am5) !ID]:%NL%%ORANGE%	Titan's Revenge%RED%Thunderstroke%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]:%NL% %NL%%LIGHT_GRAY%***** %WHITE%  No high rolls  %LIGHT_GRAY%***** %NL%%NL%%CORAL%[%GRAY%%NAME%%CORAL%]
 //                                       POTION                                                //
-ItemDisplay[box]:%PURPLE%[%RED%Ho%WHITE%ra%ORANGE%dr%GOLD%ic %PURPLE%Cube %ORANGE%[L%ILVL%]%PURPLE%] {%GOLD%Dclone: Soulstone+KeyofChaos+Brain+Eye+Horn%NL%%GOLD%Unsocket: %WHITE%Hel%GOLD%+%BLUE%Portal Scroll%NL%%GOLD%Upgrading %WHITE%6Gems %GOLD%at once%NL%%GOLD%Cubing Recipe%NL%}
+ItemDisplay[box]:%PURPLE%[%RED%Ho%WHITE%ra%ORANGE%dr%GOLD%ic %PURPLE%Cube %ORANGE%[L%ILVL%]%PURPLE%] {%GOLD%Dclone: %ORANGE%Soulstone%GOLD%+%GRAY%KeyofChaos%GOLD%+%BLUE%Brain%GOLD%+%YELLOW%Eye%GOLD%+%RED%Horn%NL%%GOLD%Unsocket: %WHITE%Hel%GOLD%+%BLUE%Portal Scroll%NL%%GOLD%Upgrading %WHITE%6Gems %GOLD%at once%NL%%GOLD%Cubing Recipe%NL%}
 ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]<<HP>>
 ItemDisplay[mp5]:%BLUE%[%WHITE%Mp%BLUE%]<<MP>>
 ItemDisplay[hp4 DIFFICULTY<1]:%RED%[%WHITE%Hp4%RED%]
@@ -2785,7 +2785,8 @@ ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID xsh STAT360>0 !SOCK=0]:%NAME
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID ush STAT360>0 !SOCK=0]:%NAME%{%NAME%}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID tow STAT360>0 !SOCK=0]:%NAME%{%NAME% %GREEN%After Upgrading %GOLD%[Str:133]}
 ItemDisplay[(UNI) ID xow STAT360>0 !SOCK=0]:%NAME%{%NAME% %GREEN%After Upgrading %GOLD%[Str:165]}
-ItemDisplay[(SET OR RARE OR CRAFT OR MAG) ID xow STAT360>0 !SOCK=0]:%NAME%{%NAME% %GREEN%After Upgrading %GOLD%[Str:219]}
+//s13
+ItemDisplay[(SET OR RARE OR CRAFT OR MAG) ID xow STAT360>0 !SOCK=0]:%NAME%{%NAME% %GREEN%After Upgrading %GOLD%[Str:200]}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID uow STAT360>0 !SOCK=0]:%NAME%{%NAME%}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID gts STAT360>0 !SOCK=0]:%NAME%{%NAME% %GREEN%After Upgrading %GOLD%[Str:110]}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID xts STAT360>0 !SOCK=0]:%NAME%{%NAME% %GREEN%After Upgrading %GOLD%[Str:185]}
@@ -3276,7 +3277,8 @@ ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID xsh !STAT360>0 SOCK=0]:%NAME
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID ush !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%3      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME%}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID tow !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%3      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME% %GREEN%After Upgrading %GOLD%[Str:133]}
 ItemDisplay[(UNI) ID xow !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%3      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME% %GREEN%After Upgrading %GOLD%[Str:165]}
-ItemDisplay[(SET OR RARE OR CRAFT OR MAG) ID xow !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%3      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME% %GREEN%After Upgrading %GOLD%[Str:219]}
+//s13
+ItemDisplay[(SET OR RARE OR CRAFT OR MAG) ID xow !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%3      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME% %GREEN%After Upgrading %GOLD%[Str:200]}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID uow !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%4      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME%}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID gts !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%3      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME% %GREEN%After Upgrading %GOLD%[Str:110]}
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT OR MAG) ID xts !STAT360>0 SOCK=0]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%O%RED%o%ORANGE%c %WHITE%Socket : %RED%3      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME% %GREEN%After Upgrading %GOLD%[Str:185]}
