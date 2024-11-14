@@ -1,7 +1,7 @@
 Attribute[Author]: 필라
 Attribute[Name]: 한글 필터, 폴더내 Item.Filter로 저장됨
-Attribute[Version]: 1.2.1
-Attribute[Date]: 2024/09/16 
+Attribute[Version]: 1.3.0
+Attribute[Date]: 2024/11/14 
 //                                      Filter Level                                           //
 FilterLevel[1]: 일반 //FILTLVL>0 
 FilterLevel[2]: 매직링 삭제  //FILTLVL>1
@@ -16,8 +16,8 @@ ItemDisplay[MAG rin !ID FILTERLVL>0]:
 ItemDisplay[MAG (cm2) FILTERLVL>1]:
 ItemDisplay[(hp5 OR yps) FILTERLVL>3]:
 ItemDisplay[(mp5) FILTERLVL>4]:
-ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>3]:
+//ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>3]:
+//ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>3]:
 ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>4]:
 ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>5]:
 ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>7]:
@@ -147,7 +147,7 @@ ItemDisplay[NMAG (am2) !ID]:%NL%  %GREEN%M'avina's Caster%NL%%NL%%GOLD%  Lycande
 ItemDisplay[NMAG (am5) !ID]:%NL%%ORANGE%	Titan's Revenge%RED%Thunderstroke%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL% 
 ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]: %NL%%LIGHT_GRAY%***** %WHITE%  추천 하지 않음  %LIGHT_GRAY%***** %NL%%NL%%CORAL%[%GRAY%%NAME%%CORAL%]
 //                                       POTION                                                //
-ItemDisplay[box]:%PURPLE%[%RED%호%WHITE%라%ORANGE%드%GOLD%릭 %PURPLE%큐브 %ORANGE%[L%ILVL%]%PURPLE%] {%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부츠+오르트%NL%%RED%블러드투구:%WHITE%P루비+쥬얼+헬멧+투구+랄%NL%%RED%블러드장갑:%WHITE%P루비+쥬얼+장갑+네프%NL%%RED%블러드링:%WHITE%P루비+쥬얼+링+솔%NL%%BLUE%캐스터벨트:%WHITE%P자수정+쥬얼+벨트+아이드%NL%%PURPLE%소켓(갑옷):%WHITE%P토파즈+탈+주울%NL%%PURPLE%소켓(무기):%WHITE%P자수정+랄+앰%NL%}
+ItemDisplay[box]:%PURPLE%[%RED%호%WHITE%라%ORANGE%드%GOLD%릭 %PURPLE%큐브 %ORANGE%[L%ILVL%]%PURPLE%] {%GOLD%디클론우버: 소울스톤+카오스키+메피스토뇌+바알눈+디아블로뿔%NL%%GOLD%소켓제거: %WHITE%헬%GOLD%+%BLUE%포탈스크롤%NL%%GOLD%보석업그레이드 %WHITE%보석 6개 한번에 합성 가능%NL%%GOLD%큐빙 조합%NL%}
 ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]<<HP>>
 ItemDisplay[mp5]:%BLUE%[%WHITE%Mp%BLUE%]<<MP>>
 ItemDisplay[hp4 DIFFICULTY<1]:%RED%[%WHITE%상급Hp%RED%]
@@ -203,6 +203,7 @@ ItemDisplay[GOLD<4999 CLVL>60]:
 //                                            Inf                                              //
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
+//                                           Item Set                                          //
 ItemDisplay[RW]:%GOLD%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG]:%GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAG]:%BLUE%%NAME%{%NAME%}%CONTINUE%
@@ -226,7 +227,8 @@ ItemDisplay[CRAFT amu FCR>0 STAT27>0 STAT9>0]:%PURPLE%캐스터 %ORANGE%%NAME%{%
 ItemDisplay[CRAFT rin STAT1>0 STAT9>0 STAT27>0]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT amu STAT96>0 (STAT60>0 OR STAT61>0) LIFE>0]:%RED%블러드 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT rin STAT0>0 LIFE>0 (STAT60>0 OR STAT61>0)]:%RED%블러드 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CRAFT amu STAT20>0 STAT34>0 STAT35>0]:%GREEN%세이프티 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//s12 확인 필요
+ItemDisplay[CRAFT amu STAT34>0 STAT35>0]:%GREEN%세이프티 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT rin STAT3>0 STAT34>0 STAT35>0]:%GREEN%세이프티 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 
 ItemDisplay[CRAFT ID WEAPON ED>0 STAT60>0 STAT7>0]:%RED%블러드 %ORANGE%%NAME%{%NAME%}%CONTINUE%
@@ -236,8 +238,8 @@ ItemDisplay[CRAFT ID EQ5 STAT74>4 STAT60>0 LIFE>9]:%RED%블러드 %ORANGE%%NAME%
 ItemDisplay[CRAFT ID EQ1 STAT141>4 STAT60>0 LIFE>9]:%RED%블러드 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ2 STAT139>0 STAT60>0 LIFE>9]:%RED%블러드 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ3 STAT78>0 STAT60>0 LIFE>9]:%RED%블러드 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-
-ItemDisplay[CRAFT ID WEAPON STAT77>0 STAT27>0 STAT9>0]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//s12
+ItemDisplay[CRAFT ID WEAPON ED>0 STAT27>0 STAT9>0]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ6 FCR>9 STAT27>3 STAT9>9]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ4 STAT27>0 STAT138>0 STAT9>9]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ5 STAT77>4 STAT27>3 STAT9>9]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
@@ -245,13 +247,21 @@ ItemDisplay[CRAFT ID EQ1 STAT62>0 STAT27>3 STAT9>9]:%PURPLE%캐스터 %ORANGE%%N
 ItemDisplay[CRAFT ID EQ2 STAT138>0 STAT27>3 STAT9>9]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ3 STAT20>0 STAT27>3 STAT9>9]:%PURPLE%캐스터 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 
-ItemDisplay[CRAFT ID WEAPON ED>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CRAFT ID EQ6 STAT114>4 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CRAFT ID EQ4 STAT81>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CRAFT ID EQ5 STAT33>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CRAFT ID EQ1 STAT32>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CRAFT ID EQ2 STAT99>24 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[CRAFT ID EQ3 STAT20>9 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CRAFT ID WEAPON ED>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CRAFT ID EQ6 STAT114>4 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CRAFT ID EQ4 STAT81>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CRAFT ID EQ5 STAT33>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CRAFT ID EQ1 STAT32>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CRAFT ID EQ2 STAT99>24 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[CRAFT ID EQ3 STAT20>9 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[CRAFT ID WEAPON ED>0 STAT224>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ6 STAT114>4 STAT224>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ4 STAT81>0 STAT224>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ5 STAT96>0 STAT224>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ1 STAT32>0 STAT224>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ2 STAT99>24 STAT224>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[CRAFT ID EQ3 STAT20>9 STAT224>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 
 ItemDisplay[CRAFT ID WEAPON ED>9 STAT34>0 STAT35>0]:%GREEN%세이프티 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ6 ED>9 STAT45>4 STAT34>0 STAT35>0]:%GREEN%세이프티 %ORANGE%%NAME%{%NAME%}%CONTINUE%
@@ -458,13 +468,21 @@ ItemDisplay[glb]: %YELLOW%!%BLUE%사파이어%ORANGE%[%BLUE%@%ORANGE%]{%NL%%YELL
 ItemDisplay[gly]: %YELLOW%!%YELLOW%토파즈%ORANGE%[%YELLOW%@%ORANGE%]{%NL%%GREEN%세트 방어구 업%NL%%ORANGE%엘드%WHITE%+%RED%아이드%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<익셉셔널업>%NL%%ORANGE%헬%WHITE%+%RED%아이오%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<엘리트업>%NL%} <<ANTI>>
 ItemDisplay[skl]: %NL%   %YELLOW%!%TAN%해골%ORANGE%[%GOLD%@%ORANGE%]   %NL% <<MONEY>>{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*6개%WHITE%+%YELLOW%레어템%NL%}
 //Gems Perfect
-ItemDisplay[gpv]: %ORANGE%P %PURPLE%자수정{%NL%%GOLD%무기 소켓 추가%NL%%ORANGE%랄%WHITE%+%RED%엠%WHITE%+%RED%퍼펙트 자수정%NL%} <<ANTI>>
+//ItemDisplay[gpv]: %ORANGE%P %PURPLE%자수정{%NL%%GOLD%무기 소켓 추가%NL%%ORANGE%랄%WHITE%+%RED%엠%WHITE%+%RED%퍼펙트 자수정%NL%} <<ANTI>>
+//ItemDisplay[gpw]: %ORANGE%P %WHITE%다이아몬드{%NL%%GOLD%유니크 방어구 업%NL%%ORANGE%탈%WHITE%+%RED%샤에%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<익셉셔널업>%NL%%ORANGE%코%WHITE%+%RED%렘%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<엘리트업>%NL%} <<ANTI>>
+//ItemDisplay[gpg]: %ORANGE%P %GREEN%에메랄드{%NL%%GOLD%유니크 무기 업%NL%%ORANGE%랄%WHITE%+%RED%솔%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<익셉셔널업>%NL%%ORANGE%룸%WHITE%+%RED%풀%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<엘리트업>%NL%} <<ANTI>>
+//ItemDisplay[gpr]: %ORANGE%P %RED%루비{%NL%%GREEN%세트 무기 업%NL%%ORANGE%엘%WHITE%+%RED%에드%WHITE%+%RED%퍼펙트 루비%RED%<익셉셔널업>%NL%%ORANGE%돌%WHITE%+%RED%말%WHITE%+%RED%퍼펙트 루비%RED%<엘리트업>%NL%} <<ANTI>>
+//ItemDisplay[gpb]: %ORANGE%P %BLUE%사파이어{%NL%%YELLOW%레어 무기 업%NL%%ORANGE%오르트%WHITE%+%RED%엠%WHITE%+%BLUE%퍼펙트 사파이어%RED%<익셉셔널업>%NL%%ORANGE%팔%WHITE%+%RED%움%WHITE%+%BLUE%퍼펙트 사파이어%RED%<엘리트업>%NL%} <<ANTI>>
+//ItemDisplay[gpy]: %ORANGE%P %YELLOW%토파즈{%NL%%GREEN%세트 방어구 업%NL%%ORANGE%엘드%WHITE%+%RED%아이드%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<익셉셔널업>%NL%%ORANGE%헬%WHITE%+%RED%아이오%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<엘리트업>%NL%} <<ANTI>>
+//ItemDisplay[skz]: %ORANGE%P %TAN%해골{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*3개%WHITE%+%YELLOW%레어템%NL%} <<ANTI>>
+//s12
+ItemDisplay[gpv]:%CORAL%P %PURPLE%자수정{%GREEN%*%ORANGE%목걸이:  %TAN%랄룬%WHITE%%NL%반지:  %TAN%엠룬%NL%%WHITE%벨트:  %TAN%아이드룬%WHITE%%NL%장갑:  %TAN%오르트룬%NL%%WHITE%신발:  %TAN%주울룬%WHITE%%NL%모자:  %TAN%네프룬%WHITE%%NL%갑옷:  %TAN%탈룬%WHITE%%NL%방패:  %TAN%에드룬%NL%%WHITE%무기:   %TAN%티르룬%NL%%WHITE%화살통:   %TAN%엘드룬%NL%%NL%%PURPLE%P_자수정%WHITE%+%BLUE%쥬얼%WHITE%+%GOLD%그리고...%NL%%GOLD%[캐스터 크래프트]} <<ANTI>>
+ItemDisplay[gpg]:%CORAL%P %GREEN%에메랄드{%WHITE%목걸이:  %TAN%주울룬%NL%%WHITE%반지:  %TAN%엠룬%NL%%WHITE%벨트:  %TAN%탈룬%NL%%WHITE%장갑:  %TAN%랄룬%NL%%WHITE%신발:  %TAN%오르트룬%NL%%WHITE%모자:  %TAN%아이드룬%NL%%WHITE%갑옷:  %TAN%에드룬%NL%%WHITE%방패:  %TAN%네프룬%NL%%RED%*%ORANGE%무기:  %TAN%솔룬%NL%%NL%%WHITE%화살통:  %TAN%엘룬%NL%%NL%%GREEN%P_에메랄드%WHITE%+%BLUE%쥬얼%WHITE%+%GOLD%그리고...%NL%%GOLD%[세이프티 크래프트]} <<ANTI>>
+ItemDisplay[gpr]:%CORAL%P %RED%루비{%WHITE%목걸이:  %TAN%엠룬%NL%%WHITE%반지:  %TAN%솔룬%NL%%WHITE%벨트:  %TAN%탈룬%NL%%WHITE%장갑:  %TAN%네프룬%NL%%WHITE%신발:  %TAN%에드룬%NL%%WHITE%모자:  %TAN%랄룬%NL%%WHITE%갑옷:  %TAN%주울룬%NL%%WHITE%방패:  %TAN%아이드룬%NL%%GREEN%*%ORANGE%무기:  %TAN%오르트룬%NL%%WHITE%화살통:  %TAN%엘드룬%NL%%NL%%RED%P_루비%WHITE%+%BLUE%쥬얼%WHITE%+%GOLD%그리고...%NL%%GOLD%[블러드 크래프트]} <<ANTI>>
+ItemDisplay[gpb]:%CORAL%P %BLUE%사파이어{%WHITE%목걸이:  %TAN%주울룬%NL%%WHITE%반지:  %TAN%엠룬%NL%%WHITE%벨트:  %TAN%탈룬%NL%%WHITE%장갑:  %TAN%오르트룬%NL%%WHITE%신발:  %TAN%랄룬%NL%%WHITE%모자:  %TAN%아이드룬%NL%%WHITE%갑옷:  %TAN%네프룬%NL%%WHITE%방패:  %TAN%에드룬%NL%%GREEN%*%ORANGE%무기:  %TAN%티르룬%NL%%WHITE%화살통:  %TAN%엘룬%NL%%NL%%BLUE%P_사파이어%WHITE%+%BLUE%쥬얼%WHITE%+%GOLD%그리고...%NL%%GOLD%[히트파워 크래프트]}<<ANTI>>
 ItemDisplay[gpw]: %ORANGE%P %WHITE%다이아몬드{%NL%%GOLD%유니크 방어구 업%NL%%ORANGE%탈%WHITE%+%RED%샤에%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<익셉셔널업>%NL%%ORANGE%코%WHITE%+%RED%렘%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[gpg]: %ORANGE%P %GREEN%에메랄드{%NL%%GOLD%유니크 무기 업%NL%%ORANGE%랄%WHITE%+%RED%솔%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<익셉셔널업>%NL%%ORANGE%룸%WHITE%+%RED%풀%WHITE%+%DGREEN%퍼펙트 에멜랄드%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[gpr]: %ORANGE%P %RED%루비{%NL%%GREEN%세트 무기 업%NL%%ORANGE%엘%WHITE%+%RED%에드%WHITE%+%RED%퍼펙트 루비%RED%<익셉셔널업>%NL%%ORANGE%돌%WHITE%+%RED%말%WHITE%+%RED%퍼펙트 루비%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[gpb]: %ORANGE%P %BLUE%사파이어{%NL%%YELLOW%레어 무기 업%NL%%ORANGE%오르트%WHITE%+%RED%엠%WHITE%+%BLUE%퍼펙트 사파이어%RED%<익셉셔널업>%NL%%ORANGE%팔%WHITE%+%RED%움%WHITE%+%BLUE%퍼펙트 사파이어%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[gpy]: %ORANGE%P %YELLOW%토파즈{%NL%%GREEN%세트 방어구 업%NL%%ORANGE%엘드%WHITE%+%RED%아이드%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<익셉셔널업>%NL%%ORANGE%헬%WHITE%+%RED%아이오%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<엘리트업>%NL%} <<ANTI>>
-ItemDisplay[skz]: %ORANGE%P %TAN%해골{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*3개%WHITE%+%YELLOW%레어템%NL%} <<ANTI>>
+ItemDisplay[gpy]:%ORANGE%P %YELLOW%토파즈{%NL%%GREEN%세트 방어구 업%NL%%ORANGE%엘드%WHITE%+%RED%아이드%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<익셉셔널업>%NL%%ORANGE%헬%WHITE%+%RED%아이오%WHITE%+%YELLOW%퍼펙트 토파즈%RED%<엘리트업>%NL%} <<ANTI>>
+ItemDisplay[skz]:%ORANGE%P %TAN%해골{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*3개%WHITE%+%YELLOW%레어템%NL%} <<ANTI>>
 //                                       RARE&MAGIC                                            //
 ItemDisplay[RARE EQ7 !ETH !ID]: %YELLOW%***************%NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%YELLOW%*************** <<RARE>>
 ItemDisplay[RARE EQ7 ETH !ID]: %YELLOW%***************%NL%%NL% %GREEN%°%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME%%GREEN%° %NL%%NL%%YELLOW%*************** <<RARE>>
@@ -1801,54 +1819,124 @@ ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %GREEN%%NAME%%SAGE%[나즈]
 ItemDisplay[SET !ID (bwn OR vgl)]: %GREEN%%NAME%%SAGE%[샌더]
 ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
 //                                     CRAFTING                                               //
-ItemDisplay[(xvg OR uvg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트장갑
-ItemDisplay[(xvg OR uvg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xlm OR ulm) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트모자
-ItemDisplay[(xlm OR ulm) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%랄+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xtb OR utb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트신발
-ItemDisplay[(xtb OR utb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(zmb OR umc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트벨트
-ItemDisplay[(zmb OR umc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xpk OR upk) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트방패
-ItemDisplay[(xpk OR upk) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xlt OR ult) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트갑옷
-ItemDisplay[(xlt OR ult) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%주울+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xmg OR umg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트장갑
-ItemDisplay[(xmg OR umg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%오르트+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xhl OR uhl) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트모자
-ItemDisplay[(xhl OR uhl) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xmb OR umb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트신발
-ItemDisplay[(xmb OR umb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%랄+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(ztb OR utc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트벨트
-ItemDisplay[(ztb OR utc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xts OR uts) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트방패
-ItemDisplay[(xts OR uts) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xld OR uld) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트갑옷
-ItemDisplay[(xld OR uld) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xlg OR ulg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트장갑
-ItemDisplay[(xlg OR ulg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%오르트+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xsk OR usk) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트모자
-ItemDisplay[(xsk OR usk) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xlb OR ulb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트신발
-ItemDisplay[(xlb OR ulb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%주울+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(zvb OR uvc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트벨트
-ItemDisplay[(zvb OR uvc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xml OR uml) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트방패
-ItemDisplay[(xml OR uml) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xtp OR utp) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트갑옷
-ItemDisplay[(xtp OR utp) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xhg OR uhg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트장갑
-ItemDisplay[(xhg OR uhg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%랄+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xrn OR urn) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트모자
-ItemDisplay[(xrn OR urn) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xhb OR uhb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트신발
-ItemDisplay[(xhb OR uhb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%오르트+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트벨트
-ItemDisplay[(zlb OR ulc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xit OR uit) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트방패
-ItemDisplay[(xit OR uit) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
-ItemDisplay[(xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트갑옷
-ItemDisplay[(xrs OR urs) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xvg OR uvg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트장갑
+//ItemDisplay[(xvg OR uvg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xlm OR ulm) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트모자
+//ItemDisplay[(xlm OR ulm) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%랄+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xtb OR utb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트신발
+//ItemDisplay[(xtb OR utb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(zmb OR umc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트벨트
+//ItemDisplay[(zmb OR umc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xpk OR upk) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트방패
+//ItemDisplay[(xpk OR upk) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xlt OR ult) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[블러드]%WHITE%크래프트갑옷
+//ItemDisplay[(xlt OR ult) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%주울+%RED%P_루비%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xmg OR umg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트장갑
+//ItemDisplay[(xmg OR umg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%오르트+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xhl OR uhl) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트모자
+//ItemDisplay[(xhl OR uhl) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xmb OR umb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트신발
+//ItemDisplay[(xmb OR umb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%랄+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(ztb OR utc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트벨트
+//ItemDisplay[(ztb OR utc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xts OR uts) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트방패
+//ItemDisplay[(xts OR uts) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xld OR uld) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[히트파워]%WHITE%크래프트갑옷
+//ItemDisplay[(xld OR uld) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xlg OR ulg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트장갑
+//ItemDisplay[(xlg OR ulg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%오르트+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xsk OR usk) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트모자
+//ItemDisplay[(xsk OR usk) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xlb OR ulb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트신발
+//ItemDisplay[(xlb OR ulb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%주울+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(zvb OR uvc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트벨트
+//ItemDisplay[(zvb OR uvc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xml OR uml) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트방패
+//ItemDisplay[(xml OR uml) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xtp OR utp) !ETH MAG !ID]: %BLUE%%NAME%%NL%%PURPLE%[캐스터]%WHITE%크래프트갑옷
+//ItemDisplay[(xtp OR utp) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xhg OR uhg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트장갑
+//ItemDisplay[(xhg OR uhg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%랄+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xrn OR urn) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트모자
+//ItemDisplay[(xrn OR urn) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%아이드+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xhb OR uhb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트신발
+//ItemDisplay[(xhb OR uhb) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%오르트+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트벨트
+//ItemDisplay[(zlb OR ulc) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%탈+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xit OR uit) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트방패
+//ItemDisplay[(xit OR uit) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%네프+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트갑옷
+//ItemDisplay[(xrs OR urs) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
+
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTLVL>3]: 
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTLVL>3]: 
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+//ItemDisplay[(6lw OR 9gm OR 8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) (!ETH OR ETH) MAG !ID FILTLVL>6]:
+
+ItemDisplay[(6lw OR 8lw) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(8rx OR 6rx OR 6mx OR 6hx) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(9gm OR 7gm) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(9gd OR 7gd OR 9ls OR 7ls) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(9xf OR 7xf OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(9ws OR 7ws) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(9tr OR 7tr OR 9st OR 7st OR 9p9 OR 7p7) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(7mt OR 7wh) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(oba OR obf) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(6ws) !ETH MAG !ID FILTERLVL>3]:
+
+//ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !ETH MAG !ID ILVL>50 FILTERLVL>3]:
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 글럽]
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧]
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(바바)]
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(드루)]
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 부츠]
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 벨트]
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 방패]
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 갑옷]
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 글럽]
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧]
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(바바)]
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(드루)]
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 부츠]
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 벨트]
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 방패]
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 갑옷]
+
+ItemDisplay[(am1) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 활]
+ItemDisplay[(am2 OR am7 OR amc) !ETH MAG !ID]: %ORANGE%*%PURPLE%* %BLUE%%NAME%%NL%%GRAY%[크랩 활] %PURPLE%*%ORANGE%*
+ItemDisplay[(6lw OR 8lw) !ETH MAG !ID]: %ORANGE%*%PURPLE%* %BLUE%%NAME%%NL%%GRAY%[크랩 활] %PURPLE%*%ORANGE%*
+ItemDisplay[(8rx OR 6rx OR 6mx OR 6hx) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 석궁]
+ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID]:%ORANGE%* %BLUE%%NAME%%NL%%GRAY%[크랩 글레이브] %ORANGE%*
+ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) ETH MAG !ID]: %ORANGE%*%PURPLE%* %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 글레이브] %PURPLE%*%ORANGE%*
+ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 투척]
+ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) ETH MAG !ID]: %ORANGE%*%PURPLE%* %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 투척] %PURPLE%*%ORANGE%*
+ItemDisplay[(9gm OR 7gm) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 마울]
+ItemDisplay[(mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) ETH MAG !ID]: %ORANGE%*%PURPLE%* %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 마울] %PURPLE%*%ORANGE%*
+ItemDisplay[(9gd OR 7gd OR 9ls OR 7ls) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 칼]
+ItemDisplay[(9fb OR 7fb OR 9gd OR 7gd OR 9ls OR 7ls) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 칼]
+ItemDisplay[(9xf OR 7xf OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 클로]
+ItemDisplay[(9xf OR 7xf OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 클로]
+ItemDisplay[(9ws OR 7ws) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 셉터]
+ItemDisplay[(9ws OR 7ws) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 셉터]
+ItemDisplay[(9tr OR 7tr OR 9st OR 7st OR 9p9 OR 7p7) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 창]
+ItemDisplay[(9tr OR 7tr OR 9st OR 7st OR 9p9 OR 7p7) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 창]
+
+ItemDisplay[(7mt OR 7wh) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 메이스]
+ItemDisplay[(7mt OR 7wh) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 메이스]
+
+ItemDisplay[(oba OR obf) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 오브]
+ItemDisplay[(oba OR obf) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 오브]
+
+ItemDisplay[(6ws) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 스태프]
+ItemDisplay[(6ws) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 스태프]
+//ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !ETH MAG !ID ILVL>50]:%BLUE%%NAME%%NL%%GRAY%[크랩 club]
 //                                     NORMAL BASE                                             //
 ItemDisplay[NMAG SOCK=0 (dgr OR dir OR 9dg OR 9di OR 7dg OR 7di OR wnd OR ywn OR 9wn) ILVL<41]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%낮은 %RED%레벨 %ORANGE%아이템 %WHITE%최대 %SAGE%소켓  %RED%불가능      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=0 (cap OR xap OR uap OR skp OR xkp OR ukp OR hlm OR xlm OR ulm OR fhl OR xhl OR uhl OR bhm OR xh9 OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR plt OR fld OR uuc OR sml OR xml OR uml OR spk) ILVL<41]:%NAME%{%GREEN%**%GOLD%**%ORANGE%**     %PURPLE%낮은 %RED%레벨 %ORANGE%아이템 %WHITE%최대 %SAGE%소켓  %RED%불가능      %ORANGE%**%GOLD%**%GREEN%**%NL%%NAME%}%CONTINUE%
