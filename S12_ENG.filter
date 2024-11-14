@@ -1,6 +1,6 @@
 Attribute[Author]: PILLLA
 Attribute[Name]: English Version filter(Item.Filter in Folder)
-Attribute[Version]: 1.3.0
+Attribute[Version]: 1.3.0 (S13)
 Attribute[Date]: 14/Oct/2024 
 //                                      Filter Level                                           //
 FilterLevel[1]: Standard //FILTLVL>0 
