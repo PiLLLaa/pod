@@ -1911,8 +1911,8 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
 
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTLVL>3]: 
-ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTLVL>3]: 
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
