@@ -620,11 +620,12 @@ ItemDisplay[(WP12 OR CL4) (MAG OR RARE) ID !ETH (CLSK2>0 AND SK83>0)]:%NAME% %NL
 ItemDisplay[CL1 (MAG OR RARE) ID !ETH (TABSK40>0 AND SK238>2)]:%NAME% %NL%%GREEN%+%CSKILLS(DRU,1)%Sum(Dru) %WHITE%+%SKILL(238)%Rab{%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[CL1 (MAG OR RARE) ID !ETH (CLSK5>0 AND SK238>2)]:%NAME% %NL%%GREEN%+%CSKILLS(DRU)%Dru %WHITE%+%SKILL(238)%Rab{%NAME%}%CONTINUE% <<SHOP>>
 
-ItemDisplay[MAG (SUFFIX(532) OR SUFFIX(533))]:%NAME% %NL%%GREEN%[%WHITE%Teleport %RED%Charge%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
-ItemDisplay[MAG (SUFFIX(579) OR SUFFIX(580))]:%NAME% %NL%%GREEN%[%WHITE%Life %RED%Tap %GOLD%Charge%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
-ItemDisplay[MAG (SUFFIX(595) OR SUFFIX(596))]:%NAME% %NL%%GREEN%[%WHITE%Lower %RED%Resist %GOLD%Charge%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[MAG (SUFFIX(532) OR SUFFIX(533))]:%NAME% %NL%%GREEN%[%PURPLE%Teleport %RED%Charge%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[MAG (SUFFIX(579) OR SUFFIX(580))]:%NAME% %NL%%GREEN%[%PURPLE%Life %RED%Tap %GOLD%Charge%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[MAG (SUFFIX(595) OR SUFFIX(596))]:%NAME% %NL%%GREEN%[%PURPLE%Lower %RED%Resist %GOLD%Charge%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
 
-ItemDisplay[RARE (amu OR rin OR jew) !ID]:   %NL%%NL%    %GREEN%[ %YELLOW%%NAME% %GREEN%]    %NL%%NL%%NL%   <<RARE>>
+ItemDisplay[RARE (amu) !ID]:%NL%%NL%     %GREEN%[ %YELLOW%%NAME% %GREEN%]     %NL%%NL%%NL%   <<RARE>>
+ItemDisplay[RARE (rin OR jew) !ID]:%NL%%NL%         %GREEN%[ %YELLOW%%NAME% %GREEN%]         %NL%%NL%%NL%   <<RARE>>
 ItemDisplay[SET !ID amu]:   %NL%%NL% %PURPLE%[ %GREEN%%NAME% %PURPLE%] %NL%%NL%%NL%   <<SET>>
 ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%%NL%
 ItemDisplay[MAG amu !ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL96+]
