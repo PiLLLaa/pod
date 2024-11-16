@@ -1922,8 +1922,8 @@ ItemDisplay[(am1) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 활]
 ItemDisplay[(am2 OR am7 OR amc) !ETH MAG !ID]: %ORANGE%*%PURPLE%* %BLUE%%NAME%%NL%%GRAY%[크랩 활] %PURPLE%*%ORANGE%*
 ItemDisplay[(6lw OR 8lw) !ETH MAG !ID]: %ORANGE%*%PURPLE%* %BLUE%%NAME%%NL%%GRAY%[크랩 활] %PURPLE%*%ORANGE%*
 ItemDisplay[(8rx OR 6rx OR 6mx OR 6hx) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 석궁]
-ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID]:%ORANGE%* %BLUE%%NAME%%NL%%GRAY%[크랩 글레이브] %ORANGE%*
-ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) ETH MAG !ID]: %ORANGE%*%PURPLE%* %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 글레이브] %PURPLE%*%ORANGE%*
+ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 글레이브]
+ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) ETH MAG !ID]:%ORANGE%*%PURPLE%* %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 글레이브] %PURPLE%*%ORANGE%*
 ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 투척]
 ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) ETH MAG !ID]: %ORANGE%*%PURPLE%* %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%NAME%%NL%%GRAY%[크랩 투척] %PURPLE%*%ORANGE%*
 ItemDisplay[(9gm OR 7gm) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 마울]
