@@ -359,7 +359,7 @@ ItemDisplay[cx9]:%NAME%{%NL%%GOLD%렐릭 변환 - 경험치/덴시티 변경 가
 ItemDisplay[maz]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
 ItemDisplay[UNI !ID cm4]: %NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
 //                                         MISC                                                //
-ItemDisplay[(leg OR ear)]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%***
+ItemDisplay[(leg OR ear)]:%GOLD%******************%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%GOLD%******************
 ItemDisplay[pk1]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%공포%WHITE%의 %ORANGE%키  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[pk2]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%증오%WHITE%의 %ORANGE%키  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[pk3]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%파괴%WHITE%의 %ORANGE%키  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
