@@ -584,11 +584,12 @@ ItemDisplay[(WP12 OR CL4) (MAG OR RARE) ID !ETH (CLSK2>0 AND SK83>0)]:%NAME% %NL
 ItemDisplay[CL1 (MAG OR RARE) ID !ETH (TABSK40>0 AND SK238>2)]:%NAME% %NL%%GREEN%+%CSKILLS(DRU,1)%소환(드루) %WHITE%+%SKILL(238)%레비즈{%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[CL1 (MAG OR RARE) ID !ETH (CLSK5>0 AND SK238>2)]:%NAME% %NL%%GREEN%+%CSKILLS(DRU)%드루 %WHITE%+%SKILL(238)%레비즈{%NAME%}%CONTINUE% <<SHOP>>
 
-ItemDisplay[MAG (SUFFIX(532) OR SUFFIX(533))]:%NAME% %NL%%GREEN%[%WHITE%텔레포트 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
-ItemDisplay[MAG (SUFFIX(579) OR SUFFIX(580))]:%NAME% %NL%%GREEN%[%WHITE%라이프 텝 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
-ItemDisplay[MAG (SUFFIX(595) OR SUFFIX(596))]:%NAME% %NL%%GREEN%[%WHITE%로우 레지스트 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[MAG (SUFFIX(532) OR SUFFIX(533))]:%NAME% %NL%%GREEN%[%PURPLE%텔레포트 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[MAG (SUFFIX(579) OR SUFFIX(580))]:%NAME% %NL%%GREEN%[%PURPLE%라이프 텝 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[MAG (SUFFIX(595) OR SUFFIX(596))]:%NAME% %NL%%GREEN%[%PURPLE%로우 레지스트 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
 
-ItemDisplay[RARE (amu OR rin OR jew) !ID]:   %NL%%NL%     %GREEN%[ %YELLOW%%NAME% %GREEN%]     %NL%%NL%%NL%   <<RARE>>
+ItemDisplay[RARE (amu) !ID]:%NL%%NL%     %GREEN%[ %YELLOW%%NAME% %GREEN%]     %NL%%NL%%NL%   <<RARE>>
+ItemDisplay[RARE (rin OR jew) !ID]:%NL%%NL%         %GREEN%[ %YELLOW%%NAME% %GREEN%]         %NL%%NL%%NL%   <<RARE>>
 ItemDisplay[SET !ID amu]:   %NL%%NL% %PURPLE%[ %GREEN%%NAME% %PURPLE%] %NL%%NL%%NL%   <<SET>>
 ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%%NL%
 ItemDisplay[MAG amu !ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL96+]
