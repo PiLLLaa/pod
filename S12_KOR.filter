@@ -349,7 +349,7 @@ ItemDisplay[bet]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%�
 ItemDisplay[fed]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%파괴의 정수%BLUE%(바알) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[toa]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%면죄의 징표 %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 //                                         POD                                                 //
-ItemDisplay[cx5]: %NL%%NL%    %PURPLE%타락%WHITE%의 %ORANGE%오브%NL%%NL%%NL%    %CONTINUE% <<SPECIAL>>
+ItemDisplay[cx5]: %NL%%NL%    %PURPLE%타락%WHITE%의 %ORANGE%오브    %NL%%NL%%NL%%CONTINUE% <<SPECIAL>>
 ItemDisplay[cx5]:%NAME%{%NL%헬름/갑옷/방패/무기:소켓[1toMAX]%NL%부츠:올레[5to10%]%NL%부츠:민첩[5to15]%NL%부츠:쿨탐감소[10%]%NL%장갑:공속[10%]%NL%장갑:올레[5to10%]%NL%아뮬렛:모든 스킬[1]%NL%링:패캐[10%]%NL%링:달려[10%]%NL%링:뎀감[5to6%]%NL%벨트:피어싱[8%]%NL%화살통:공속[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
 ItemDisplay[cx7]: %NL%%NL%  %PURPLE%혼돈%WHITE%의 %ORANGE%열쇠%NL%%NL%%NL%  <<SPECIAL>>
 ItemDisplay[cx6]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
