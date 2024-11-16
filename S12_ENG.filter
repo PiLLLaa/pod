@@ -2341,6 +2341,12 @@ ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]: %GRAY%%NAME% %ORANGE%
 //폴암 4솟
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]: %GRAY%%NAME%%BLUE% %ORANGE%[Leveling] {%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[Leveling] {%NAME%}
+//Nec Shield (Ryme base)
+ItemDisplay[(WP12 OR CL4) NMAG !RW SK477>2 (SOCK=0 OR SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%+3Hemo{%NAME%}
+ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%+2Hemo{%NAME%}
+ItemDisplay[(WP12 OR CL4) NMAG !RW SK477>2 (SOCK=0 OR SOCK=2) CLVL>79]:
+ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79]:
+
 //Actication
 //ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
