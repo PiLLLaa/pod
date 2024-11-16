@@ -28,6 +28,7 @@ ItemStyle[HIGH]: MapIcon = 24, MapIconColor = 0, BorderColor = 111, BorderSize =
 ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[SPECIAL]: MapIcon = 84, MapIconColor = 0, BorderColor = 158, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[RARE]: MapIcon = 85, MapIconColor = 0, BorderColor = 168, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
+ItemStyle[RARE1]: MapIcon = 85, MapIconColor = 0, BorderColor = 168, BorderSize = 1, BackgroundColor = 0
 ItemStyle[QUEST]: MapIcon = 4, MapIconColor = 0, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[MONEY]: MapIcon = 5, MapIconColor = 0, BorderColor = 32, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[MAGIC]: MapIcon = 2, MapIconColor = 0, BorderColor = 153, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
@@ -170,7 +171,7 @@ ItemDisplay[tsc DIFFICULTY<1]:%BLUE%[%WHITE%Tp %TEAL%Scroll%BLUE%]
 ItemDisplay[tsc DIFFICULTY>0]:
 ItemDisplay[isc DIFFICULTY<1]:%RED%[%WHITE%Id %CORAL%Scroll%RED%]
 ItemDisplay[isc DIFFICULTY>0]:
-ItemDisplay[rvl]:%PURPLE%[Rp%ORANGE%70%%PURPLE%]{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}<<RP>>
+ItemDisplay[rvl]:%PURPLE%[Rp%SAGE%70%%PURPLE%]{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}<<RP>>
 ItemDisplay[rvs]:%PURPLE%[Rp%WHITE%35%%PURPLE%]
 ItemDisplay[key CLVL<30]:%WHITE%[%GRAY%Key%WHITE%]
 ItemDisplay[key CLVL>29]:
@@ -868,8 +869,8 @@ ItemDisplay[UNI ID cm2]:%WHITE%[%RED%V:%ORANGE%%STAT(3,0)%%WHITE%] %WHITE%[%BLUE
 ItemDisplay[UNI ID cm1 STAT1>19 RES>19 STAT3>59]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %GREEN%Perfect %TAN%ANNIHILIUS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*
 ItemDisplay[UNI ID cm1]:%WHITE%[%RED%V:%ORANGE%%STAT(3,0)%%WHITE%] %WHITE%[%BLUE%E:%PURPLE%%STAT(1,0)%%WHITE%] %WHITE%[%GREEN%R:%RED%%STAT(39,0)%%WHITE%] %WHITE%[%YELLOW%G:%DGREEN%%STAT(85,0)%%WHITE%] %GOLD%%NAME%{%NAME%}%CONTINUE%
 //RARES
-ItemDisplay[RARE (EQ5) !ETH !ID]:%NL% %WHITE%[ %YELLOW%%NAME% %WHITE%]%NL%%NL%
-ItemDisplay[RARE (EQ5) ETH !ID]:%NL% %WHITE%[ %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME% %WHITE%]%NL%%NL%
+ItemDisplay[RARE (EQ5) !ETH !ID]:%NL%    %WHITE%[ %YELLOW%%NAME% %WHITE%]     %NL%%NL% <<RARE1>>
+ItemDisplay[RARE (EQ5) ETH !ID]:%NL%    %WHITE%[ %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME% %WHITE%]     %NL%%NL%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ6 OR EQ7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ6 OR EQ7) ETH !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME%
 //ARROWS
