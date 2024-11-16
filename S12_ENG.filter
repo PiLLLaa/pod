@@ -373,7 +373,7 @@ ItemDisplay[cx9]:%NAME%{%NL%%GOLD%Relic Option change - %WHITE%Cubing item%NL%%N
 ItemDisplay[maz]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
 ItemDisplay[UNI !ID cm4]:%NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
 //                                         MISC                                                //
-ItemDisplay[(leg OR ear)]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%***
+ItemDisplay[(leg OR ear)]:%GOLD%******************%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%GOLD%******************
 ItemDisplay[pk1]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f T%GREEN%er%DGREEN%ro%GREEN%r  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[pk2]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f H%GREEN%at%DGREEN%re%GREEN%d  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[pk3]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f D%GREEN%es%DGREEN%tr%GREEN%uc%WHITE%ti%GREEN%on  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
