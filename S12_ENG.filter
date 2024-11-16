@@ -152,7 +152,7 @@ ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]:%NL% %NL%%LIGHT_GRAY%***** %WHITE%  No h
 ItemDisplay[box]:%PURPLE%[%RED%Ho%WHITE%ra%ORANGE%dr%GOLD%ic %PURPLE%Cube %ORANGE%[L%ILVL%]%PURPLE%] {%GOLD%Dclone: %ORANGE%Soulstone%GOLD%+%GRAY%KeyofChaos%GOLD%+%BLUE%Brain%GOLD%+%YELLOW%Eye%GOLD%+%RED%Horn%NL%%GOLD%Unsocket: %WHITE%Hel%GOLD%+%BLUE%Portal Scroll%NL%%GOLD%Upgrading %WHITE%6Gems %GOLD%at once%NL%%GOLD%Cubing Recipe%NL%}
 ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]<<HP>>
 ItemDisplay[mp5]:%BLUE%[%WHITE%Mp%BLUE%]<<MP>>
-ItemDisplay[hp4 DIFFICULTY<1]:%RED%[%WHITE%Hp4%RED%]
+ItemDisplay[hp4 DIFFICULTY<2]:%RED%[%WHITE%Hp4%RED%]
 ItemDisplay[hp4 DIFFICULTY>0]:
 ItemDisplay[hp3 CLVL<30]:%RED%[%WHITE%Hp3%RED%]
 ItemDisplay[hp3 CLVL>29]:
@@ -160,7 +160,7 @@ ItemDisplay[hp2 CLVL<16]:%RED%[%WHITE%Hp2%RED%]
 ItemDisplay[hp2 CLVL>15]:
 ItemDisplay[hp1 CLVL<10]:%RED%[%WHITE%Hp1%RED%]
 ItemDisplay[hp1 CLVL>9]:
-ItemDisplay[mp4 DIFFICULTY<1]:%BLUE%[%WHITE%Mp4%BLUE%]
+ItemDisplay[mp4 DIFFICULTY<2]:%BLUE%[%WHITE%Mp4%BLUE%]
 ItemDisplay[mp4 DIFFICULTY>0]:
 ItemDisplay[mp3 CLVL<30]:%BLUE%[%WHITE%Mp3%BLUE%]
 ItemDisplay[mp3 CLVL>29]:
