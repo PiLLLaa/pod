@@ -152,7 +152,7 @@ ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]: %NL%%LIGHT_GRAY%***** %WHITE%  추천 �
 ItemDisplay[box]:%PURPLE%[%RED%호%WHITE%라%ORANGE%드%GOLD%릭 %PURPLE%큐브 %ORANGE%[L%ILVL%]%PURPLE%] {%GOLD%디클론우버: %ORANGE%소울스톤%GOLD%+%GRAY%카오스키%GOLD%+%BLUE%메피스토뇌%GOLD%+%YELLOW%바알눈%GOLD%+%RED%디아블로뿔%NL%%GOLD%소켓제거: %WHITE%헬%GOLD%+%BLUE%포탈스크롤%NL%%GOLD%보석업그레이드 %WHITE%보석 6개 한번에 합성 가능%NL%%GOLD%큐빙 조합%NL%}
 ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]<<HP>>
 ItemDisplay[mp5]:%BLUE%[%WHITE%Mp%BLUE%]<<MP>>
-ItemDisplay[hp4 DIFFICULTY<1]:%RED%[%WHITE%상급Hp%RED%]
+ItemDisplay[hp4 DIFFICULTY<2]:%RED%[%WHITE%상급Hp%RED%]
 ItemDisplay[hp4 DIFFICULTY>0]:
 ItemDisplay[hp3 CLVL<30]:%RED%[%WHITE%중급Hp%RED%]
 ItemDisplay[hp3 CLVL>29]:
@@ -160,7 +160,7 @@ ItemDisplay[hp2 CLVL<16]:%RED%[%WHITE%소량Hp%RED%]
 ItemDisplay[hp2 CLVL>15]:
 ItemDisplay[hp1 CLVL<10]:%RED%[%WHITE%미량Hp%RED%]
 ItemDisplay[hp1 CLVL>9]:
-ItemDisplay[mp4 DIFFICULTY<1]:%BLUE%[%WHITE%상급Mp%BLUE%]
+ItemDisplay[mp4 DIFFICULTY<2]:%BLUE%[%WHITE%상급Mp%BLUE%]
 ItemDisplay[mp4 DIFFICULTY>0]:
 ItemDisplay[mp3 CLVL<30]:%BLUE%[%WHITE%중급Mp%BLUE%]
 ItemDisplay[mp3 CLVL>29]:
