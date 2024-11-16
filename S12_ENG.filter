@@ -29,7 +29,8 @@ ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 
 ItemStyle[SPECIAL]: MapIcon = 84, MapIconColor = 0, BorderColor = 158, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[RARE]: MapIcon = 85, MapIconColor = 0, BorderColor = 168, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[RARE1]: MapIcon = 85, MapIconColor = 0, BorderColor = 168, BorderSize = 1, BackgroundColor = 0
-ItemStyle[QUEST]: MapIcon = 4, MapIconColor = 0, BorderColor = 10, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
+//ItemStyle[QUEST]: MapIcon = 4, MapIconColor = 0, BorderColor = 10, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
+ItemStyle[QUEST]: MapIcon = 4, MapIconColor = 0, BorderColor = 10, BorderSize = 10, BackgroundColor = 0
 ItemStyle[MONEY]: MapIcon = 5, MapIconColor = 0, BorderColor = 32, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[MAGIC]: MapIcon = 2, MapIconColor = 0, BorderColor = 153, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[SHOP]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0
