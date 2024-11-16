@@ -25,13 +25,13 @@ ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>7]:
 ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
 ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
 ItemStyle[HIGH]: MapIcon = 24, MapIconColor = 0, BorderColor = 111, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\combatboost", NotificationSoundPriority = HIGH
-ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
-ItemStyle[SPECIAL]: MapIcon = 84, MapIconColor = 0, BorderColor = 158, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
-ItemStyle[RARE]: MapIcon = 85, MapIconColor = 0, BorderColor = 168, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
+ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = HIGH
+ItemStyle[SPECIAL]: MapIcon = 84, MapIconColor = 0, BorderColor = 158, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = HIGH
+ItemStyle[RARE]: MapIcon = 85, MapIconColor = 0, BorderColor = 168, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = HIGH
 ItemStyle[RARE1]: MapIcon = 85, MapIconColor = 0, BorderColor = 168, BorderSize = 1, BackgroundColor = 0
-ItemStyle[QUEST]: MapIcon = 4, MapIconColor = 0, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
-ItemStyle[MONEY]: MapIcon = 5, MapIconColor = 0, BorderColor = 32, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
-ItemStyle[MAGIC]: MapIcon = 2, MapIconColor = 0, BorderColor = 153, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
+ItemStyle[QUEST]: MapIcon = 4, MapIconColor = 0, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = HIGH
+ItemStyle[MONEY]: MapIcon = 5, MapIconColor = 0, BorderColor = 32, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = HIGH
+ItemStyle[MAGIC]: MapIcon = 2, MapIconColor = 0, BorderColor = 153, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = HIGH
 ItemStyle[SHOP]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0
 ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 98, BorderSize = 10, BackgroundColor = 0
 ItemStyle[HP]: BorderColor = 98, BorderSize = 1, BackgroundColor = 0
@@ -349,7 +349,7 @@ ItemDisplay[bet]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%�
 ItemDisplay[fed]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%파괴의 정수%BLUE%(바알) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[toa]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%면죄의 징표 %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 //                                         POD                                                 //
-ItemDisplay[cx5]: %NL%%NL%  %PURPLE%타락%WHITE%의 %ORANGE%오브%NL%%NL%%NL%  %CONTINUE% <<SPECIAL>>
+ItemDisplay[cx5]: %NL%%NL%    %PURPLE%타락%WHITE%의 %ORANGE%오브%NL%%NL%%NL%    %CONTINUE% <<SPECIAL>>
 ItemDisplay[cx5]:%NAME%{%NL%헬름/갑옷/방패/무기:소켓[1toMAX]%NL%부츠:올레[5to10%]%NL%부츠:민첩[5to15]%NL%부츠:쿨탐감소[10%]%NL%장갑:공속[10%]%NL%장갑:올레[5to10%]%NL%아뮬렛:모든 스킬[1]%NL%링:패캐[10%]%NL%링:달려[10%]%NL%링:뎀감[5to6%]%NL%벨트:피어싱[8%]%NL%화살통:공속[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
 ItemDisplay[cx7]: %NL%%NL%  %PURPLE%혼돈%WHITE%의 %ORANGE%열쇠%NL%%NL%%NL%  <<SPECIAL>>
 ItemDisplay[cx6]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
