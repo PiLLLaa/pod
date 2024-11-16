@@ -363,15 +363,15 @@ ItemDisplay[bet]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%T
 ItemDisplay[fed]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%Destruction%BLUE%(Baal) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[toa]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%Token %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 //                                         POD                                                 //
-ItemDisplay[cx5]:%NL%%NL% %PURPLE%Orb %WHITE%of %ORANGE%Corruption %NL%%NL%%NL%%CONTINUE% <<SPECIAL>>
+ItemDisplay[cx5]:%NL% %PURPLE%Orb %WHITE%of %ORANGE%Corruption %NL%%NL%%CONTINUE% <<SPECIAL>>
 ItemDisplay[cx5]:%NAME%{%NL%HELM/ARM/SD/WP:SOC[1toMAX]%NL%BOOTS:AR[5to10%]%NL%BOOTS:DEX[5to15]%NL%BOOTS:CR[10%]%NL%GLOVE:IAS[10%]%NL%GLOVE:AR[5to10%]%NL%AMU:ALLSK[1]%NL%RING:FCR[10%]%NL%RING:FRW[10%]%NL%RING:PDR[5to6%]%NL%BELT:PIERCING[8%]%NL%ARROW:IAS[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
-ItemDisplay[cx7]:   %NL%%NL%%PURPLE%Key %WHITE%of %ORANGE%Chaos%NL%%NL%%NL%   <<SPECIAL>>
-ItemDisplay[cx6]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
-ItemDisplay[cx8]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
-ItemDisplay[cx9]: %NL%%NL%  %PURPLE%Orb %WHITE%of %ORANGE%Alteration%NL%%NL%%NL%  <<SPECIAL>> 
-ItemDisplay[cx9]: %NAME%{%NL%%GOLD%Relic Option change - %WHITE%Cubing item%NL%%NL%}
-ItemDisplay[maz]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
-ItemDisplay[UNI !ID cm4]: %NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
+ItemDisplay[cx7]:%NL%  %PURPLE%Key %WHITE%of %ORANGE%Chaos  %NL%%NL%   <<SPECIAL>>
+ItemDisplay[cx6]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
+ItemDisplay[cx8]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
+ItemDisplay[cx9]:%NL%  %PURPLE%Orb %WHITE%of %ORANGE%Alteration  %NL%%NL%  <<SPECIAL>> 
+ItemDisplay[cx9]:%NAME%{%NL%%GOLD%Relic Option change - %WHITE%Cubing item%NL%%NL%}
+ItemDisplay[maz]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
+ItemDisplay[UNI !ID cm4]:%NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
 //                                         MISC                                                //
 ItemDisplay[(leg OR ear)]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%***
 ItemDisplay[pk1]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f T%GREEN%er%DGREEN%ro%GREEN%r  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
