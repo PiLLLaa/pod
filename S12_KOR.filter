@@ -722,7 +722,7 @@ ItemDisplay[(MAG) ID jew]:%BLUE%매직 쥬얼{%NAME%}%CONTINUE%
 ItemDisplay[(RARE) ID jew]:%YELLOW%레어 쥬얼{%NAME%}%CONTINUE%
 ItemDisplay[(MAG) ID jew]:%TAN%+ %BLUE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(RARE) ID jew]:%TAN%+ %YELLOW%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[cm3 MAG ID !UNI]: %TAN%+ %BLUE%[%ORANGE%그랜드 %BLUE%참]%CONTINUE%
+ItemDisplay[cm3 MAG ID !UNI]: %TAN%+ %BLUE%[%CORAL%그랜드 %BLUE%참]%CONTINUE%
 ItemDisplay[cm2 MAG ID !UNI]: %TAN%+ %BLUE%[%WHITE%라지 %BLUE%참]%CONTINUE%
 ItemDisplay[cm1 MAG ID !UNI]: %TAN%+ %BLUE%[%GREEN%스몰 %BLUE%참]%CONTINUE%
 
