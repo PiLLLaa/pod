@@ -6,16 +6,15 @@ Attribute[Date]: 14/Oct/2024
 FilterLevel[1]: Standard //FILTLVL>0 
 FilterLevel[2]: Magic Ring Deletion  //FILTLVL>1
 FilterLevel[3]: +Large Charm Deletion //FILTLVL>2
-FilterLevel[4]: +Craft Base Deletion+HP //FILTLVL>3
-FilterLevel[5]: +All Magic Deletion+MP //FILTLVL>4
+FilterLevel[4]: +Craft Base Deletion //FILTLVL>3
+FilterLevel[5]: +All Magic Deletion+HP+MP //FILTLVL>4
 FilterLevel[6]: +Set Deletion //FILTLVL>5
 FilterLevel[7]: +Only Selected Unique_Caution //FILTLVL>6
 FilterLevel[8]: +All Normal Item Deletion //FILTLVL>7
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0]: 
 ItemDisplay[MAG (cm2) FILTERLVL>1]:
-ItemDisplay[(hp5 OR yps) FILTERLVL>3]:
-ItemDisplay[(mp5) FILTERLVL>4]:
+ItemDisplay[(mp5 OR hp5 OR yps) FILTERLVL>4]:
 //ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>3]:
 //ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>3]:
 ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>4]:
