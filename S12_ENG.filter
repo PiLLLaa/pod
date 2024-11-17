@@ -2354,6 +2354,9 @@ ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79]:
 //Shield (Stealth base)
 ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Stealth Base]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79]:
+//Helm (Lore base)
+ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Lore]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
+ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79]:
 //Actication
 //ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
