@@ -2083,6 +2083,7 @@ ItemDisplay[WEAPON NMAG !RW (SOCK=6)]:%NAME%{%GOLD%Breath Of The Dying:%ORANGE%V
 ItemDisplay[WP3 NMAG !RW (SOCK=6)]:%NAME%{%GOLD%Unbending Will:%ORANGE%Fal%WHITE%+%RED%Io%WHITE%+%YELLOW%Ith%WHITE%+%DGREEN%Eld%WHITE%+%GOLD%El%WHITE%+%GREEN%Hel%NL%%NAME%}%CONTINUE%
 ItemDisplay[WEAPON NMAG !RW (SOCK=6)]:%NAME%{%GOLD%Silence:%ORANGE%Dol%WHITE%+%RED%Eld%WHITE%+%YELLOW%Hel%WHITE%+%DGREEN%Ist%WHITE%+%GOLD%Tir%WHITE%+%GREEN%Vex%NL%%NAME%}%CONTINUE%
 ItemDisplay[WP13 NMAG !RW (SOCK=4)]:%NAME%{%GOLD%Holy Thunder:%ORANGE%Eth%WHITE%+%ORANGE%Ral%WHITE%+%YELLOW%Ort%WHITE%+%TAN%Tal%NL%%NAME%}%CONTINUE%
+ItemDisplay[EQ1 NMAG !RW (SOCK=2)]:%NAME%{%GOLD%Lore:%ORANGE%Ort%WHITE%+%RED%Sol%NL%%NAME%}%CONTINUE%
 ////Body Armor////
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %DGREEN%%NAME%%BLUE% +15%Def  {%NAME%}
 ItemDisplay[NMAG ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %DGREEN% %NAME%%BLUE% -10%Req  {%NAME%}
