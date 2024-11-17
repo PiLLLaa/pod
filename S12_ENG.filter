@@ -758,7 +758,7 @@ ItemDisplay[(MAG) ID jew]:%BLUE%Magic Jewel{%NAME%}%CONTINUE%
 ItemDisplay[(RARE) ID jew]:%YELLOW%Rare Jewel{%NAME%}%CONTINUE%
 ItemDisplay[(MAG) ID jew]:%TAN%n %BLUE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(RARE) ID jew]:%TAN%n %YELLOW%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[cm3 MAG ID !UNI]: %TAN%n %BLUE%[%ORANGE%Grand %BLUE%Charm]%CONTINUE%
+ItemDisplay[cm3 MAG ID !UNI]: %TAN%n %BLUE%[%CORAL%Grand %BLUE%Charm]%CONTINUE%
 ItemDisplay[cm2 MAG ID !UNI]: %TAN%n %BLUE%[%WHITE%Large %BLUE%Charm]%CONTINUE%
 ItemDisplay[cm1 MAG ID !UNI]: %TAN%n %BLUE%[%GREEN%Small %BLUE%Charm]%CONTINUE%
 
