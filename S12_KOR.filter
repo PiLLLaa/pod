@@ -313,8 +313,8 @@ ItemDisplay[(ma14) RARE]:%YELLOW%어비셜 퍼넌스 %GREEN%렐릭%CONTINUE%
 
 ItemDisplay[(ma10 OR ma11) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME%       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
 
-ItemDisplay[(ma12 OR ma13) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
-ItemDisplay[(ma9 OR ma1 OR ma4 OR ma14) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
+ItemDisplay[(ma12 OR ma13 OR ma14) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
+ItemDisplay[(ma9 OR ma1 OR ma4) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
 ItemDisplay[(ma8 OR ma5 OR ma2 OR ma7 OR ma6) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
 //ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
 //ItemDisplay[(ma4 OR ma8 OR ma9 OR ma13 OR ma14) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2       %WHITE%@@%PURPLE%@@       %NL% <<SPECIAL>>
