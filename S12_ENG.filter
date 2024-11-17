@@ -38,7 +38,7 @@ ItemStyle[HP]: BorderColor = 98, BorderSize = 1, BackgroundColor = 0
 ItemStyle[MP]: BorderColor = 151, BorderSize = 1, BackgroundColor = 0
 ItemStyle[RP]: BorderColor = 155, BorderSize = 1, BackgroundColor = 0
 ItemStyle[ANTI]: BorderColor = 223, BorderSize = 1, BackgroundColor = 0
-ItemStyle[UNID]: BorderColor = 14, BorderSize = 1, BackgroundColor = 0
+ItemStyle[UNID]: BorderColor = 14, BorderSize = 10, BackgroundColor = 0
 //Gambling
 ItemDisplay[NMAG rin !ID]:%NL% %ORANGE%Bul-Kathos' Wedding Band%NL%%CORAL%Stone of Jordan%NL%%RED%Wisp Projector %NL%%NL% %CORAL%[%CORAL%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL%
 ItemDisplay[NMAG amu !ID]:%NL%%NL%%GREEN%	Tal Rasha's Adjudication%NL%%SAGE%The Rising Sun%NL%%YELLOW%Metalgrid%NL%%ORANGE%Cat's Eye%NL%%CORAL%Highlord's Wrath%NL%%RED%Mara's Kaleidoscope%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
