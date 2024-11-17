@@ -2301,8 +2301,8 @@ ItemDisplay[WP13 !RW !ETH NMAG SK101>2 SOCK=0]: %GRAY%%NAME% %ORANGE%+3 홀리�
 ItemDisplay[WP13 !RW !ETH NMAG SK102>2 SOCK=0]: %GRAY%%NAME% %ORANGE%+3 홀리파이어 {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
 ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]: %GRAY%%NAME% %ORANGE%+3 홀리프리즈 {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
 //폴암 4솟
-ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME%%BLUE% %ORANGE%[4Soc]  {%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
-ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL<80]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[4Soc]  {%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[통찰]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL<80]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% %NL% %PURPLE%[통찰]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL>79]:
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL>79]:
 //Nec Shield (Ryme base)
@@ -2313,6 +2313,9 @@ ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79]:
 //Shield (Ryme base)
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[제왕운시]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79]:
+//Shield (Stealth base)
+ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[스텔스]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79]:
 //Actication
 //ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%간이 활성화%WHITE%+ %CORAL%이 아이템은 오직 마을에서만 활성화 됩니다.%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
