@@ -878,7 +878,7 @@ ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 O
 ItemDisplay[aq2 RARE !ID]:   %NL%%NL%    %GREEN%[ %YELLOW%%NAME% %GREEN%]    %NL%%NL%%NL%   <<RARE>>
 //ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<80]: %NAME%
 //ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>79]:
-ItemDisplay[(aq2 OR cq2) UNI !ID]:%TAN%%NAME%%NL%%GOLD%[Quiver]
+ItemDisplay[(aq2 OR cq2) UNI !ID]:%TAN%%NAME%%NL%%GOLD%[Quiver] <<UNID>>
 ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY<2]: %NAME%
 ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY=2]:
 ItemDisplay[cq2 RARE !ID CLVL<80]: %NAME%
