@@ -2339,8 +2339,8 @@ ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]: %GRAY%%NAME% %ORANGE%
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]: %GRAY%%NAME% %ORANGE%[HolyThunder] {%NL%%YELLOW%(Weapon Socket:%GOLD%RAL%WHITE%+%GOLD%AMN%WHITE%+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]: %GRAY%%NAME% %ORANGE%[Beast] {%NL%%YELLOW%(Weapon Socket:%GOLD%RAL%WHITE%+%GOLD%AMN%WHITE%+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
 //폴암 4솟
-ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME%%BLUE% %ORANGE%[4Soc]  {%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
-ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL<80]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[4Soc]  {%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
+ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
+ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL<80]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL>79]:
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL>79]:
 //Nec Shield (Ryme base)
@@ -2351,6 +2351,9 @@ ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79]:
 //Shield (Ryme base)
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Ryme Base]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79]:
+//Shield (Stealth base)
+ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Stealth Base]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
+ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79]:
 //Actication
 //ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
