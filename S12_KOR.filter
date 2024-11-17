@@ -2313,9 +2313,12 @@ ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79]:
 //Shield (Ryme base)
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[제왕운시]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79]:
-//Shield (Stealth base)
+//Chest (Stealth base)
 ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[스텔스]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79]:
+//Helm (Lore base)
+ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[학식]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79]:
 //Actication
 //ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%간이 활성화%WHITE%+ %CORAL%이 아이템은 오직 마을에서만 활성화 됩니다.%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
