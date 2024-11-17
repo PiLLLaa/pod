@@ -2346,7 +2346,9 @@ ItemDisplay[(WP12 OR CL4) NMAG !RW SK477>2 (SOCK=0 OR SOCK=2) CLVL<80]:%NAME% %N
 ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%+2Hemo{%NAME%}
 ItemDisplay[(WP12 OR CL4) NMAG !RW SK477>2 (SOCK=0 OR SOCK=2) CLVL>79]:
 ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79]:
-
+//Shield (Ryme base)
+ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Ryme Base]{%NAME%}
+ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79]:
 //Actication
 //ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
