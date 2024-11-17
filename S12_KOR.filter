@@ -2049,6 +2049,7 @@ ItemDisplay[WEAPON NMAG !RW (SOCK=6)]:%NAME%{%GOLD%죽음의 숨결:%ORANGE%벡�
 ItemDisplay[WP3 NMAG !RW (SOCK=6)]:%NAME%{%GOLD%불굴의 의지:%ORANGE%팔%WHITE%+%RED%아이오%WHITE%+%YELLOW%아이드%WHITE%+%DGREEN%엘드%WHITE%+%GOLD%엘%WHITE%+%GREEN%헬%NL%%NAME%}%CONTINUE%
 ItemDisplay[WEAPON NMAG !RW (SOCK=6)]:%NAME%{%GOLD%침묵:%ORANGE%돌%WHITE%+%RED%엘드%WHITE%+%YELLOW%헬%WHITE%+%DGREEN%이스트%WHITE%+%GOLD%티르%WHITE%+%GREEN%벡스%NL%%NAME%}%CONTINUE%
 ItemDisplay[WP13 NMAG !RW (SOCK=4)]:%NAME%{%GOLD%신성한 번개:%ORANGE%에드%WHITE%+%ORANGE%랄%WHITE%+%YELLOW%오르트%WHITE%+%TAN%탈%NL%%NAME%}%CONTINUE%
+ItemDisplay[EQ1 NMAG !RW (SOCK=2)]:%NAME%{%GOLD%학식:%ORANGE%오르트%WHITE%+%RED%솔%NL%%NAME%}%CONTINUE%
 ////Body Armor////
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% +15%방상  {%NAME%}
 ItemDisplay[NMAG ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% -10%리콰  {%NAME%}
