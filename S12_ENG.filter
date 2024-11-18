@@ -212,12 +212,12 @@ ItemDisplay[RARE]:%YELLOW%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT]:%ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SET]:%GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI]:%GOLD%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[SOCK=1 !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
-ItemDisplay[SOCK=2 !RW]:%NAME% %GRAY%(2){%NAME%}%CONTINUE%
-ItemDisplay[SOCK=3 !RW]:%NAME% %WHITE%(3){%NAME%}%CONTINUE%
-ItemDisplay[SOCK=4 !RW]:%NAME% %GREEN%(4){%NAME%}%CONTINUE%
-ItemDisplay[SOCK=5 !RW]:%NAME% %RED%(5){%NAME%}%CONTINUE%
-ItemDisplay[SOCK=6 !RW]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=1 !NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=2 !NMAG !RW]:%NAME% %GRAY%(2){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=3 !NMAG !RW]:%NAME% %WHITE%(3){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=4 !NMAG !RW]:%NAME% %GREEN%(4){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=5 !NMAG !RW]:%NAME% %RED%(5){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=6 !NMAG !RW]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) NORM]:%NAME%{%WHITE%[%ORANGE%Normal%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) EXC]:%NAME%{%WHITE%[%GREEN%Exceptional%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ELT]:%NAME%{%WHITE%[%CORAL%Elite%WHITE%]}%CONTINUE%
@@ -2457,7 +2457,7 @@ ItemDisplay[fla !ETH !RW NMAG (SOCK=4)]:%GRAY%%NAME%%NL%%PURPLE%[Spirits]{%NAME%
 ItemDisplay[fla ETH !RW NMAG (SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL%%PURPLE%[Spirits]{%NAME%}
 ItemDisplay[(bsd OR crs) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]:%GRAY%%NAME%%WHITE%(Larzuk 4Soc) %PURPLE%[L%ILVL%]%NL%%PURPLE%[Spirits]{%NAME%}
 ItemDisplay[(bsd OR lsd) !RW CLVL<55 !ETH NMAG SOCK=4]:%GRAY%%NAME%%NL%%PURPLE%[Spirits] {%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 55%NL%%NAME%}
-ItemDisplay[(bsd OR lsd) !RW CLVL>54 !ETH NMAG SOCK=4]:
+ItemDisplay[(bsd OR lsd) !RW CLVL>54 !ETH NMAG SOCK=4 !AREALVL<1]:
 //PHASE BLADE 7cr/LEGEND SWORD 72h/CADUCEUS 7ws/COLOSSUS SWORD 7fb+BLADE 7gd/BERSERKER AXE 7wa/GLORIOUS AXE 7gi/OGER MAUL 7m7/THUNDERMAUL 7gm/BALOG BLADE 7gs
 ItemDisplay[7wa ETH !RW NMAG ED=15 (SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* %PURPLE%+15%%BLUE%Ed %ORANGE%[Phoenix] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
 ItemDisplay[7cr !ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=6)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* %PURPLE%+15%%BLUE%Ed %ORANGE%[LastWish] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
@@ -2610,24 +2610,24 @@ ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]: %GRAY%%NAME% %ORANGE%
 //폴암 4솟
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL<80]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
-ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL>79]:
-ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL>79]:
+ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL>79 !AREALVL<1]:
+ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL>79 !AREALVL<1]:
 //Nec Shield (Ryme base)
 ItemDisplay[(WP12 OR CL4) NMAG !RW SK477>2 (SOCK=0 OR SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%+3Hemo{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%+2Hemo{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
-ItemDisplay[(WP12 OR CL4) NMAG !RW SK477>2 (SOCK=0 OR SOCK=2) CLVL>79]:
-ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79]:
+ItemDisplay[(WP12 OR CL4) NMAG !RW SK477>2 (SOCK=0 OR SOCK=2) CLVL>79 !AREALVL<1]:
+ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79 !AREALVL<1]:
 //Shield (Ryme base)
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Ryme Base]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
-ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79]:
+ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 //Chest (Stealth base)
 ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Stealth Base]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
-ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79]:
+ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 //Helm (Lore base)
 ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Lore]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
-ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79]:
+ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 //Actication
-//ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in town%NL%%NAME%}
+ItemDisplay[NMAG AREALVL<1]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
 ItemDisplay[CRAFT amu ID (CLSK1>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %RED%+2 Soc %BLUE%%RED%F%WHITE%c%GREEN%r {%NAME%}%CONTINUE%
 ItemDisplay[CRAFT amu ID (CLSK2>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %ORANGE%+2 Nec %BLUE%%RED%F%WHITE%c%GREEN%r {%NAME%}%CONTINUE%
