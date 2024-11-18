@@ -2520,13 +2520,13 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH SOCK=0 ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% %PURPLE%+15%%BLUE%증뎀{%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
 
 //Dream helm+Shield
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) ED=15]:%NAME% %ORANGE%[드림재료] %ORANGE%15%방상  {%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) STAT91=-10]:%NAME% %ORANGE%[드림재료] %ORANGE%10%리콰  {%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME% %ORANGE%[드림재료] %ORANGE%15%방상  {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME% %ORANGE%[드림재료] %ORANGE%10%리콰  {%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]:%GRAY% %NAME% %ORANGE%[드림재료]  {%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) ED=15]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%15%방상{%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) STAT91=-10]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%10%리콰{%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%15%방상{%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%10%리콰{%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%%NL% %ORANGE%[드림재료]{%NAME%}
 //6 sox good weapon bases
-ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]: %GRAY%%NAME% %TEAL%6Soc {%NAME%}
+ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
 //Non Magic Primal Helm +3 to 워크라이
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK146>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 워크라이 %YELLOW%+3 배틀크라이 %ORANGE%[착란+꿈베이스] {%NAME%}
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK149>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 워크라이 %YELLOW%+3 오더 %ORANGE%[착란+꿈베이스] {%NAME%}
