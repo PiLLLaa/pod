@@ -2116,7 +2116,7 @@ ItemDisplay[NMAG !ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld O
 ItemDisplay[uit !ETH !RW NMAG ED=15 (SOCK=4 OR SOCK=0)]: %NAME%%BLUE% +15%방상 {%NAME%}
 ItemDisplay[uit !ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]: %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% -10%리콰 %ORANGE%[불사조재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* {%NAME%}<<MONEY>>
 ItemDisplay[uit !ETH !RW !SUP SOCK=0 NMAG]: %NAME% {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%GOLD%탈%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%NAME%}																		  
-ItemDisplay[uit !ETH !RW (SOCK=4 OR SOCK=0) NMAG]: %NAME% {%NAME%}
+ItemDisplay[uit !ETH !RW (SOCK=4 OR SOCK=0) NMAG]: %NAME%%NL%%PURPLE%[스피리트재료] {%NAME%}
 ItemDisplay[uit ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%-10%리콰 에테%ORANGE%[스피리트스왑재료]{%NAME%}
 //Paladin Shields pab SACRED TARGE
 ItemDisplay[pab !ETH NMAG !RW RES=45 SOCK=3]: %NAME%%NL%%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%»%RED% 올레지 45+ %ORANGE%[꿈재료] %RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%» {%NAME%}<<MONEY>>
@@ -2148,12 +2148,16 @@ ItemDisplay[crs !SUP !ETH !RW NMAG SOCK=0]: %GRAY% %NAME% {%GRAY%(라죽이용�
 ItemDisplay[crs !SUP ETH !RW NMAG SOCK=0]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
 ItemDisplay[fla !SUP !ETH !RW NMAG SOCK=0]: %GRAY% %NAME% {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
 ItemDisplay[fla !SUP ETH !RW NMAG SOCK=0]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%GOLD%랄%WHITE%+%GOLD%엠%WHITE%+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%NAME%}
-ItemDisplay[crs !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %GRAY% %NAME% {%NAME%}
-ItemDisplay[crs ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% {%NAME%}
-ItemDisplay[fla !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %GRAY% %NAME% {%NAME%}
-ItemDisplay[fla ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% {%NAME%}
-ItemDisplay[(bsd OR crs) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %GRAY% %NAME%%WHITE% (라죽4솟) %PURPLE%[L%ILVL%]{%NAME%}
-ItemDisplay[(bsd OR lsd) !RW CLVL<55 !ETH NMAG SOCK=4]: %GRAY% %NAME% {%NAME%}
+ItemDisplay[crs !ETH !RW NMAG (SOCK=5)]:%GRAY%%NAME%%NL%%PURPLE%[콜투암스] {%NAME%}
+ItemDisplay[crs ETH !RW NMAG (SOCK=5)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL%%PURPLE%[콜투암스] {%NAME%}
+ItemDisplay[crs !ETH !RW NMAG (SOCK=4)]:%GRAY%%NAME%%NL%%PURPLE%[스피리트재료] {%NAME%}
+ItemDisplay[crs ETH !RW NMAG (SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL%%PURPLE%[스피리트재료] {%NAME%}
+ItemDisplay[fla !ETH !RW NMAG (SOCK=5)]:%GRAY%%NAME%%NL%%PURPLE%[콜투암스] {%NAME%}
+ItemDisplay[fla ETH !RW NMAG (SOCK=5)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL%%PURPLE%[콜투암스] {%NAME%}
+ItemDisplay[fla !ETH !RW NMAG (SOCK=4)]:%GRAY%%NAME%%NL%%PURPLE%[오크의심장] {%NAME%}
+ItemDisplay[fla ETH !RW NMAG (SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL%%PURPLE%[오크의심장] {%NAME%}
+ItemDisplay[(bsd OR crs) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %GRAY% %NAME%%WHITE% (라죽4솟) %PURPLE%[L%ILVL%]%NL%%PURPLE%[스피리트재료]{%NAME%}
+ItemDisplay[(bsd OR lsd) !RW CLVL<55 !ETH NMAG SOCK=4]:%GRAY%%NAME%%NL%%PURPLE%[스피리트재료] {%WHITE%+%RED%캐릭터 레벨 55이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(bsd OR lsd) !RW CLVL>54 !ETH NMAG SOCK=4]:
 //PHASE BLADE 7cr/LEGEND SWORD 72h/CADUCEUS 7ws/COLOSSUS SWORD 7fb+BLADE 7gd/BERSERKER AXE 7wa/GLORIOUS AXE 7gi/OGER MAUL 7m7/THUNDERMAUL 7gm/BALOG BLADE 7gs
 ItemDisplay[7wa ETH !RW NMAG ED=15 (SOCK=4)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%증뎀 %ORANGE%[불사조재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* {%NAME%}<<MONEY>>
