@@ -105,7 +105,7 @@
      12. 18.Oct,2024
       1) Now can activate filtered items in Town
       2) Superior item has simplyfied name (Sup)
-      3) Base item expression changed
+      3) Base item expression changed (Correctly named for enhanced defence/damage)
          
 ----------------------------------------------------------------------------------------------------------------------
 :
