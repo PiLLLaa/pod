@@ -2050,30 +2050,30 @@ ItemDisplay[WEAPON NMAG !RW (SOCK=6)]:%NAME%{%GOLD%침묵:%ORANGE%돌%WHITE%+%RE
 ItemDisplay[WP13 NMAG !RW (SOCK=4)]:%NAME%{%GOLD%신성한 번개:%ORANGE%에드%WHITE%+%ORANGE%랄%WHITE%+%YELLOW%오르트%WHITE%+%TAN%탈%NL%%NAME%}%CONTINUE%
 ItemDisplay[EQ1 NMAG !RW (SOCK=2)]:%NAME%{%GOLD%학식:%ORANGE%오르트%WHITE%+%RED%솔%NL%%NAME%}%CONTINUE%
 ////Body Armor////
-ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% +15%방상  {%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% -10%리콰  {%NAME%}
-ItemDisplay[NMAG !ETH !RW ED=15 xtp (SOCK=0 OR SOCK=3)]: %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%방상 %ORANGE%[수수재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*  {%NAME%} <<SPECIAL>>
-ItemDisplay[NMAG !ETH !RW ED=15 (uui OR utu OR utp) SOCK=3]: %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%방상 %ORANGE%[수수재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*  {%NAME%} <<SPECIAL>>
-ItemDisplay[NMAG !ETH !RW ED=15 (uui OR utu OR utp) (SOCK=0 OR SOCK=4)]: %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%방상 %ORANGE%[인내재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*  {%NAME%} <<SPECIAL>>
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=15 (xtp OR uui OR utu OR utp)]: %NAME%%BLUE% +15%방상  {%NAME%}
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %NAME%%BLUE% +15%방상  {%NAME%}
-ItemDisplay[NMAG !ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %NAME%%BLUE% -10%리콰  {%NAME%}
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %NAME%%BLUE% 방상  {%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% 방상  {%NAME%}
-ItemDisplay[xld NMAG !RW !ETH ED=15 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %BLUE%15%방상    {%NAME%}
-ItemDisplay[xld NMAG !RW !ETH ED<14 ED>0 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %BLUE%방상   {%NAME%}
-ItemDisplay[xld NMAG !RW !ETH STAT91=-10 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %BLUE%10%리콰   {%NAME%}
-ItemDisplay[xld NMAG !RW !ETH STAT91<0 STAT91>-10 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %BLUE%리콰   {%NAME%}
-ItemDisplay[xld NMAG !RW !ETH ED=15 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %BLUE%15%방상    {%NAME%}
-ItemDisplay[gth NMAG !RW !ETH ED=15 SOCK=3]:%GRAY%%NAME% %BLUE%15%방상  {%NAME%}
-ItemDisplay[gth NMAG !RW !ETH ED<14 ED>0 SOCK=3]:%GRAY%%NAME% %BLUE%방상   {%NAME%}
-ItemDisplay[gth NMAG !RW !ETH STAT91=-10 SOCK=3]:%GRAY%%NAME% %BLUE%10%리콰   {%NAME%}
-ItemDisplay[gth NMAG !RW !ETH STAT91<0 STAT91>-10 SOCK=3]:%GRAY%%NAME% %BLUE%리콰   {%NAME%}
+ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %PURPLE%+15%%BLUE%방상{%NAME%}
+ItemDisplay[NMAG ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% -10%리콰{%NAME%}
+ItemDisplay[NMAG !ETH !RW ED=15 xtp (SOCK=0 OR SOCK=3)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%방상 %ORANGE%[수수재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%} <<SPECIAL>>
+ItemDisplay[NMAG !ETH !RW ED=15 (uui OR utu OR utp) SOCK=3]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%방상 %ORANGE%[수수재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%} <<SPECIAL>>
+ItemDisplay[NMAG !ETH !RW ED=15 (uui OR utu OR utp) (SOCK=0 OR SOCK=4)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%방상 %ORANGE%[인내재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%} <<SPECIAL>>
+ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=15 (xtp OR uui OR utu OR utp)]:%NAME% %PURPLE%+15%%BLUE%방상{%NAME%}
+ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%NAME% %PURPLE%+15%%BLUE%방상{%NAME%}
+ItemDisplay[NMAG !ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%NAME%%BLUE% -10%리콰{%NAME%}
+ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%NAME% %WHITE%+%EDEFENSE%%%BLUE%방상{%NAME%}
+ItemDisplay[NMAG ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %WHITE%+%EDEFENSE%%%BLUE%방상{%NAME%}
+ItemDisplay[xld NMAG !RW !ETH ED=15 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %PURPLE%+15%%BLUE%방상{%NAME%}
+ItemDisplay[xld NMAG !RW !ETH ED<14 ED>0 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %WHITE%+%EDEFENSE%%%BLUE%방상{%NAME%}
+ItemDisplay[xld NMAG !RW !ETH STAT91=-10 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %BLUE%10%리콰{%NAME%}
+ItemDisplay[xld NMAG !RW !ETH STAT91<0 STAT91>-10 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %BLUE%리콰{%NAME%}
+ItemDisplay[xld NMAG !RW !ETH ED=15 (SOCK=0 OR SOCK=3)]:%GRAY%%NAME% %PURPLE%+15%%BLUE%방상{%NAME%}
+ItemDisplay[gth NMAG !RW !ETH ED=15 SOCK=3]:%GRAY%%NAME% %BLUE%+15%방상{%NAME%}
+ItemDisplay[gth NMAG !RW !ETH ED<14 ED>0 SOCK=3]:%GRAY%%NAME% %WHITE%+%EDEFENSE%%%BLUE%방상{%NAME%}
+ItemDisplay[gth NMAG !RW !ETH STAT91=-10 SOCK=3]:%GRAY%%NAME% %BLUE%10%리콰{%NAME%}
+ItemDisplay[gth NMAG !RW !ETH STAT91<0 STAT91>-10 SOCK=3]:%GRAY%%NAME% %BLUE%리콰{%NAME%}
 ItemDisplay[gth NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%{%NAME%}
-ItemDisplay[aar NMAG !RW !ETH ED=15 SOCK=3]:%GRAY%%NAME%%BLUE% 15%방상    {%NAME%}
-ItemDisplay[aar NMAG !RW !ETH ED<14 ED>0 SOCK=3]:%GRAY%%NAME%%BLUE% 방상   {%NAME%}
-ItemDisplay[aar NMAG !RW !ETH STAT91=-10 SOCK=3]:%GRAY%%NAME%%BLUE% 10%리콰   {%NAME%}
-ItemDisplay[aar NMAG !RW !ETH STAT91<0 STAT91>-10 SOCK=3]:%GRAY%%NAME%%BLUE% 리콰   {%NAME%}
+ItemDisplay[aar NMAG !RW !ETH ED=15 SOCK=3]:%GRAY%%NAME% %BLUE%+15%방상{%NAME%}
+ItemDisplay[aar NMAG !RW !ETH ED<14 ED>0 SOCK=3]:%GRAY%%NAME% %WHITE%+%EDEFENSE%%%BLUE%방상{%NAME%}
+ItemDisplay[aar NMAG !RW !ETH STAT91=-10 SOCK=3]:%GRAY%%NAME% %BLUE%10%리콰{%NAME%}
+ItemDisplay[aar NMAG !RW !ETH STAT91<0 STAT91>-10 SOCK=3]:%GRAY%%NAME% %BLUE%리콰{%NAME%}
 //High Def ETH armors
 ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uui DEF>664]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% highest Def  {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%GOLD%탈%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%NAME%}
 ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uea DEF>668]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% highest Def  {%GRAY%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%GOLD%탈%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%NAME%}
