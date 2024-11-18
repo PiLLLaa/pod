@@ -2553,13 +2553,13 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK=0 SK267>2]:%NAME% %PURPLE%+3 Fade{%GRAY%(Max Sockets when using Larzuk)%NL%%YELLOW%(Weapon Socket:%GOLD%RAL%WHITE%+%GOLD%AMN%WHITE%+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%NAME%}
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH SOCK=0 ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% %PURPLE%+15%%BLUE%Ed{%GRAY%(Max Sockets when using Larzuk)%NL%%YELLOW%(Weapon Socket:%GOLD%RAL%WHITE%+%GOLD%AMN%WHITE%+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%NAME%}
 //Dream helm+Shield
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) ED=15]: %NAME% %ORANGE%[Dream] %ORANGE%15%Def  {%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) STAT91=-10]: %NAME% %ORANGE%[Dream] %ORANGE%10%Req  {%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]: %NAME% %ORANGE%[Dream] %ORANGE%15%Def  {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]: %NAME% %ORANGE%[Dream] %ORANGE%10%Req  {%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]: %GRAY% %NAME% %ORANGE%[Dream]  {%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) ED=15]:%NAME%%NL% %ORANGE%[Dream] %WHITE%15%Def{%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) STAT91=-10]:%NAME%%NL% %ORANGE%[Dream] %WHITE%10%Req{%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME%%NL% %ORANGE%[Dream] %WHITE%15%Def{%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME%%NL% %ORANGE%[Dream] %WHITE%10%Req{%YELLOW%(Helmet Soc:%GOLD%Ral%WHITE%+%GOLD%Thul%WHITE%+%ORANGE%P%WHITE%Sapphire%BLUE%@%YELLOW%)%NL%%GRAY%(Max Sockets when using Larzuk)%NL%%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%%NL% %ORANGE%[Dream]{%NAME%}
 //6 sox good weapon bases
-ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]: %GRAY%%NAME% %TEAL%6Soc {%NAME%}
+ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]:%GRAY%%NAME% %PURPLE%[%TEAL%6Soc Base%PURPLE%] {%NAME%}
 //Non Magic Primal Helm +3 to WarCry
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK146>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 WarCry %YELLOW%+3 Bc %ORANGE%[Delirium+Dream] {%NAME%}
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK149>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 WarCry %YELLOW%+3 Bo %ORANGE%[Delirium+Dream] {%NAME%}
