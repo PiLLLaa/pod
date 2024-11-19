@@ -627,7 +627,7 @@ ItemDisplay[MAG (SUFFIX(595) OR SUFFIX(596))]:%NAME% %NL%%GREEN%[%PURPLE%Lower %
 ItemDisplay[RARE (amu) !ID]:%NL%%NL%     %GREEN%[ %YELLOW%%NAME% %GREEN%]     %NL%%NL%%NL%   <<RARE>>
 ItemDisplay[RARE (rin OR jew) !ID]:%NL%%NL%         %GREEN%[ %YELLOW%%NAME% %GREEN%]         %NL%%NL%%NL%   <<RARE>>
 ItemDisplay[SET !ID amu]:   %NL%%NL% %PURPLE%[ %GREEN%%NAME% %PURPLE%] %NL%%NL%%NL%   <<SET>>
-ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%%NL%
+ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%%NL% <<NSET>>
 ItemDisplay[MAG amu !ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL96+]
 ItemDisplay[MAG amu !ID ILVL=86]: %BLUE%%NAME%%GRAY%[CL94+]
 ItemDisplay[MAG amu !ID ILVL=87]: %BLUE%%NAME%%GRAY%[CL94+]
