@@ -4,7 +4,7 @@ Attribute[Version]: 1.3.1_S13
 Attribute[Date]: 2024/11/18 
 //                                      Filter Level                                           //
 FilterLevel[1]: 일반 //FILTLVL>0 
-FilterLevel[2]: 매직링 삭제  //FILTLVL>1
+FilterLevel[2]: 매직링 삭제+하위룬 드랍표시  //FILTLVL>1
 FilterLevel[3]: +라지참 삭제 //FILTLVL>2
 FilterLevel[4]: +크래프트 베이스 삭제 //FILTLVL>3
 FilterLevel[5]: +매직 아이템+HP+MP포션 삭제 //FILTLVL>4
@@ -40,6 +40,7 @@ ItemStyle[MP]: BorderColor = 151, BorderSize = 1, BackgroundColor = 0
 ItemStyle[RP]: BorderColor = 155, BorderSize = 1, BackgroundColor = 0
 ItemStyle[ANTI]: BorderColor = 223, BorderSize = 1, BackgroundColor = 0
 ItemStyle[UNID]: BorderColor = 14, BorderSize = 10, BackgroundColor = 0
+ItemStyle[LRUNE]: MapIcon = 5, MapIconColor = 0, BorderColor = 32, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM
 //Gambling
 ItemDisplay[NMAG rin !ID]:%NL% %ORANGE%Bul-Kathos' Wedding Band%NL%%CORAL%Stone of Jordan%NL%%RED%Wisp Projector %NL%%NL% %CORAL%[%CORAL%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL%
 ItemDisplay[NMAG amu !ID]:%NL%%NL%%GREEN%	Tal Rasha's Adjudication%NL%%SAGE%The Rising Sun%NL%%YELLOW%Metalgrid%NL%%ORANGE%Cat's Eye%NL%%CORAL%Highlord's Wrath%NL%%RED%Mara's Kaleidoscope%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%베스트 %GOLD%겜블링%NL%
@@ -410,25 +411,45 @@ ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>349
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 //                                        RUNE                                                 //
-ItemDisplay[(r01)]:%TAN%엘%WHITE%룬 %GOLD%[1]
-ItemDisplay[(r02)]:%TAN%엘%WHITE%드%BLUE%룬 %GOLD%[2]
-ItemDisplay[(r03)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%티르 %GOLD%[3] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r04)]:%WHITE%네%GRAY%프%TAN%룬 %GOLD%[4]
-ItemDisplay[(r05)]:%GOLD%에%WHITE%드%GOLD%룬 %GOLD%[5]
-ItemDisplay[(r06)]:%BLUE%아%GRAY%이%WHITE%드 %GOLD%[6]
-ItemDisplay[(r07)]:%DGREEN%탈%WHITE%룬 %GOLD%[7]
-ItemDisplay[(r08)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%랄%WHITE%룬 %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r11)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%엠%WHITE%룬 %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r12)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%솔%WHITE%룬 %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r15)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%헬%BLUE%룬 %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r18)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%코%WHITE%룬 %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r19)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%팔%WHITE%룬 %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r09)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%오르트%WHITE%룬 %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r10)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%주울%WHITE%룬 %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r13)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%샤에%WHITE%룬 %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r14)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%돌%BLUE%룬 %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r16)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%아이오%WHITE%룬 %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r17)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%룸%WHITE%룬 %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r01) FILTERLVL=1]:%TAN%엘%WHITE%룬 %GOLD%[1] <<LRUNE>>
+ItemDisplay[(r02) FILTERLVL=1]:%TAN%엘%WHITE%드%BLUE%룬 %GOLD%[2] <<LRUNE>>
+ItemDisplay[(r03) FILTERLVL=1]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%티르 %GOLD%[3] %GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<LRUNE>>
+ItemDisplay[(r04) FILTERLVL=1]:%WHITE%네%GRAY%프%TAN%룬 %GOLD%[4] <<LRUNE>>
+ItemDisplay[(r05) FILTERLVL=1]:%GOLD%에%WHITE%드%GOLD%룬 %GOLD%[5] <<LRUNE>>
+ItemDisplay[(r06) FILTERLVL=1]:%BLUE%아%GRAY%이%WHITE%드 %GOLD%[6] <<LRUNE>>
+ItemDisplay[(r07) FILTERLVL=1]:%DGREEN%탈%WHITE%룬 %GOLD%[7] <<LRUNE>>
+ItemDisplay[(r08) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%랄%WHITE%룬 %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r11) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%엠%WHITE%룬 %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r12) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%솔%WHITE%룬 %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r15) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%헬%BLUE%룬 %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r18) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%코%WHITE%룬 %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r19) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%팔%WHITE%룬 %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r09) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%오르트%WHITE%룬 %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r10) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%주울%WHITE%룬 %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r13) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%샤에%WHITE%룬 %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r14) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%돌%BLUE%룬 %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r16) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%아이오%WHITE%룬 %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r17) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%룸%WHITE%룬 %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+
+ItemDisplay[(r01) !FILTERLVL=1]:%TAN%엘%WHITE%룬 %GOLD%[1]
+ItemDisplay[(r02) !FILTERLVL=1]:%TAN%엘%WHITE%드%BLUE%룬 %GOLD%[2]
+ItemDisplay[(r03) !FILTERLVL=1]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%티르 %GOLD%[3] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*
+ItemDisplay[(r04) !FILTERLVL=1]:%WHITE%네%GRAY%프%TAN%룬 %GOLD%[4]
+ItemDisplay[(r05) !FILTERLVL=1]:%GOLD%에%WHITE%드%GOLD%룬 %GOLD%[5]
+ItemDisplay[(r06) !FILTERLVL=1]:%BLUE%아%GRAY%이%WHITE%드 %GOLD%[6]
+ItemDisplay[(r07) !FILTERLVL=1]:%DGREEN%탈%WHITE%룬 %GOLD%[7]
+ItemDisplay[(r08) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%랄%WHITE%룬 %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r11) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%엠%WHITE%룬 %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r12) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%솔%WHITE%룬 %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r15) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%헬%BLUE%룬 %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r18) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%코%WHITE%룬 %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r19) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%팔%WHITE%룬 %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r09) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%오르트%WHITE%룬 %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r10) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%주울%WHITE%룬 %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r13) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%샤에%WHITE%룬 %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r14) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%돌%BLUE%룬 %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r16) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%아이오%WHITE%룬 %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r17) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%룸%WHITE%룬 %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
 ItemDisplay[(r20)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%렘%WHITE%룬 %GOLD%[20] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<MONEY>>
 ItemDisplay[(r21)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %WHITE%풀%BLUE%룬%GOLD%[21]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
 ItemDisplay[(r22)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %GREEN%우%BLUE%움%WHITE%룬%GOLD%[22]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
