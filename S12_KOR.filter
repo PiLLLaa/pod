@@ -3172,6 +3172,7 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK=0 SK262>2]:%NAME% %YELLOW%+3 웨오파{%NAME%}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK=0 SK271>2]:%NAME% %GREEN%+3 라센{%NAME%}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK=0 SK267>2]:%NAME% %PURPLE%+3 페이드{%NAME%}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG (SOCK=0 OR SOCK=3) SKILL("Shadow Master")>2]:%NAME% %PURPLE%+3 쉐마{%NAME%}
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH SOCK=0 ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% %PURPLE%+15%%BLUE%증뎀{%NAME%}
 
 //Dream helm+Shield
