@@ -1,15 +1,15 @@
-Attribute[Author]: PILLLA
-Attribute[Name]: English Version filter(Item.Filter in Folder)
-Attribute[Version]: 1.3.1_S13
-Attribute[Date]: 18/Oct/2024 
+Attribute[Author]: ÿc2PILLLA
+Attribute[Name]: ÿc8English Version filterÿc1(Item.Filter in Folder)
+Attribute[Version]:ÿc3 1.3.1_S13
+Attribute[Date]:ÿc4 18/Oct/2024 
 //                                      Filter Level                                           //
 FilterLevel[1]: Standard //FILTLVL>0 
-FilterLevel[2]: No Ring+LowRuneNoti.  //FILTLVL>1
-FilterLevel[3]: +Large Charm Deletion //FILTLVL>2
-FilterLevel[4]: +Craft Base Deletion //FILTLVL>3
-FilterLevel[5]: +All Magic Deletion+HP+MP //FILTLVL>4
-FilterLevel[6]: +Set Deletion //FILTLVL>5
-FilterLevel[7]: +Only Selected Unique_Caution //FILTLVL>6
+FilterLevel[2]: No Ring+ÿc1LowRuneNoti.  //FILTLVL>1
+FilterLevel[3]: +ÿc2Large Charm Deletion //FILTLVL>2
+FilterLevel[4]: +ÿc3Craft Base Deletion //FILTLVL>3
+FilterLevel[5]: +ÿc4No All Magic+ÿc1HP+ÿc3MP //FILTLVL>4
+FilterLevel[6]: +ÿc8Set Deletion //FILTLVL>5
+FilterLevel[7]: +ÿc9Only Selected Unique //FILTLVL>6
 FilterLevel[8]: +All Normal Item Deletion //FILTLVL>7
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0]: 
@@ -424,45 +424,45 @@ ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>349
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
 //                                        RUNE                                                 //
-ItemDisplay[(r01) FILTERLVL=1]:%TAN%E%WHITE%l %GOLD%[1] <<LRUNE>>
-ItemDisplay[(r02) FILTERLVL=1]:%TAN%E%WHITE%l%BLUE%d %GOLD%[2] <<LRUNE>>
-ItemDisplay[(r03) FILTERLVL=1]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Tir %GOLD%[3] %GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<LRUNE>>
-ItemDisplay[(r04) FILTERLVL=1]:%WHITE%N%GRAY%e%TAN%f %GOLD%[4] <<LRUNE>>
-ItemDisplay[(r05) FILTERLVL=1]:%GOLD%E%WHITE%t%GOLD%h %GOLD%[5] <<LRUNE>>
-ItemDisplay[(r06) FILTERLVL=1]:%BLUE%I%GRAY%t%WHITE%h %GOLD%[6] <<LRUNE>>
-ItemDisplay[(r07) FILTERLVL=1]:%DGREEN%T%WHITE%a%TAN%l %GOLD%[7] <<LRUNE>>
-ItemDisplay[(r08) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%Ral %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r11) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Amn %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r12) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Sol %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r15) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Hel %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r18) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%Ko %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r19) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Fal %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r09) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Ort %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r10) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%Thul %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r13) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Shael %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r14) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Dol %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r16) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Io %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
-ItemDisplay[(r17) FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Lum %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r01) FILTERLVL=2]:%TAN%E%WHITE%l %GOLD%[1] <<LRUNE>>
+ItemDisplay[(r02) FILTERLVL=2]:%TAN%E%WHITE%l%BLUE%d %GOLD%[2] <<LRUNE>>
+ItemDisplay[(r03) FILTERLVL=2]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Tir %GOLD%[3] %GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<LRUNE>>
+ItemDisplay[(r04) FILTERLVL=2]:%WHITE%N%GRAY%e%TAN%f %GOLD%[4] <<LRUNE>>
+ItemDisplay[(r05) FILTERLVL=2]:%GOLD%E%WHITE%t%GOLD%h %GOLD%[5] <<LRUNE>>
+ItemDisplay[(r06) FILTERLVL=2]:%BLUE%I%GRAY%t%WHITE%h %GOLD%[6] <<LRUNE>>
+ItemDisplay[(r07) FILTERLVL=2]:%DGREEN%T%WHITE%a%TAN%l %GOLD%[7] <<LRUNE>>
+ItemDisplay[(r08) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%Ral %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r11) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Amn %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r12) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Sol %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r15) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Hel %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r18) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%Ko %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r19) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Fal %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r09) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Ort %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r10) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%Thul %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r13) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Shael %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r14) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Dol %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r16) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Io %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
+ItemDisplay[(r17) FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Lum %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<LRUNE>>
 
-ItemDisplay[(r01) !FILTERLVL=1]:%TAN%E%WHITE%l %GOLD%[1]
-ItemDisplay[(r02) !FILTERLVL=1]:%TAN%E%WHITE%l%BLUE%d %GOLD%[2]
-ItemDisplay[(r03) !FILTERLVL=1]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Tir %GOLD%[3] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r04) !FILTERLVL=1]:%WHITE%N%GRAY%e%TAN%f %GOLD%[4]
-ItemDisplay[(r05) !FILTERLVL=1]:%GOLD%E%WHITE%t%GOLD%h %GOLD%[5]
-ItemDisplay[(r06) !FILTERLVL=1]:%BLUE%I%GRAY%t%WHITE%h %GOLD%[6]
-ItemDisplay[(r07) !FILTERLVL=1]:%DGREEN%T%WHITE%a%TAN%l %GOLD%[7]
-ItemDisplay[(r08) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%Ral %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r11) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Amn %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r12) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Sol %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r15) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Hel %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r18) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%Ko %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r19) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Fal %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r09) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Ort %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r10) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%Thul %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r13) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Shael %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r14) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Dol %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r16) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Io %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
-ItemDisplay[(r17) !FILTERLVL=1]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Lum %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r01) !FILTERLVL=2]:%TAN%E%WHITE%l %GOLD%[1]
+ItemDisplay[(r02) !FILTERLVL=2]:%TAN%E%WHITE%l%BLUE%d %GOLD%[2]
+ItemDisplay[(r03) !FILTERLVL=2]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Tir %GOLD%[3] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*
+ItemDisplay[(r04) !FILTERLVL=2]:%WHITE%N%GRAY%e%TAN%f %GOLD%[4]
+ItemDisplay[(r05) !FILTERLVL=2]:%GOLD%E%WHITE%t%GOLD%h %GOLD%[5]
+ItemDisplay[(r06) !FILTERLVL=2]:%BLUE%I%GRAY%t%WHITE%h %GOLD%[6]
+ItemDisplay[(r07) !FILTERLVL=2]:%DGREEN%T%WHITE%a%TAN%l %GOLD%[7]
+ItemDisplay[(r08) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GRAY%Ral %GOLD%[8] %GRAY%(repair) %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r11) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Amn %GOLD%[11] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r12) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Sol %GOLD%[12] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r15) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Hel %GOLD%[15] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r18) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %DGREEN%Ko %GOLD%[18] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r19) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Fal %GOLD%[19] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r09) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Ort %GOLD%[09] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r10) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %YELLOW%Thul %GOLD%[10] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r13) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%Shael %GOLD%[13] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r14) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%Dol %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r16) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%Io %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
+ItemDisplay[(r17) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%Lum %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
 ItemDisplay[(r20)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%Lem %GOLD%[20] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<MONEY>>
 ItemDisplay[(r21)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %WHITE%Pul%GOLD%[21]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
 ItemDisplay[(r22)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %GREEN%Um%GOLD%[22]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  <<HIGH>>
