@@ -22,7 +22,7 @@ ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>5]:
 ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>7]:
 //                                     Map Icon Text                                           //
 ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
-ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
+ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = MEDIUM
 ItemStyle[HIGH]: MapIcon = 24, MapIconColor = 0, BorderColor = 111, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\combatboost", NotificationSoundPriority = HIGH
 ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[NSET]: BorderColor = 132, BorderSize = 1, BackgroundColor = 0
