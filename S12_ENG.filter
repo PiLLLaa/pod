@@ -22,7 +22,7 @@ ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>5]:
 ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>7]:
 //                                     Map Icon Text                                           //
 ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
-ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
+ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = MEDIUM
 ItemStyle[HIGH]: MapIcon = 24, MapIconColor = 0, BorderColor = 111, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\combatboost", NotificationSoundPriority = HIGH
 ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[NSET]: BorderColor = 132, BorderSize = 1, BackgroundColor = 0
@@ -1281,13 +1281,13 @@ ItemDisplay[UNI !ID 6lw]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%
 ItemDisplay[UNI !ID 7kr !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Fl%ORANGE%es%GOLD%hr%WHITE%ip%GOLD%pe%ORANGE%r%NL%%NL%%GOLD%*********************
 ItemDisplay[UNI !ID 7kr ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Fl%ORANGE%es%GOLD%hr%WHITE%ip%GOLD%pe%ORANGE%r%NL%%NL%%GOLD%*********************
 //Unique Maces
-ItemDisplay[UNI !ID 7gm !ETH]:%GOLD%*********************%NL%%NL%%RED%The Cranium Basher %WHITE%Or %GREEN%Earth Shifter%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7gm ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%]  %RED%The Cranium Basher %WHITE%Or %GREEN%Earth Shifter%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7gm !ETH]:%GOLD%*********************%NL%%NL%%RED%The Cranium Basher %WHITE%Or %GREEN%Earth Shifter%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7gm ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%]  %RED%The Cranium Basher %WHITE%Or %GREEN%Earth Shifter%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 //Unique Polearms
-ItemDisplay[UNI !ID 7s8 !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Th%ORANGE%e R%GOLD%ea%WHITE%pe%GOLD%rs %ORANGE%To%PURPLE%ll%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7s8 ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Th%ORANGE%e R%GOLD%ea%WHITE%pe%GOLD%rs %ORANGE%To%PURPLE%ll%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7pa !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%To%ORANGE%mb %GOLD%Re%WHITE%av%GOLD%er%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7pa ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%To%ORANGE%mb %GOLD%Re%WHITE%av%GOLD%er%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7s8 !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Th%ORANGE%e R%GOLD%ea%WHITE%pe%GOLD%rs %ORANGE%To%PURPLE%ll%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7s8 ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Th%ORANGE%e R%GOLD%ea%WHITE%pe%GOLD%rs %ORANGE%To%PURPLE%ll%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7pa !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%To%ORANGE%mb %GOLD%Re%WHITE%av%GOLD%er%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7pa ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%To%ORANGE%mb %GOLD%Re%WHITE%av%GOLD%er%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 //Unique Staves
 ItemDisplay[UNI !ID 6cs !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%On%ORANGE%da%GOLD%ls %WHITE%Wi%GOLD%sd%ORANGE%om%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 ItemDisplay[UNI !ID 6cs ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%On%ORANGE%da%GOLD%ls %WHITE%Wi%GOLD%sd%ORANGE%om%NL%%NL%%GOLD%*********************<<UNIQUE2>>
@@ -3256,7 +3256,7 @@ ItemDisplay[WP13 !RW !ETH NMAG SK102>2 SOCK=0]:%GRAY%%NAME% %TEAL%+3 HolyFire{%N
 ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]:%GRAY%%NAME% %CORAL%+3 HolyFreeze{%NAME%}
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]:%GRAY%%NAME% %NL%%ORANGE%[HolyThunder]{%NAME%}
 ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%NAME%}
-ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[HolyThunder]{%NAME%}
+//ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[HolyThunder]{%NAME%}
 ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%NAME%}
 //폴암 4솟
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
