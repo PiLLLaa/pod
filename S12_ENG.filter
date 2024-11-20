@@ -3255,7 +3255,7 @@ ItemDisplay[WP13 !RW !ETH NMAG SK102>2 SOCK=0]:%GRAY%%NAME% %TEAL%+3 HolyFire{%N
 ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]:%GRAY%%NAME% %CORAL%+3 HolyFreeze{%NAME%}
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]:%GRAY%%NAME% %NL%%ORANGE%[HolyThunder]{%NAME%}
 ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%NAME%}
-//ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[HolyThunder]{%NAME%}
+ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[HolyThunder]{%NAME%}
 ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%NAME%}
 //폴암 4솟
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
