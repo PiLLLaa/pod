@@ -3202,6 +3202,7 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK=0 SK262>2]:%NAME% %YELLOW%+3 Wof{%NAME%}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK=0 SK271>2]:%NAME% %GREEN%+3 Ls{%NAME%}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG SOCK=0 SK267>2]:%NAME% %PURPLE%+3 Fade{%NAME%}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG (SOCK=0 OR SOCK=3) SKILL("Shadow Master")>2]:%NAME% %PURPLE%+3 ShaMas{%NAME%}
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH SOCK=0 ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% %PURPLE%+15%%BLUE%Ed{%NAME%}
 //Dream helm+Shield
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) ED=15]:%NAME%%NL% %ORANGE%[Dream] %WHITE%15%Def{%NAME%}
