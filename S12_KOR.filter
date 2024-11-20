@@ -23,7 +23,7 @@ ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>5]:
 ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>7]:
 //                                     Map Icon Text                                           //
 ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
-ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
+ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = MEDIUM
 ItemStyle[HIGH]: MapIcon = 24, MapIconColor = 0, BorderColor = 111, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\combatboost", NotificationSoundPriority = HIGH
 ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[NSET]: BorderColor = 132, BorderSize = 1, BackgroundColor = 0
@@ -1250,13 +1250,13 @@ ItemDisplay[UNI !ID 6lw]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%
 ItemDisplay[UNI !ID 7kr !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%살%ORANGE%갗 %GOLD%찢%WHITE%개%NL%%NL%%GOLD%********************* 
 ItemDisplay[UNI !ID 7kr ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%살%ORANGE%갗 %GOLD%찢%WHITE%개%NL%%NL%%GOLD%*********************
 //Unique Maces
-ItemDisplay[UNI !ID 7gm !ETH]: %GOLD%*********************%NL%%NL%%RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7gm ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7gm !ETH]: %GOLD%*********************%NL%%NL%%RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7gm ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 //Unique Polearms
-ItemDisplay[UNI !ID 7s8 !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7s8 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7pa ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7s8 !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7s8 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7pa ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 //Unique Staves
 ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%온%ORANGE%달%GOLD%의 %WHITE%지혜%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 ItemDisplay[UNI !ID 6cs ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%온%ORANGE%달%GOLD%의 %WHITE%지혜%NL%%NL%%GOLD%*********************<<UNIQUE2>>
@@ -1278,7 +1278,7 @@ ItemDisplay[UNI !ID ama ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE
 ItemDisplay[UNI !ID amf !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%낙%ORANGE%뢰%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 ItemDisplay[UNI !ID amf ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%낙%ORANGE%뢰%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 //Unique Assassin only items
-ItemDisplay[UNI !ID 9tw !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%바르%ORANGE%툭의 %GOLD%목따%WHITE%개%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 9tw !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%바르%ORANGE%툭의 %GOLD%목따%WHITE%개%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 ItemDisplay[UNI !ID 9tw ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%바르%ORANGE%툭의 %GOLD%목따%WHITE%개%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 //Unique Necromancer only items
 ItemDisplay[UNI !ID nea !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%호%ORANGE%문%GOLD%쿨%WHITE%루%GOLD%스%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
@@ -3227,7 +3227,7 @@ ItemDisplay[WP13 !RW !ETH NMAG SK102>2 SOCK=0]:%GRAY%%NAME% %SAGE%+3 홀리파�
 ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]:%GRAY%%NAME% %TEAL%+3 홀리프리즈{%NAME%}
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]:%GRAY%%NAME% %NL%%ORANGE%[홀리썬더]{%NAME%}
 ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]:%GRAY%%NAME% %NL%%ORANGE%[비스트]{%NAME%}
-ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[홀리썬더]{%NAME%}
+//ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[홀리썬더]{%NAME%}
 ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %NL%%ORANGE%[비스트]{%NAME%}
 //폴암 4솟
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[통찰]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
