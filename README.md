@@ -113,6 +113,15 @@
       1) Normal Base item has a comments how much items can get socket
          
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     14. 20.Oct,2024
+      1) Small/Grand/Magic Jewel/Rare Jewel/Ring/Amulet has special marks when identified status.
+      2) Normal Set item has border line
+      3) Abyssal Furnace changed tier to 2
+      4) Now, Filter level 1 can activate low rune notification. (when change it, it would be disabled)
+      5) Bug fixed.
+         
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
