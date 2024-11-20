@@ -1837,17 +1837,17 @@ ItemDisplay[SET !ID (gsc OR lrg)]: %GREEN%%NAME%%NL%%SAGE%[시버브]<<NSET>>
 ItemDisplay[SET !ID (lsd OR mgl OR sml)]: %GREEN%%NAME%%NL%%SAGE%[클레글로]<<NSET>>
 ItemDisplay[SET !ID (wsd OR lgl OR lbl)]: %GREEN%%NAME%%NL%%SAGE%[죽음]<<NSET>>
 ItemDisplay[SET !ID (buc OR mbt)]: %GREEN%%NAME%%NL%%SAGE%[사루스]<<NSET>>
-ItemDisplay[SET !ID mbl]: %GREEN%%NAME%%NL%%SAGE%[사루스or환인]<<NSET>>
-ItemDisplay[SET !ID cap]: %GREEN%%NAME%%NL%%SAGE%[지옥or샌더]<<NSET>>
-ItemDisplay[SET !ID tbl]: %GREEN%%NAME%%NL%%SAGE%[지옥or이라사]<<NSET>>
+ItemDisplay[SET !ID mbl]: %GREEN%%NAME%%NL%%SAGE%[사루스/환인]<<NSET>>
+ItemDisplay[SET !ID cap]: %GREEN%%NAME%%NL%%SAGE%[지옥/샌더]<<NSET>>
+ItemDisplay[SET !ID tbl]: %GREEN%%NAME%%NL%%SAGE%[지옥/이라사]<<NSET>>
 ItemDisplay[SET !ID gwn]: %GREEN%%NAME%%NL%%SAGE%[지옥]<<NSET>>
 ItemDisplay[SET !ID (bsd OR fhl OR brs OR gts)]: %GREEN%%NAME%%NL%%SAGE%[아이젠하트]<<NSET>>
-ItemDisplay[SET !ID crn]: %GREEN%%NAME%%NL%%SAGE%[밀라브레가or이라사]<<NSET>>
+ItemDisplay[SET !ID crn]: %GREEN%%NAME%%NL%%SAGE%[밀라브레가/이라사]<<NSET>>
 ItemDisplay[SET !ID (aar OR kit OR wsp)]: %GREEN%%NAME%%NL%%SAGE%[밀라브레가]<<NSET>>
 ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi)]: %GREEN%%NAME%%NL%%SAGE%[탄크레드]<<NSET>>
 ItemDisplay[SET !ID (lbb OR lea OR tbt)]: %GREEN%%NAME%%NL%%SAGE%[비달라]<<NSET>>
 ItemDisplay[SET !ID (xap OR stu)]: %GREEN%%NAME%%NL%%SAGE%[카우왕]<<NSET>>
-ItemDisplay[SET !ID vbt]: %GREEN%%NAME%%NL%%SAGE%[카우왕or샌더]<<NSET>>
+ItemDisplay[SET !ID vbt]: %GREEN%%NAME%%NL%%SAGE%[카우왕/샌더]<<NSET>>
 ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm)]: %GREEN%%NAME%%NL%%SAGE%[천인]<<NSET>>
 ItemDisplay[SET !ID (xrn OR 9vo OR xcl)]: %GREEN%%NAME%%NL%%SAGE%[환인]<<NSET>>
 ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %GREEN%%NAME%%NL%%SAGE%[나즈]<<NSET>>
