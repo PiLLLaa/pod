@@ -124,6 +124,17 @@
       7) Bug fixed.
          
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     14. 21.Nov,2024
+      1) War Scepter [HolyThunder Base] be disabled for 0 Socket base
+      2) Syntesized item expression changed
+      3) Beast base non socket be disabled in Hell (Be dropped less phase (nightmare and normal, but 5soc exist on Hell)
+      4) Noamrl 6Soc base be disabled in Hell (Be dropped less phase (nightmare and normal))
+      5) Claw base has his option and combination on the name.
+      6) Added Shadow mater option for Claw
+      7) War Spike base will be dropped 
+         
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
