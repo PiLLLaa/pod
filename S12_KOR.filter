@@ -6,7 +6,7 @@ Attribute[Date]: ÿc42024/11/21
 //ÿc5=회색,ÿc6=짙은회색,ÿc1=빨간색, ÿc2=녹색,ÿc3=파란색,ÿc4=금색,ÿc0=흰색,ÿc7=골드색,ÿc8주황색,ÿc9노란색
 FilterLevel[1]: 일반 //FILTLVL>0 
 FilterLevel[2]: 매직링 삭제+ÿc1하위룬 드랍표시  //FILTLVL>1
-FilterLevel[3]: +ÿc5베이스무소켓무옵삭제(에테제외)  //FILTLVL>1
+FilterLevel[3]: +ÿc5베이스ÿc1무소켓무옵삭제ÿc2(에테제외)  //FILTLVL>1
 FilterLevel[4]: +ÿc2라지참 삭제 //FILTLVL>2->3
 FilterLevel[5]: +ÿc3크래프트 베이스 삭제 //FILTLVL>3->4
 FilterLevel[6]: +ÿc4매직 아이템+ÿc1HP+ÿc3MPÿc0포션 삭제 //FILTLVL>4->5
