@@ -6,7 +6,7 @@ Attribute[Date]: ÿc42024/11/21
 //ÿc5=회색,ÿc6=짙은회색,ÿc1=빨간색, ÿc2=녹색,ÿc3=파란색,ÿc4=금색,ÿc0=흰색,ÿc7=골드색,ÿc8주황색,ÿc9노란색
 FilterLevel[1]: 일반 //FILTLVL>0 
 FilterLevel[2]: 매직링 삭제+ÿc1하위룬 드랍표시  //FILTLVL>1
-FilterLevel[3]: +ÿc5기본베이스무소켓삭제(에테제외)  //FILTLVL>1
+FilterLevel[3]: +ÿc5베이스무소켓무옵삭제(에테제외)  //FILTLVL>1
 FilterLevel[4]: +ÿc2라지참 삭제 //FILTLVL>2->3
 FilterLevel[5]: +ÿc3크래프트 베이스 삭제 //FILTLVL>3->4
 FilterLevel[6]: +ÿc4매직 아이템+ÿc1HP+ÿc3MPÿc0포션 삭제 //FILTLVL>4->5
@@ -3106,6 +3106,7 @@ ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp 
 ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) !SUP ETH !RW NMAG SOCK=0]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 ItemDisplay[(7cr OR 7ws) !SUP !ETH !RW NMAG SOCK=0]:%GRAY%%NAME%{%NAME%}
 ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) ETH !RW NMAG !SOCK=1]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
+ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) !ETH !RW NMAG !SOCK=1]:%GRAY%%NAME%{%NAME%}
 ItemDisplay[(7cr OR 7ws) !ETH !RW NMAG !SOCK=1]:%GRAY%%NAME%{%NAME%}
 //Polearm+SPEAR ALL//giant thresher 7wc/ colossus voulge 7vo/thresher 7s8/great poleaxe 7h7/mancatcher 7br/war pike 7p7
 ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (7p7 OR 7wc OR 7s8 OR 7br OR 7vo OR 7h7) FILTERLVL>2 !AREALVL<1]:
