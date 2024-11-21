@@ -2303,6 +2303,8 @@ ItemDisplay[7kr NMAG !RW]:%GRAY%Fanged Knife%CONTINUE%
 //Added
 ItemDisplay[7mp NMAG !RW]:%GRAY%War Spike%CONTINUE%
 ItemDisplay[9cr NMAG !RW]:%GRAY%Dimensional Blade%CONTINUE%
+ItemDisplay[2ax NMAG !RW]:%GRAY%Double Axe%CONTINUE%
+ItemDisplay[7bt NMAG !RW]:%GRAY%Decapitator%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%s%BLUE%u%PURPLE%p%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
@@ -3210,7 +3212,8 @@ ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME%%NL% 
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME%%NL% %ORANGE%[Dream] %WHITE%10%Req{%NAME%}
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%%NL% %ORANGE%[Dream]{%NAME%}
 //6 sox good weapon bases
-ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]:%GRAY%%NAME% %PURPLE%[%TEAL%6Soc Base%PURPLE%] {%NAME%}
+ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6Soc Base%PURPLE%] {%GOLD%This Item only be dropped before hell%NL%%NAME%}
+ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6Soc Base%PURPLE%] {%NAME%}
 //Non Magic Primal Helm +3 to WarCry
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK146>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 WarCry %PINK%+3 Bc %PURPLE%[Delirium+Dream] {%NAME%}
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK149>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 WarCry %PINK%+3 Bo %PURPLE%[Delirium+Dream] {%NAME%}
@@ -3255,9 +3258,9 @@ ItemDisplay[WP13 !RW !ETH NMAG SK101>2 SOCK=0]:%GRAY%%NAME% %SAGE%+3 HolyBolt{%N
 ItemDisplay[WP13 !RW !ETH NMAG SK102>2 SOCK=0]:%GRAY%%NAME% %TEAL%+3 HolyFire{%NAME%}
 ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]:%GRAY%%NAME% %CORAL%+3 HolyFreeze{%NAME%}
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]:%GRAY%%NAME% %NL%%ORANGE%[HolyThunder]{%NAME%}
-ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%NAME%}
+ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%GOLD%Non Socket base will be droped before Hell%NL%%NAME%}
 //ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[HolyThunder]{%NAME%}
-ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%NAME%}
+ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0 DIFFICULTY<2]:%GRAY%%NAME% %NL%%ORANGE%[Beast]{%NAME%}
 //폴암 4솟
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL<80]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%NL% %PURPLE%[Insight]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
