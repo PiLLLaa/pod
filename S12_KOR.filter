@@ -6,21 +6,22 @@ Attribute[Date]: ÿc42024/11/21
 //ÿc5=회색,ÿc6=짙은회색,ÿc1=빨간색, ÿc2=녹색,ÿc3=파란색,ÿc4=금색,ÿc0=흰색,ÿc7=골드색,ÿc8주황색,ÿc9노란색
 FilterLevel[1]: 일반 //FILTLVL>0 
 FilterLevel[2]: 매직링 삭제+ÿc1하위룬 드랍표시  //FILTLVL>1
-FilterLevel[3]: +ÿc2라지참 삭제 //FILTLVL>2
-FilterLevel[4]: +ÿc3크래프트 베이스 삭제 //FILTLVL>3
-FilterLevel[5]: +ÿc4매직 아이템+ÿc1HP+ÿc3MPÿc0포션 삭제 //FILTLVL>4
-FilterLevel[6]: +ÿc8세트 아이템 삭제 //FILTLVL>5
-FilterLevel[7]: +ÿc9엄선된 유니크만(사용 주의) //FILTLVL>6
-FilterLevel[8]: +모든 베이스템 삭제 //FILTLVL>7
+FilterLevel[3]: +ÿc5기본베이스무소켓삭제(에테제외)  //FILTLVL>1
+FilterLevel[4]: +ÿc2라지참 삭제 //FILTLVL>2->3
+FilterLevel[5]: +ÿc3크래프트 베이스 삭제 //FILTLVL>3->4
+FilterLevel[6]: +ÿc4매직 아이템+ÿc1HP+ÿc3MPÿc0포션 삭제 //FILTLVL>4->5
+FilterLevel[7]: +ÿc8세트 아이템 삭제 //FILTLVL>5->6
+FilterLevel[8]: +ÿc9엄선된 유니크만(사용 주의) //FILTLVL>6->7
+FilterLevel[9]: +모든 베이스템 삭제 //FILTLVL>7->8
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0]: 
-ItemDisplay[MAG (cm2) FILTERLVL>1]:
-ItemDisplay[(mp5 OR hp5 OR yps) FILTERLVL>4]:
-//ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>3]:
-//ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>4]:
-ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>5]:
-ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>7]:
+ItemDisplay[MAG (cm2) FILTERLVL>3]:
+ItemDisplay[(mp5 OR hp5 OR yps) FILTERLVL>5]:
+//ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>4]:
+//ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>5]:
+ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>6]:
+ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>8]:
 //                                     Map Icon Text                                           //
 ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
 ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = MEDIUM
@@ -1305,7 +1306,7 @@ ItemDisplay[UNI !ID pac ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE
 ItemDisplay[UNI !ID (rin)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %CORAL%링 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %WHITE%아%PURPLE%뮬%ORANGE%렛 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (jew)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%NL% %RED%레%ORANGE%인%YELLOW%보%GREEN%우 %BLUE%쥬%PURPLE%얼 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
-ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>6]:
+ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>7]:
 //UNIQUE NORMAL NAMING
 ItemDisplay[UNI !ID cap !ETH]:%NL%%GRAY%*%TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID cap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
@@ -1942,30 +1943,30 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*<<NSET>>
 //ItemDisplay[(xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[세이프티]%WHITE%크래프트갑옷
 //ItemDisplay[(xrs OR urs) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
 
-ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
-ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) (!ETH OR ETH) MAG !ID FILTERLVL>3]: 
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
 //ItemDisplay[(6lw OR 9gm OR 8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) (!ETH OR ETH) MAG !ID FILTLVL>6]:
 
-ItemDisplay[(6lw OR 8lw) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(8rx OR 6rx OR 6mx OR 6hx) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(9gm OR 7gm) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(9gd OR 7gd OR 9ls OR 7ls) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(9xf OR 7xf OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(9ws OR 7ws) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(9tr OR 7tr OR 9st OR 7st OR 9p9 OR 7p7) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(7mt OR 7wh) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(oba OR obf) !ETH MAG !ID FILTERLVL>3]:
-ItemDisplay[(6ws) !ETH MAG !ID FILTERLVL>3]:
+ItemDisplay[(6lw OR 8lw) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(8rx OR 6rx OR 6mx OR 6hx) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(9gm OR 7gm) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(9gd OR 7gd OR 9ls OR 7ls) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(9xf OR 7xf OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(9ws OR 7ws) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(9tr OR 7tr OR 9st OR 7st OR 9p9 OR 7p7) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(7mt OR 7wh) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(oba OR obf) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(6ws) !ETH MAG !ID FILTERLVL>4]:
 
-//ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !ETH MAG !ID ILVL>50 FILTERLVL>3]:
+//ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !ETH MAG !ID ILVL>50 FILTERLVL>4]:
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 글럽]
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧]
 ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(바바)]
@@ -2973,6 +2974,8 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL<26 amc]:%NAME%{%YELLOW%(아이템레벨:%ORANGE
 
 
 ////Body Armor////
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0 OR !STAT91<0) (xld OR gth OR aar OR xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar) FILTERLVL>2 !AREALVL<1]:
+
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %PURPLE%+15%%BLUE%방상{%NAME%}
 ItemDisplay[NMAG ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%BLUE% -10%리콰{%NAME%}
 ItemDisplay[NMAG !ETH !RW ED=15 xtp (SOCK=0 OR SOCK=3)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%방상 %ORANGE%[수수재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%} <<SPECIAL>>
@@ -3037,6 +3040,8 @@ ItemDisplay[NMAG !ETH !RW !SUP SOCK=0 (xtp OR uui OR utu OR urs OR utp OR uld OR
 ItemDisplay[NMAG ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 ItemDisplay[NMAG !ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %GRAY%%NAME%{%NAME%}
 //monarc
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0 OR !STAT91<0 OR !RES>0 OR !AR>0) (uit OR CL3) FILTERLVL>2 !AREALVL<1]:
+
 ItemDisplay[uit !ETH !RW NMAG ED=15 (SOCK=4 OR SOCK=0)]:%NAME%%BLUE% +15%방상{%NAME%}
 ItemDisplay[uit !ETH !RW NMAG ED>0 (SOCK=4 OR SOCK=0)]:%NAME%%BLUE% %WHITE%+%EDEFENSE%%방상{%NAME%}
 ItemDisplay[uit !ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% -10%리콰 %ORANGE%[불사조재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* {%NAME%}<<MONEY>>
@@ -3066,6 +3071,8 @@ ItemDisplay[CL3 ELT ETH NMAG !RW RES<45 RES>39 (SOCK=3 OR SOCK=4)]:%WHITE%[%PURP
 ItemDisplay[CL3 ELT ETH NMAG !RW AR>119 !SOCK=1]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %PURPLE%+%EDAMAGE%% %WHITE%+120%BLUE%어레 {%NAME%}
 ItemDisplay[CL3 ELT ETH NMAG !RW (SOCK=3 OR SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY% %NAME% {%NAME%}
 //CRYSTAL SWORD/BROAD SWORD/LONG SWORD/MACE
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=1) (!ED>0) (crs OR fla OR 7fl OR bsd OR lsd) FILTERLVL>2 !AREALVL<1]:
+
 ItemDisplay[crs !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=3]:%NAME% %WHITE%+15%%BLUE%증뎀{%NAME%}
 ItemDisplay[crs ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %WHITE%+15%%BLUE%증뎀{%NAME%}
 ItemDisplay[(fla OR 7fl) !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=3]:%NAME% %WHITE%+15%%BLUE%증뎀{%NAME%}
@@ -3087,6 +3094,8 @@ ItemDisplay[(bsd OR crs) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]:%GRAY%%NAME
 ItemDisplay[(bsd OR lsd) !RW CLVL<55 !ETH NMAG SOCK=4]:%GRAY%%NAME%%NL%%PURPLE%[스피리트재료] {%WHITE%+%RED%캐릭터 레벨 55이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(bsd OR lsd) !RW CLVL>54 !ETH NMAG SOCK=4 !AREALVL<1]:
 //PHASE BLADE 7cr/LEGEND SWORD 72h/CADUCEUS 7ws/COLOSSUS SWORD 7fb+BLADE 7gd/BERSERKER AXE 7wa/GLORIOUS AXE 7gi/OGER MAUL 7m7/THUNDERMAUL 7gm/BALOG BLADE 7gs
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (7wd OR 7wa OR 7mp OR 7cr OR 7gd OR 7wa OR 7gi OR 7gm OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) FILTERLVL>2 !AREALVL<1]:
+
 ItemDisplay[(7wa OR 7mp) ETH !RW NMAG ED=15 (SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+15%%BLUE%증뎀 %ORANGE%[불사조재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
 ItemDisplay[7cr !ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=6)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+15%%BLUE%증뎀 %ORANGE%[마소재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
 ItemDisplay[(7gd OR 7wa OR 7gi OR 7gm) ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=6)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+15%%BLUE%증뎀 %ORANGE%[죽숨/마소재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* <<MONEY>>{%NAME%}
@@ -3099,6 +3108,8 @@ ItemDisplay[(7cr OR 7ws) !SUP !ETH !RW NMAG SOCK=0]:%GRAY%%NAME%{%NAME%}
 ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) ETH !RW NMAG !SOCK=1]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 ItemDisplay[(7cr OR 7ws) !ETH !RW NMAG !SOCK=1]:%GRAY%%NAME%{%NAME%}
 //Polearm+SPEAR ALL//giant thresher 7wc/ colossus voulge 7vo/thresher 7s8/great poleaxe 7h7/mancatcher 7br/war pike 7p7
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (7p7 OR 7wc OR 7s8 OR 7br OR 7vo OR 7h7) FILTERLVL>2 !AREALVL<1]:
+
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+15%%BLUE%증뎀 %ORANGE%[죽숨재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED>0 ED<15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+15%%BLUE%증뎀 %ORANGE%[죽숨재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
 ItemDisplay[(7wc OR 7s8 OR 7br OR 7p7) ETH !RW NMAG SOCK=4 ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+15%%BLUE%증뎀 %ORANGE%[무공재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
@@ -3111,6 +3122,8 @@ ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) ETH !RW NMAG (SOCK=0 OR SOC
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) !SUP ETH !RW NMAG SOCK=0]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) ETH !RW NMAG (SOCK=0 OR SOCK>3)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 //Amazon Spears//
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (CL7 OR amd OR ame) FILTERLVL>2 !AREALVL<1]:
+
 ItemDisplay[CL7 ELT NMAG ETH ED=15 TABSK2>2 SOCK=5]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %PURPLE%+15%%BLUE%증뎀{%NAME%}
 ItemDisplay[(amd OR ame) NMAG !RW ETH ED=15 TABSK2>2 (SOCK=0)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %PURPLE%+15%%BLUE%증뎀{%NAME%}
 ItemDisplay[(amd OR ame) NMAG !RW ETH ED=15 TABSK2>2 (SOCK=6)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %PURPLE%+15%%BLUE%증뎀{%NAME%}
