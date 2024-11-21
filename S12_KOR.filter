@@ -2269,6 +2269,8 @@ ItemDisplay[7kr NMAG !RW]:%GRAY%팽드 나이프{%NAME%}%CONTINUE%
 //Added
 ItemDisplay[7mp NMAG !RW]:%GRAY%워 스파이크%CONTINUE%
 ItemDisplay[9cr NMAG !RW]:%GRAY%디멘셔널 블레이드%CONTINUE%
+ItemDisplay[2ax NMAG !RW]:%GRAY%더블 엑스%CONTINUE%
+ItemDisplay[7bt NMAG !RW]:%GRAY%데피케이터%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%슈%BLUE%페%PURPLE%리%RED%얼%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
@@ -3178,7 +3180,8 @@ ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME%%NL% 
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%10%리콰{%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%NAME%}
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%%NL% %ORANGE%[드림재료]{%NAME%}
 //6 sox good weapon bases
-ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
+ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6 DIFFICULTY<2]:%GRAY%%NAME% %NL%%PURPLE%[%GOLD%이아이템은 나이트메어 이하에서만 드랍됨%NL%%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
+ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
 //Non Magic Primal Helm +3 to 워크라이
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK146>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 워크라이 %PINK%+3 배틀크라이 %PURPLE%[착란+꿈베이스] {%NAME%}
 ItemDisplay[CL2 !ETH !RW NMAG (SK154>2 AND SK149>2) SOCK=3]: %GRAY%%NAME%%NL%%GREEN%+3 워크라이 %PINK%+3 오더 %PURPLE%[착란+꿈베이스] {%NAME%}
@@ -3223,9 +3226,9 @@ ItemDisplay[WP13 !RW !ETH NMAG SK101>2 SOCK=0]:%GRAY%%NAME% %CORAL%+3 홀리볼�
 ItemDisplay[WP13 !RW !ETH NMAG SK102>2 SOCK=0]:%GRAY%%NAME% %SAGE%+3 홀리파이어{%NAME%}
 ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]:%GRAY%%NAME% %TEAL%+3 홀리프리즈{%NAME%}
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]:%GRAY%%NAME% %NL%%ORANGE%[홀리썬더]{%NAME%}
-ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]:%GRAY%%NAME% %NL%%ORANGE%[비스트]{%NAME%}
+ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=5]:%GRAY%%NAME% %NL%%ORANGE%[비스트]{%GOLD% 0소켓템은 나이트메어이하에서만 드랍됨%NL%%NAME%}
 //ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %ORANGE%[홀리썬더]{%NAME%}
-ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]:%GRAY%%NAME% %NL%%ORANGE%[비스트]{%NAME%}
+ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0 DIFFICULTY<2]:%GRAY%%NAME% %NL%%ORANGE%[비스트]{%NAME%}
 //폴암 4솟
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4 CLVL<80]:%GRAY%%NAME% %NL% %PURPLE%[통찰]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4 CLVL<80]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME% %NL% %PURPLE%[통찰]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
