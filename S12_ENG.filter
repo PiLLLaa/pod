@@ -3294,6 +3294,9 @@ ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 //Helm (Lore base)
 ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[Lore]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
+//Bow (Edge base)
+ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL<80]:%NAME% %NL% %PURPLE%[Edge]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
+ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL>79 !AREALVL<1]:
 //Actication
 ItemDisplay[NMAG AREALVL<1]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in %BLUE%town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
