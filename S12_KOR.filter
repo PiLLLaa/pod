@@ -358,7 +358,7 @@ ItemDisplay[cx5]:%NAME%{%NL%헬름/갑옷/방패/무기:소켓[1toMAX]%NL%부츠
 ItemDisplay[cx7]:%NL%    %PURPLE%혼돈%WHITE%의 %ORANGE%열쇠    %NL%%NL%  <<SPECIAL>>
 ItemDisplay[cx6]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
 ItemDisplay[cx8]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
-ItemDisplay[cx9]:%NL%    %PURPLE%변화%WHITE%의 %ORANGE%오브    %NL%%NL%  <<SPECIAL>> 
+ItemDisplay[cx9]:%NL%    %PURPLE%변화%WHITE%의 %ORANGE%오브    %NL%%NL%{%GOLD%큐빙시 렐릭이 %RED%같은 티어의 렐릭%GOLD%으로 %BLUE%랜덤%GOLD%으로 변경 됨 %NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%변화의 오브 %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**}<<SPECIAL>> 
 ItemDisplay[cx9]:%NAME%{%NL%%GOLD%렐릭 변환 - 경험치/덴시티 변경 가능%NL%%NL%}
 ItemDisplay[maz]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
 ItemDisplay[UNI !ID cm4]: %NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
