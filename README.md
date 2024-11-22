@@ -140,6 +140,11 @@
       1) Filter level option added Level 2 : No drop for basic base (NO option, Only 0~1socket base, but etherial will be dropped)
       
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     15. 23.Nov,2024
+      1) Middle & High Rune have special comments and they express different type depending on town and filed
+      
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
