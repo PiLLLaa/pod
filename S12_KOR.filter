@@ -452,6 +452,7 @@ ItemDisplay[(r13) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %ORANGE%샤�
 ItemDisplay[(r14) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %WHITE%돌%BLUE%룬 %GOLD%[14] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
 ItemDisplay[(r16) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %BLUE%아이오%WHITE%룬 %GOLD%[16] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%
 ItemDisplay[(r17) !FILTERLVL=2]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %GREEN%룸%WHITE%룬 %GOLD%[17] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL%{%GOLD%Elite upgrade : %TAN%Lum %WHITE%+ %GOLD%Pul %WHITE%+ %ORANGE%P %GREEN%에메랄드 %WHITE%+ Exceptional Unique%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%럼 룬제조법 %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**%NL%}
+ItemDisplay[(r20)]:%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* %PURPLE%렘%WHITE%룬 %GOLD%[20] %GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% <<MONEY>>
 
 ItemDisplay[(r21) !AREALVL<1]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %WHITE%풀%BLUE%룬%GOLD%[21]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  {%GOLD%------------------------------------%NL%%NL%  %GREEN%Middle %GOLD% Rune   %NL%%NL%%GOLD%------------------------------------}<<HIGH>>
 ItemDisplay[(r22) !AREALVL<1]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %GREEN%우%BLUE%움%WHITE%룬%GOLD%[22]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++  {%GOLD%------------------------------------%NL%%NL%  %GREEN%Middle %GOLD% Rune   %NL%%NL%%GOLD%------------------------------------}<<HIGH>>
