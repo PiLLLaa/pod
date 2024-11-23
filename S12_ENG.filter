@@ -360,11 +360,11 @@ ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma1
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT360>0]:%NAME% %RED%C  {%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID]:%NAME%{%NAME%}
 //                                          Essences                                           //
-ItemDisplay[tes]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%Suffering%RED%(Anda) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[ceh]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%Hatred%GREEN%(Mephisto) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[bet]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%Terror%PURPLE%(Diablo) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[fed]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%Destruction%BLUE%(Baal) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[toa]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%Token %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[tes]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%Suffering%RED%(Anda) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[ceh]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%Hatred%GREEN%(Mephisto) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[bet]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%Terror%PURPLE%(Diablo) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[fed]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%Destruction%BLUE%(Baal) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[toa]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%Token %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
 //                                         POD                                                 //
 ItemDisplay[cx5]:%NL%%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%Orb %WHITE%of %ORANGE%Corruption %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬%NL%%GREEN%▼%NL%%CONTINUE% <<SPECIAL>>
 ItemDisplay[cx5]:%NAME%{%NL%HELM/ARM/SD/WP:SOC[1toMAX]%NL%BOOTS:AR[5to10%]%NL%BOOTS:DEX[5to15]%NL%BOOTS:CR[10%]%NL%GLOVE:IAS[10%]%NL%GLOVE:AR[5to10%]%NL%AMU:ALLSK[1]%NL%RING:FCR[10%]%NL%RING:FRW[10%]%NL%RING:PDR[5to6%]%NL%BELT:PIERCING[8%]%NL%ARROW:IAS[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
@@ -377,13 +377,13 @@ ItemDisplay[maz]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  
 ItemDisplay[UNI !ID cm4]:%NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
 //                                         MISC                                                //
 ItemDisplay[(leg OR ear)]:%GOLD%******************%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%GOLD%******************
-ItemDisplay[pk1]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f T%GREEN%er%DGREEN%ro%GREEN%r  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[pk2]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f H%GREEN%at%DGREEN%re%GREEN%d  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[pk3]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f D%GREEN%es%DGREEN%tr%GREEN%uc%WHITE%ti%GREEN%on  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[dhn]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Di%GREEN%ab%WHITE%lo%GREEN%'s %DGREEN%Ho%GREEN%rn  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[bey]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ba%GREEN%al%WHITE%'s %GREEN%Ey%DGREEN%e  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[mbr]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Me%GREEN%ph%WHITE%is%GREEN%to%DGREEN%'s %GREEN%Br%WHITE%ai%GREEN%n  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[std]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%St%GREEN%an%WHITE%da%GREEN%rd %DGREEN%of %GREEN%He%WHITE%ro%GREEN%es  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[pk1]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GREEN%Key %WHITE%of %RED%Terror %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[pk2]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GREEN%Key %WHITE%of %YELLOW%Hatred %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[pk3]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GREEN%Key %WHITE%of %BLUE%Destruction  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[dhn]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %WHITE%Diablo's %RED%Horn %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[bey]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %BLUE%Baal's %GREEN%Eye %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[mbr]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %YELLOW%Mephisto's %PURPLE%Brain %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[std]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GREEN%Standard %DGREEN%of %GREEN%Heroes %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
 ItemDisplay[bks]:%PURPLE%[%RED%Scroll%PURPLE%] %GOLD%of Inifuss <<QUEST>>
 ItemDisplay[bkd]:%PURPLE%[%RED%Key%PURPLE%] %GOLD%to the Cairn Stonee <<QUEST>>
 ItemDisplay[hdm]:%PURPLE%[%RED%Horadric%PURPLE%] %GOLD%Malus <<QUEST>>
@@ -932,9 +932,9 @@ ItemDisplay[jew UNI ID STAT399>2]:%NAME% %PURPLE%+%STAT(399)%%%CONTINUE%
 ItemDisplay[jew UNI ID STAT400>2]:%NAME% %WHITE%-%STAT(400)%%
 
 ////Unique Charms
-ItemDisplay[UNI !ID cm1]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %TEAL%Annihilius %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>>
-ItemDisplay[UNI !ID cm2]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%Hellfire Torch %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>> 
-ItemDisplay[UNI !ID cm3]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %RED%Gheed's Fortune %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****  <<HIGH>>
+ItemDisplay[UNI !ID cm1]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %TEAL%Annihilius %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[UNI !ID cm2]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %ORANGE%Hellfire Torch %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[UNI !ID cm3]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %RED%Gheed's Fortune %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
 ItemDisplay[UNI ID cm2 CLSK0>0]:%NAME% %RED%[%PURPLE%Ama%RED%]%CONTINUE%
 ItemDisplay[UNI ID cm2 CLSK1>0]:%NAME% %PURPLE%[%RED%Sor%PURPLE%]%CONTINUE%
 ItemDisplay[UNI ID cm2 CLSK2>0]:%NAME% %PURPLE%[%ORANGE%Nec%PURPLE%]%CONTINUE%
