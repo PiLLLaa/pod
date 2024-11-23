@@ -869,8 +869,8 @@ ItemDisplay[jew UNI ID (STAT329=5 AND STAT333=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN
 ItemDisplay[jew UNI ID (STAT334=5 AND STAT330=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %YELLOW%(라이트닝) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %YELLOW%L  i  %ORANGE%g  h  %GOLD%t  h  %TAN%n  i  %YELLOW%n  g   %GOLD%J  e  w  e l%NL%}
 ItemDisplay[jew UNI ID (STAT335=5 AND STAT331=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %BLUE%(콜드) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %BLUE%C  %GREEN%o  %PURPLE%l  %BLUE%d  %GOLD%J  e  w  e l%NL%}
 ItemDisplay[jew UNI ID (STAT336=5 AND STAT332=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %GREEN%(포이즌) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %GREEN%P  %DGREEN%o  %GOLD%i  %WHITE%s  %DGREEN%o  %GREEN%n  %GOLD%J  e  w  e l%NL%}
-ItemDisplay[jew UNI ID (STAT358=5 AND STAT357=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %ORANGE%(매직) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %BLUE%C  %GREEN%o  %PURPLE%l  %BLUE%d  %GOLD%J  e  w  e l%NL%}
-ItemDisplay[jew UNI ID (STAT399=5 AND STAT400=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %WHITE%(물리) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %GREEN%P  %DGREEN%o  %GOLD%i  %WHITE%s  %DGREEN%o  %GREEN%n  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT358=5 AND STAT357=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %ORANGE%(매직) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %BLUE%M  %GREEN%a  %PURPLE%g  %BLUE%i  %COBALT%c  %GOLD%J  e  w  e l%NL%}
+ItemDisplay[jew UNI ID (STAT399=5 AND STAT400=5)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %WHITE%(물리) %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*{%NL% %GREEN%P  %DGREEN%y  %GOLD%s  %WHITE%i  %DGREEN%c  %GREEN%s  %GOLD%J  e  w  e l%NL%}
 
 ItemDisplay[jew UNI ID]:%RED%레%ORANGE%인%YELLOW%보%GREEN%우%BLUE%파%PURPLE%셋 %CONTINUE%
 ItemDisplay[jew UNI ID STAT333>0]:%NAME% %NL% %RED%(파이어)%CONTINUE%
@@ -1961,7 +1961,7 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*<<NSET>>
 //ItemDisplay[(xrs OR urs) !ETH MAG ID]:%NAME%{%NL%%YELLOW%조합법:%WHITE%에드+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%NAME%}%CONTINUE%
 
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn OR ci2 OR ci3) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
 ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
 ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
@@ -1985,7 +1985,7 @@ ItemDisplay[(6ws) !ETH MAG !ID FILTERLVL>4]:
 
 //ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !ETH MAG !ID ILVL>50 FILTERLVL>4]:
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 글럽]
-ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧]
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn OR ci2 OR ci3) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧]
 ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(바바)]
 ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(드루)]
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 부츠]
@@ -1993,7 +1993,7 @@ ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 방패]
 ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[크랩 갑옷]
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 글럽]
-ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧]
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn OR ci2 OR ci3) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧]
 ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(바바)]
 ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 헬멧(드루)]
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) ETH MAG !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %BLUE%%BLUE%%NAME%%NL%%GRAY%[크랩 부츠]
