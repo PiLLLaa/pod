@@ -1,7 +1,7 @@
 Attribute[Author]: ÿc2PILLLA
 Attribute[Name]: ÿc8English Version filterÿc1(Item.Filter in Folder)
 Attribute[Version]:ÿc3 1.3.1_S13
-Attribute[Date]:ÿc4 23/Nov/2024 
+Attribute[Date]:ÿc4 24/Nov/2024 
 //                                      Filter Level                                           //
 FilterLevel[1]: Standard //FILTLVL>0 
 FilterLevel[2]: No Ring+ÿc1LowRuneNoti.  //FILTLVL>1
@@ -13,14 +13,14 @@ FilterLevel[7]: +ÿc8Set Deletion //FILTLVL>5->6
 FilterLevel[8]: +ÿc9Only Selected Unique //FILTLVL>6->7
 FilterLevel[9]: +All Normal Item Deletion //FILTLVL>7->8
 //                                      Filter Level Disable Item                              //
-ItemDisplay[MAG rin !ID FILTERLVL>0]: 
-ItemDisplay[MAG (cm2) FILTERLVL>3]:
-ItemDisplay[(mp5 OR hp5 OR yps) FILTERLVL>5]:
+ItemDisplay[MAG rin !ID FILTERLVL>0 !AREALVL<1]: 
+ItemDisplay[MAG (cm2) FILTERLVL>3 !AREALVL<1]:
+ItemDisplay[(mp5 OR hp5 OR yps) FILTERLVL>5 !AREALVL<1]:
 //ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>4]:
 //ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>5]:
-ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>6]:
-ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>8]:
+ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>5 !AREALVL<1]:
+ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
+ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>8 !AREALVL<1]:
 //                                     Map Icon Text                                           //
 ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
 ItemStyle[UNIQUE2]: MapIcon = 10, MapIconColor = 0, BorderColor = 14, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = MEDIUM
@@ -1354,7 +1354,7 @@ ItemDisplay[UNI !ID pac ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%
 ItemDisplay[UNI !ID (rin)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Ring %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Am%PURPLE%ul%ORANGE%et %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (jew)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%**** <<UNIQUE>>
-ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>7]:
+ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>7 !AREALVL<1]:
 //UNIQUE NORMAL NAMING
 ItemDisplay[UNI !ID cap !ETH]:%NL%%GRAY%*%TAN%Biggin's Bonnet%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID cap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Biggin's Bonnet%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
@@ -1992,28 +1992,28 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*<<NSET>>
 //ItemDisplay[(xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%BLUE%[Safety]%WHITE%Craft Armor%YELLOW%[L%ILVL%]
 //ItemDisplay[(xrs OR urs) !ETH MAG ID]:%NAME%{%NL%%YELLOW%Crafting:%WHITE%Eth+%GREEN%P_Emerald%WHITE%+Jewel%NL%%NAME%}%CONTINUE%
 
-ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn OR ci2 OR ci3) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
-ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) (!ETH OR ETH) MAG !ID FILTERLVL>4]: 
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn OR ci2 OR ci3) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) (!ETH OR ETH) MAG !ID FILTERLVL>4 !AREALVL<1]: 
 //ItemDisplay[(6lw OR 9gm OR 8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) (!ETH OR ETH) MAG !ID FILTLVL>6]:
 
-ItemDisplay[(6lw OR 8lw) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(8rx OR 6rx OR 6mx OR 6hx) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(9gm OR 7gm) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(9gd OR 7gd OR 9ls OR 7ls) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(9xf OR 7xf OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(9ws OR 7ws) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(9tr OR 7tr OR 9st OR 7st OR 9p9 OR 7p7) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(7mt OR 7wh) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(oba OR obf) !ETH MAG !ID FILTERLVL>4]:
-ItemDisplay[(6ws) !ETH MAG !ID FILTERLVL>4]:
+ItemDisplay[(6lw OR 8lw) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(8rx OR 6rx OR 6mx OR 6hx) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(tsp OR 9ts OR 7ts OR glv OR 9gl OR 7gl) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(9ta OR 7ta OR 9s9 OR 7s7 OR 9b8 OR 7b8) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(9gm OR 7gm) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(9gd OR 7gd OR 9ls OR 7ls) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(9xf OR 7xf OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(9ws OR 7ws) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(9tr OR 7tr OR 9st OR 7st OR 9p9 OR 7p7) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(7mt OR 7wh) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(oba OR obf) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
+ItemDisplay[(6ws) !ETH MAG !ID FILTERLVL>4 !AREALVL<1]:
 
 //ItemDisplay[(clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !ETH MAG !ID ILVL>50 FILTERLVL>4]:
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]:%BLUE%%NAME%%NL%%GRAY%[craft glove]
