@@ -1,7 +1,7 @@
 Attribute[Author]: ÿc2필라
 Attribute[Name]: ÿc8한글 필터, 폴더내 ÿc1Item.Filter ÿc8로 저장됨
 Attribute[Version]:ÿc3 1.3.1_S13
-Attribute[Date]: ÿc42024/11/23 
+Attribute[Date]: ÿc42024/11/24 
 //                                      Filter Level                                           //
 //ÿc5=회색,ÿc6=짙은회색,ÿc1=빨간색, ÿc2=녹색,ÿc3=파란색,ÿc4=금색,ÿc0=흰색,ÿc7=골드색,ÿc8주황색,ÿc9노란색
 FilterLevel[1]: 일반 //FILTLVL>0 
@@ -1196,129 +1196,129 @@ ItemDisplay[RW SOCK=4 EQ2 ALLSK=2 STAT136>19 STAT46>3 STAT110>49 STAT79>49]:%NAM
 ItemDisplay[RW]:%NAME%{%NAME%}
 //                                      UNIQUE                                                 //
 ItemDisplay[UNI !ID xh9 !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%뱀파%ORANGE%이어%GOLD%의 응%WHITE%시%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
-ItemDisplay[UNI !ID xh9 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%뱀파%ORANGE%이어%GOLD%의 응%WHITE%시%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID xh9 ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%뱀파%ORANGE%이어%GOLD%의 응%WHITE%시%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID uap !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%할리%ORANGE%퀸 크%GOLD%레%WHITE%스트 %GOLD%샤코%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID uap ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%할리%ORANGE%퀸 크%GOLD%레%WHITE%스트 %GOLD%샤코%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID ulm !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%강%ORANGE%철 %GOLD%차%WHITE%양%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID ulm ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%강%ORANGE%철 %GOLD%차%WHITE%양%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID uap ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%할리%ORANGE%퀸 크%GOLD%레%WHITE%스트 %GOLD%샤코%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID ulm !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%강%ORANGE%철 %GOLD%차%WHITE%양%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID ulm ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%강%ORANGE%철 %GOLD%차%WHITE%양%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID usk !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%안다%ORANGE%리엘%GOLD%의 두%WHITE%개골%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID usk ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%안다%ORANGE%리엘%GOLD%의 두%WHITE%개골%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID usk ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%안다%ORANGE%리엘%GOLD%의 두%WHITE%개골%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID ci3 !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%그%ORANGE%리%GOLD%폰%WHITE%의 %GOLD%눈%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID ci3 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%그%ORANGE%리%GOLD%폰%WHITE%의 %GOLD%눈%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID ci2 !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%키%ORANGE%라%GOLD%의 %WHITE%수%GOLD%호%ORANGE%자%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID ci2 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%키%ORANGE%라%GOLD%의 %WHITE%수%GOLD%호%ORANGE%자%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID ci3 ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%그%ORANGE%리%GOLD%폰%WHITE%의 %GOLD%눈%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID ci2 !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%키%ORANGE%라%GOLD%의 %WHITE%수%GOLD%호%ORANGE%자%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID ci2 ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%키%ORANGE%라%GOLD%의 %WHITE%수%GOLD%호%ORANGE%자%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 //Unique Armor
-ItemDisplay[UNI !ID xea !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%뱀 주%ORANGE%술%GOLD%사의 %WHITE%가죽%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xea ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%뱀 주%ORANGE%술%GOLD%사의 %WHITE%가죽%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID xea !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%뱀 주%ORANGE%술%GOLD%사의 %WHITE%가죽%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xea ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%뱀 주%ORANGE%술%GOLD%사의 %WHITE%가죽%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID xhn !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%칼날%ORANGE%막%GOLD%이 %WHITE%갑%GOLD%옷%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID xhn ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%칼날%ORANGE%막%GOLD%이 %WHITE%갑%GOLD%옷%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xtp !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%퀘 %ORANGE%히%GOLD%간%WHITE%의 %GOLD%지혜%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xtp ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%퀘 %ORANGE%히%GOLD%간%WHITE%의 %GOLD%지혜%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xlt !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%수%ORANGE%호 %GOLD%천%WHITE%사%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xlt ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%수%ORANGE%호 %GOLD%천%WHITE%사%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uui !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%올%ORANGE%머%GOLD%스%WHITE%의 %GOLD%장%ORANGE%포%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uui ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%올%ORANGE%머%GOLD%스%WHITE%의 %GOLD%장%ORANGE%포%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID utu !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%검투%ORANGE%사의 %GOLD%골칫%WHITE%거리%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID utu ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%검투%ORANGE%사의 %GOLD%골칫%WHITE%거리%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID upl !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%아케%ORANGE%인의 %GOLD%용%WHITE%기%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID upl ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%아케%ORANGE%인의 %GOLD%용%WHITE%%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uld !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%레%ORANGE%비%GOLD%아%WHITE%탄%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uld ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%레%ORANGE%비%GOLD%아%WHITE%탄%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID xhn ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%칼날%ORANGE%막%GOLD%이 %WHITE%갑%GOLD%옷%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xtp !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%퀘 %ORANGE%히%GOLD%간%WHITE%의 %GOLD%지혜%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xtp ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%퀘 %ORANGE%히%GOLD%간%WHITE%의 %GOLD%지혜%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xlt !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%수%ORANGE%호 %GOLD%천%WHITE%사%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xlt ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%수%ORANGE%호 %GOLD%천%WHITE%사%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uui !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%올%ORANGE%머%GOLD%스%WHITE%의 %GOLD%장%ORANGE%포%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uui ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%올%ORANGE%머%GOLD%스%WHITE%의 %GOLD%장%ORANGE%포%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID utu !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%검투%ORANGE%사의 %GOLD%골칫%WHITE%거리%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID utu ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%검투%ORANGE%사의 %GOLD%골칫%WHITE%거리%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID upl !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%아케%ORANGE%인의 %GOLD%용%WHITE%기%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID upl ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%아케%ORANGE%인의 %GOLD%용%WHITE%%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uld !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%레%ORANGE%비%GOLD%아%WHITE%탄%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uld ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%레%ORANGE%비%GOLD%아%WHITE%탄%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID uar !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%티리얼 OR %GREEN%기사단의 권능%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID uar ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%기사%ORANGE%단의 %GOLD%권%WHITE%능%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID uar ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%기사%ORANGE%단의 %GOLD%권%WHITE%능%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 //Unique Shields
 ItemDisplay[UNI !ID uit !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%폭%ORANGE%풍%GOLD%막%WHITE%이%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID uit ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%폭%ORANGE%풍%GOLD%막%WHITE%이%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID uit ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%폭%ORANGE%풍%GOLD%막%WHITE%이%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 //Unique Gloves
-ItemDisplay[UNI !ID mgl !ETH]: %GOLD%*********************%NL%%NL%%RED%기회의 장갑%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID mgl ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%기회의 장갑%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID tgl !ETH]: %GOLD%*********************%NL%%NL%%RED%마수%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID tgl ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%마수%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID hgl !ETH]: %GOLD%*********************%NL%%NL%%RED%서리불꽃%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID hgl ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%서리불꽃%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID mgl !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%기회의 장갑%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID mgl ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%기회의 장갑%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID tgl !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%마수%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID tgl ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%마수%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID hgl !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%서리불꽃%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID hgl ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%서리불꽃%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID uvg !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%RED%드라큘의 손아귀%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID uvg ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%드라큘의 손아귀%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID uvg ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%드라큘의 손아귀%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID umg !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%RED%영혼흡수 완갑%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID umg ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%영혼흡수 완갑%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uhg !ETH]: %GOLD%*********************%NL%%NL%%RED%강철 찢개%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uhg ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%강철 찢개%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID umg ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%영혼흡수 완갑%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uhg !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%강철 찢개%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uhg ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%강철 찢개%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 //Unique Boots 
-ItemDisplay[UNI !ID xmb !ETH]: %GOLD%*********************%NL%%NL%%RED%비단직조 장화%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xmb ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%비단직조 장화%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID xmb !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%비단직조 장화%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xmb ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%비단직조 장화%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID xtb !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%RED%전장의 여행자%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID xtb ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%전장의 여행자%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xhb !ETH]: %GOLD%*********************%NL%%NL%%RED%선혈의 장화%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xhb ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%선혈의 장화%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uvb !ETH]: %GOLD%*********************%NL%%NL%%RED%모래폭풍 등반화%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uvb ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%모래폭풍 등반화%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID xtb ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%전장의 여행자%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xhb !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%선혈의 장화%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID xhb ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%선혈의 장화%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uvb !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%모래폭풍 등반화%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uvb ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%모래폭풍 등반화%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 //Unique Belts
-ItemDisplay[UNI !ID zvb !ETH]: %GOLD%*********************%NL%%NL%%RED%날카로운 꼬리%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID zvb ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%날카로운 꼬리%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID zhb !ETH]: %GOLD%*********************%NL%%NL%%RED%천둥신의 박력%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID zhb ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%천둥신의 박력%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID zvb !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%날카로운 꼬리%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID zvb ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%날카로운 꼬리%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID zhb !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%천둥신의 박력%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID zhb ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%천둥신의 박력%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID ulc !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%RED%거미줄 그물끈%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID ulc ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%거미줄 그물끈%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uvc !ETH]: %GOLD%*********************%NL%%NL%%RED%노스페라투의 고리%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uvc ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%노스페라투의 고리%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID ulc ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%거미줄 그물끈%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uvc !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%노스페라투의 고리%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID uvc ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%노스페라투의 고리%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 ItemDisplay[UNI !ID umc !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%RED%베르던고의든든한끈%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID umc ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%베르던고의 든든한 끈%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID umc ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%베르던고의 든든한 끈%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 //Unique Bows
 ItemDisplay[UNI !ID 6lw]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%바%ORANGE%람%GOLD%살%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
 //Unique Daggers
-ItemDisplay[UNI !ID 7kr !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%살%ORANGE%갗 %GOLD%찢%WHITE%개%NL%%NL%%GOLD%********************* 
-ItemDisplay[UNI !ID 7kr ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%살%ORANGE%갗 %GOLD%찢%WHITE%개%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7kr !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%살%ORANGE%갗 %GOLD%찢%WHITE%개%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** 
+ItemDisplay[UNI !ID 7kr ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%살%ORANGE%갗 %GOLD%찢%WHITE%개%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***
 //Unique Maces
-ItemDisplay[UNI !ID 7gm !ETH]: %GOLD%*********************%NL%%NL%%RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 7gm ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7gm !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 7gm ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%지축 망치 %WHITE%OR %GREEN%두개골 파괴자%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Polearms
-ItemDisplay[UNI !ID 7s8 !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 7s8 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 7pa ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7s8 !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 7s8 ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%사%ORANGE%신%GOLD%의 %WHITE%수%GOLD%확%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 7pa ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%무%ORANGE%덤 %GOLD%약%WHITE%탈%GOLD%자%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Staves
-ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%온%ORANGE%달%GOLD%의 %WHITE%지혜%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 6cs ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%온%ORANGE%달%GOLD%의 %WHITE%지혜%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 6ws !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%망 %ORANGE%송%GOLD%의 %WHITE%교훈%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 6ws ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%망 %ORANGE%송%GOLD%의 %WHITE%교훈%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%온%ORANGE%달%GOLD%의 %WHITE%지혜%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 6cs ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%온%ORANGE%달%GOLD%의 %WHITE%지혜%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 6ws !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%망 %ORANGE%송%GOLD%의 %WHITE%교훈%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 6ws ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%망 %ORANGE%송%GOLD%의 %WHITE%교훈%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Swords
-ItemDisplay[UNI !ID 7cr]: %GOLD%*********************%NL%%NL%%RED%광검 %WHITE%OR %BLUE%푸른 서슬%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7cr]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%광검 %WHITE%OR %BLUE%푸른 서슬%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***
 ItemDisplay[UNI !ID 7gd !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%대%ORANGE%선%GOLD%조%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID 7gd ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%대%ORANGE%선%GOLD%조%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7gd ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%대%ORANGE%선%GOLD%조%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Wands
 ItemDisplay[UNI !ID 7gw !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%죽%ORANGE%음%GOLD%의 %WHITE%거미%GOLD%줄%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID 7gw ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%죽%ORANGE%음%GOLD%의 %WHITE%거미%GOLD%줄%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 7gw ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%죽%ORANGE%음%GOLD%의 %WHITE%거미%GOLD%줄%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Throwing Weapons
-ItemDisplay[UNI !ID 7bk !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%전%ORANGE%장%GOLD%의 %WHITE%새%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID 7bk ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%전%ORANGE%장%GOLD%의 %WHITE%새%NL%%NL%%GOLD%********************* <<UNIQUE2>>
+ItemDisplay[UNI !ID 7bk !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%전%ORANGE%장%GOLD%의 %WHITE%새%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
+ItemDisplay[UNI !ID 7bk ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%전%ORANGE%장%GOLD%의 %WHITE%새%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%*** <<UNIQUE2>>
 //Unique Amazon only items
-ItemDisplay[UNI !ID ama !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%타이%ORANGE%탄의 %GOLD%복%WHITE%수%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID ama ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%타이%ORANGE%탄의 %GOLD%복%WHITE%수%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID amf !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%낙%ORANGE%뢰%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID amf ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%낙%ORANGE%뢰%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID ama !ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%타이%ORANGE%탄의 %GOLD%복%WHITE%수%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID ama ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%타이%ORANGE%탄의 %GOLD%복%WHITE%수%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID amf !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%낙%ORANGE%뢰%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID amf ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%낙%ORANGE%뢰%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Assassin only items
-ItemDisplay[UNI !ID 9tw !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%바르%ORANGE%툭의 %GOLD%목따%WHITE%개%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID 9tw ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%바르%ORANGE%툭의 %GOLD%목따%WHITE%개%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID 9tw !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%바르%ORANGE%툭의 %GOLD%목따%WHITE%개%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID 9tw ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%바르%ORANGE%툭의 %GOLD%목따%WHITE%개%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Necromancer only items
 ItemDisplay[UNI !ID nea !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%호%ORANGE%문%GOLD%쿨%WHITE%루%GOLD%스%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID nea ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%호%ORANGE%문%GOLD%쿨%WHITE%루%GOLD%스%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID nea ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%호%ORANGE%문%GOLD%쿨%WHITE%루%GOLD%스%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Barbarian only items
 ItemDisplay[UNI !ID baa !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%아리%ORANGE%앗의 %GOLD%얼%WHITE%굴%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID baa ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%아리%ORANGE%앗의 %GOLD%얼%WHITE%굴%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID baa ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%아리%ORANGE%앗의 %GOLD%얼%WHITE%굴%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Sorceress only items
-ItemDisplay[UNI !ID oba !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%망%ORANGE%울%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID oba ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%망%ORANGE%울%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID oba !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%망%ORANGE%울%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID oba ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%망%ORANGE%울%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***
 ItemDisplay[UNI !ID obc !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%에슈%ORANGE%타의 %GOLD%성%WHITE%미%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID obc ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%에슈%ORANGE%타의 %GOLD%성%WHITE%미%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID obc ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%에슈%ORANGE%타의 %GOLD%성%WHITE%미%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 ItemDisplay[UNI !ID obf !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%죽음%ORANGE%의 %GOLD%헤%WHITE%아%GOLD%림%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID obf ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%죽음%ORANGE%의 %GOLD%헤%WHITE%아%GOLD%림%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID obf ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%죽음%ORANGE%의 %GOLD%헤%WHITE%아%GOLD%림%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Druid only items
 ItemDisplay[UNI !ID dra !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%잘%ORANGE%알%GOLD%의 %WHITE%갈%GOLD%기%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID dra ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%잘%ORANGE%알%GOLD%의 %WHITE%갈%GOLD%기%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID dra ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%잘%ORANGE%알%GOLD%의 %WHITE%갈%GOLD%기%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Paladin only items
 ItemDisplay[UNI !ID pa9 !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%자카%ORANGE%룸의 %GOLD%전%WHITE%령%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
-ItemDisplay[UNI !ID pa9 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %%PURPLE%자카%ORANGE%룸의 %GOLD%전%WHITE%령%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID pac !ETH]: %GOLD%*********************%NL%%NL%%PURPLE%알마 %ORANGE%네%GOLD%그%WHITE%라%NL%%NL%%GOLD%*********************<<UNIQUE2>>
-ItemDisplay[UNI !ID pac ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%알마 %ORANGE%네%GOLD%그%WHITE%라%NL%%NL%%GOLD%*********************<<UNIQUE2>>
+ItemDisplay[UNI !ID pa9 ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %%PURPLE%자카%ORANGE%룸의 %GOLD%전%WHITE%령%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID pac !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%알마 %ORANGE%네%GOLD%그%WHITE%라%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
+ItemDisplay[UNI !ID pac ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%알마 %ORANGE%네%GOLD%그%WHITE%라%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID (rin)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %CORAL%링 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %WHITE%아%PURPLE%뮬%ORANGE%렛 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
