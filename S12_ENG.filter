@@ -569,7 +569,7 @@ ItemDisplay[hgl MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Gauntlets{%NAME%}%CONTI
 ItemDisplay[xhg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:War Gauntlets{%NAME%}%CONTINUE%
 ItemDisplay[uhg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Ogre Gauntlets{%NAME%}%CONTINUE%
 //RARES
-ItemDisplay[RARE EQ7 !ETH !ID]: %YELLOW%***************%NL%%NL% %GREEN%[ %YELLOW%%NAME% %GREEN%] %NL%%NL%%YELLOW%*************** <<RARE>>
+ItemDisplay[RARE EQ7 !ETH !ID]:%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%NL%%NL% %GREEN%[ %YELLOW%%NAME% %GREEN%] %NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*<<RARE>>
 ItemDisplay[RARE EQ7 ETH !ID]: %YELLOW%***************%NL%%NL% %GREEN%[ %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME% %GREEN%] %NL%%NL%%YELLOW%*************** <<RARE>>
 ItemDisplay[(RARE OR CRAFT) EQ7 !ETH ID (CLSK1>1 AND STAT105>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%+2 Sorc %ORANGE%%RED%F%WHITE%c%GREEN%r %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*  {%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR CRAFT) EQ7 !ETH ID (CLSK2>1 AND STAT105>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%YELLOW%+2 Nec %ORANGE%%RED%F%WHITE%c%GREEN%r %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*  {%NAME%}%CONTINUE%
@@ -702,8 +702,8 @@ ItemDisplay[MAG (SUFFIX(595) OR SUFFIX(596))]:%NAME% %NL%%GREEN%[%PURPLE%Lower %
 
 ItemDisplay[RARE (amu) !ID]:%NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %YELLOW%%NAME% %WHITE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL%%NL%   <<RARE>>
 ItemDisplay[RARE (rin OR jew) !ID]:%NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %YELLOW%%NAME% %WHITE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL%%NL%   <<RARE>>
-ItemDisplay[SET !ID amu]:   %NL%%NL% %PURPLE%[ %GREEN%%NAME% %PURPLE%] %NL%%NL%%NL%   <<SET>>
-ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%%NL% <<NSET>>
+ItemDisplay[SET !ID amu]:%NL%%NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %PURPLE%[ %GREEN%%NAME% %PURPLE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL%%NL%   <<SET>>
+ItemDisplay[SET !ID rin]:%NL%%COBALT%*%PURPLE%*  %GREEN%%NAME%  %PURPLE%*%COBALT%*%NL%%NL% <<NSET>>
 ItemDisplay[MAG amu !ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL96+]
 ItemDisplay[MAG amu !ID ILVL=86]: %BLUE%%NAME%%GRAY%[CL94+]
 ItemDisplay[MAG amu !ID ILVL=87]: %BLUE%%NAME%%GRAY%[CL94+]
@@ -947,7 +947,7 @@ ItemDisplay[UNI ID cm2]:%WHITE%[%RED%V:%ORANGE%%STAT(3,0)%%WHITE%] %WHITE%[%BLUE
 ItemDisplay[UNI ID cm1 STAT1>19 RES>19 STAT3>59]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %GREEN%Perfect %TAN%ANNIHILIUS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%*
 ItemDisplay[UNI ID cm1]:%WHITE%[%RED%V:%ORANGE%%STAT(3,0)%%WHITE%] %WHITE%[%BLUE%E:%PURPLE%%STAT(1,0)%%WHITE%] %WHITE%[%GREEN%R:%RED%%STAT(39,0)%%WHITE%] %WHITE%[%YELLOW%G:%DGREEN%%STAT(85,0)%%WHITE%] %GOLD%%NAME%{%NAME%}%CONTINUE%
 //RARES
-ItemDisplay[RARE (EQ5) !ETH !ID]:%NL%    %WHITE%[ %YELLOW%%NAME% %WHITE%]     %NL%%NL% <<RARE1>>
+ItemDisplay[RARE (EQ5) !ETH !ID]:%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*    %WHITE%[ %YELLOW%%NAME% %WHITE%]     %COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%NL%%NL% <<RARE1>>
 ItemDisplay[RARE (EQ5) ETH !ID]:%NL%    %WHITE%[ %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME% %WHITE%]     %NL%%NL%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ6 OR EQ7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ6 OR EQ7) ETH !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME%
@@ -1903,19 +1903,19 @@ ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (aq2 OR cq2)]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%%NAME%%RED%*
 //                                      SETS                                                  //
-ItemDisplay[SET !ID (ulg)]:%GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Disciple%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (xlb OR uui OR umc)]:%GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Disciple%NL%%GREEN%-------------------- <<NSET>>
-ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:%GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Aldur%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Immortal%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Natalya%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Tal rasha%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID uth]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Tal rasha%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Trang oul%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (7gd OR 7wd)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Bul-Kathos%NL%%GREEN%-------------------- <<NSET>>
-ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Griswold%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Mavina%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Orphan%NL%%GREEN%-------------------- <<NSET>>
-ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Sazabi%NL%%GREEN%-------------------- <<NSET>>
+ItemDisplay[SET !ID (ulg)]:%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Disciple%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (xlb OR uui OR umc)]:%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Disciple%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<NSET>>
+ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Aldur%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Immortal%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Natalya%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Tal rasha%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID uth]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Tal rasha%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Trang oul%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (7gd OR 7wd)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Bul-Kathos%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<NSET>>
+ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Griswold%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Mavina%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<SET>>
+ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Orphan%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<NSET>>
+ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%Sazabi%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%--- <<NSET>>
 ItemDisplay[SET !ID (rng OR sbr)]: %GREEN%%NAME%%NL%%SAGE%[Angelic] <<NSET>>
 ItemDisplay[SET !ID (skp OR ltp OR wst)]: %GREEN%%NAME%%NL%%SAGE%[Arcanna] <<NSET>>
 ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb)]: %GREEN%%NAME%%NL%%SAGE%[Arctic] <<NSET>>
