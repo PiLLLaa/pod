@@ -3195,10 +3195,11 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOC
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK262>2]:%NAME% %YELLOW%+%SKILL(262)% 웨오파{%NAME%}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK271>2]:%NAME% %GREEN%+%SKILL(271)% 라센{%NAME%}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK267>2]:%NAME% %PURPLE%+%SKILL(267)% 페이드{%NAME%}
-ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SKILL("Shadow Master")>2]:%NAME% %PURPLE%+%SKILL("Shadow Master")% 쉐마{%NAME%}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK279>0]:%NAME% %CORAL%+%SKILL(279)% 쉐마{%NAME%}%CONTINUE%
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK274>0]:%NAME% %CORAL%+%SKILL(274)% 보이{%NAME%}%CONTINUE%
 
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 (SK278>2 AND SK277>2)]:%PURPLE%*%ORANGE%* %NAME% %ORANGE%*%PURPLE%* <<MONEY>> {%NAME%}
-ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 (SK267>2 OR SK269>2 OR SK262>2 OR SK271>2 OR SK267>2 OR SK279>2)]:%NAME%{%NAME%}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 (SK267>2 OR SK269>2 OR SK262>2 OR SK271>2 OR SK267>2 OR SK279>2 OR SK274>2)]:%NAME%{%NAME%}
 ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 (SK274>0 AND SK277>2)]:%NAME%{%NAME%}
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH !SOCK=1 !SOCK=2 ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%+15%%BLUE%증뎀 %GRAY%%NAME%{%NAME%}
 ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15 SK274>0]:%PURPLE%+15%%BLUE%증뎀 %GRAY%%NAME%{%NAME%}
