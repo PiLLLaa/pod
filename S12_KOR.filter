@@ -347,11 +347,11 @@ ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma1
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) STAT360>0]:%NAME% %WHITE%[%RED%타락됨%WHITE%] {%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID]:%NAME%{%NAME%}
 //                                          Essences                                           //
-ItemDisplay[tes]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%고통의 정수%RED%(안다리엘) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[ceh]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%증오의 정수%GREEN%(메피스토) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[bet]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%공포의 정수%PURPLE%(디아블로) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[fed]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%파괴의 정수%BLUE%(바알) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[toa]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%면죄의 징표 %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[tes]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%고통의 정수%RED%(안다리엘) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[ceh]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%증오의 정수%GREEN%(메피스토) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[bet]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%공포의 정수%PURPLE%(디아블로) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[fed]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%파괴의 정수%BLUE%(바알) %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[toa]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %GOLD%면죄의 징표 %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
 //                                         POD                                                 //
 ItemDisplay[cx5]:%NL%%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%타락%WHITE%의 %ORANGE%오브 %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬%NL%%GREEN%▼%NL%%CONTINUE% <<SPECIAL>>
 ItemDisplay[cx5]:%NAME%{%NL%헬름/갑옷/방패/무기:소켓[1toMAX]%NL%부츠:올레[5to10%]%NL%부츠:민첩[5to15]%NL%부츠:쿨탐감소[10%]%NL%장갑:공속[10%]%NL%장갑:올레[5to10%]%NL%아뮬렛:모든 스킬[1]%NL%링:패캐[10%]%NL%링:달려[10%]%NL%링:뎀감[5to6%]%NL%벨트:피어싱[8%]%NL%화살통:공속[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
@@ -364,13 +364,13 @@ ItemDisplay[maz]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  
 ItemDisplay[UNI !ID cm4]: %NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
 //                                         MISC                                                //
 ItemDisplay[(leg OR ear)]:%GOLD%******************%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%GOLD%******************
-ItemDisplay[pk1]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%공포%WHITE%의 %ORANGE%키  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[pk2]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%증오%WHITE%의 %ORANGE%키  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[pk3]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%파괴%WHITE%의 %ORANGE%키  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[dhn]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%디아블로%WHITE%의 %ORANGE%뿔  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[bey]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%바알%WHITE%의 %ORANGE%눈  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[mbr]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%메피스토%WHITE%의 %ORANGE%뇌  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[std]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %PURPLE%영웅%WHITE%의 %ORANGE%깃발  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[pk1]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%공포%WHITE%의 %ORANGE%키  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[pk2]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%증오%WHITE%의 %ORANGE%키  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[pk3]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%파괴%WHITE%의 %ORANGE%키  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[dhn]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%디아블로%WHITE%의 %ORANGE%뿔  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[bey]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%바알%WHITE%의 %ORANGE%눈  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[mbr]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%메피스토%WHITE%의 %ORANGE%뇌  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[std]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%영웅%WHITE%의 %ORANGE%깃발  %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
 ItemDisplay[bks]:%PURPLE%[%RED%이니푸스%PURPLE%]%GOLD%의 두루마리 <<QUEST>>
 ItemDisplay[bkd]:%PURPLE%[%RED%돌무덤%PURPLE%] %GOLD%키 <<QUEST>>
 ItemDisplay[hdm]:%PURPLE%[%RED%호라드림%PURPLE%] %GOLD%망치 <<QUEST>>
@@ -899,9 +899,9 @@ ItemDisplay[jew UNI ID STAT399>2]:%NAME% %PURPLE%+%STAT(399)%%%CONTINUE%
 ItemDisplay[jew UNI ID STAT400>2]:%NAME% %WHITE%-%STAT(400)%%
 
 ////Unique Charms
-ItemDisplay[UNI !ID cm1]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%애니힐러스 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>>
-ItemDisplay[UNI !ID cm2]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%지옥의 횃불 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>> 
-ItemDisplay[UNI !ID cm3]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %RED%기드의 행운 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****  <<HIGH>>
+ItemDisplay[UNI !ID cm1]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %ORANGE%애니힐러스 %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>>
+ItemDisplay[UNI !ID cm2]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %ORANGE%지옥의 횃불 %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬ <<SPECIAL>> 
+ItemDisplay[UNI !ID cm3]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %RED%기드의 행운 %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬  <<SPECIAL>>
 ItemDisplay[UNI ID cm2 CLSK0>0]:%NAME% %RED%[%PURPLE%아마존%RED%]%CONTINUE%
 ItemDisplay[UNI ID cm2 CLSK1>0]:%NAME% %PURPLE%[%RED%소서리스%PURPLE%]%CONTINUE%
 ItemDisplay[UNI ID cm2 CLSK2>0]:%NAME% %PURPLE%[%ORANGE%네크%PURPLE%]%CONTINUE%
