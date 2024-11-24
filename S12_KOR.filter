@@ -3289,6 +3289,9 @@ ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 //Bow (Edge base)
 ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL<80]:%NAME% %NL% %PURPLE%[모서리]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL>79 !AREALVL<1]:
+//leaf base
+ItemDisplay[(WP11) NMAG !RW (SOCK=2) (SK47>2 OR SK51>2) (CLVL<80 OR DIFFICULTY<2)]:%NAME% %NL% %PURPLE%[리프(꽃잎)]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(WP11) NMAG !RW (SOCK=2) (SK47>2 OR SK51>2) (CLVL<80 OR DIFFICULTY<2) !AREALVL<1]:
 //Actication
 ItemDisplay[NMAG AREALVL<1]:%GRAY%%NAME%{%NL%%WHITE%+%RED%간이 활성화%WHITE%+ %CORAL%이 아이템은 오직 %BLUE%마을%CORAL%에서만 활성화 됩니다.%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
