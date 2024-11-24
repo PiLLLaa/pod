@@ -1312,7 +1312,7 @@ ItemDisplay[UNI !ID 6cs ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%C
 ItemDisplay[UNI !ID 6ws !ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%Ma%ORANGE%ng %GOLD%So%WHITE%ng%GOLD%s L%ORANGE%es%PURPLE%son%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 ItemDisplay[UNI !ID 6ws ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Ma%ORANGE%ng %GOLD%So%WHITE%ng%GOLD%s L%ORANGE%es%PURPLE%son%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Swords
-ItemDisplay[UNI !ID 7cr]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%YELLOW%Lightsabre OR %BLUE%Azurewrath%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***
+ItemDisplay[UNI !ID 7cr]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%YELLOW%Lightsabre OR %BLUE%Azurewrath%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 ItemDisplay[UNI !ID 7gd !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%Th%ORANGE%e G%GOLD%ra%WHITE%nd%GOLD%fa%ORANGE%th%PURPLE%er%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID 7gd ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Th%ORANGE%e G%GOLD%ra%WHITE%nd%GOLD%fa%ORANGE%th%PURPLE%er%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Wands
