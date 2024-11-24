@@ -666,6 +666,12 @@ ItemDisplay[MAG (SUFFIX(532) OR SUFFIX(533))]:%NAME% %NL%%GREEN%[%PURPLE%텔레�
 ItemDisplay[MAG (SUFFIX(579) OR SUFFIX(580))]:%NAME% %NL%%GREEN%[%PURPLE%라이프 텝 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[MAG (SUFFIX(595) OR SUFFIX(596))]:%NAME% %NL%%GREEN%[%PURPLE%로우 레지스트 %RED%차징템%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
 
+ItemDisplay[(WP11) (MAG OR RARE) ID !ETH (CLSK1=2) ]:%NAME% %NL%%GREEN%+2소서{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[(WP11) (MAG OR RARE) ID !ETH (TABSK8=3) ]:%NAME% %NL%%RED%+3파이어{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[(WP11) (MAG OR RARE) ID !ETH (TABSK9=3) ]:%NAME% %NL%%YELLOW%+3라이트닝{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[(WP11) (MAG OR RARE) ID !ETH (TABSK10=3) ]:%NAME% %NL%%GREEN%+3콜드{%NAME%}%CONTINUE% <<SHOP>>
+ItemDisplay[(WP11) (NMAG) ID !ETH (SK47=3) ]:%NAME% %NL%%RED%+3 파볼 %GREEN%[%PURPLE%리프 %RED%베이스%GREEN%]{%NAME%}%CONTINUE% <<SHOP>>
+
 ItemDisplay[RARE (amu) !ID]:%NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %YELLOW%%NAME% %WHITE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL%%NL%   <<RARE>>
 ItemDisplay[RARE (rin OR jew) !ID]:%NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %YELLOW%%NAME% %WHITE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL%%NL%   <<RARE>>
 ItemDisplay[SET !ID amu]:%NL%%NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %PURPLE%[ %GREEN%%NAME% %PURPLE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL%%NL%   <<SET>>
