@@ -3320,6 +3320,9 @@ ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 //Bow (Edge base)
 ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL<80]:%NAME% %NL% %PURPLE%[Edge]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
 ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL>79 !AREALVL<1]:
+//leaf base
+ItemDisplay[(WP11) NMAG !RW (SOCK=2) (SK47>2 OR SK51>2) (CLVL<80 OR DIFFICULTY<2)]:%NAME% %NL% %PURPLE%[Leaf]{%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 80%NL%%NAME%}
+ItemDisplay[(WP11) NMAG !RW (SOCK=2) (SK47>2 OR SK51>2) (CLVL<80 OR DIFFICULTY<2) !AREALVL<1]:
 //Actication
 ItemDisplay[NMAG AREALVL<1]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in %BLUE%town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
