@@ -145,6 +145,16 @@
       1) Middle & High Rune have special comments and they express different type depending on town and filed
       
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     16. 24.Nov,2024
+      1) Leaf base added on the filter
+      2) Tristram ingredient expression change (Sound level change to Middle)
+      3) Staff base will be notified on the shop
+      4) Glove Rare is visualized when drop
+      5) Phase blde unique has notification
+      6) Good unique item & Class focued set items changed their expression when drop
+      7) Filter level now doesn't affect disappear in town.
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
