@@ -1281,7 +1281,7 @@ ItemDisplay[UNI !ID 6cs ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%
 ItemDisplay[UNI !ID 6ws !ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%망 %ORANGE%송%GOLD%의 %WHITE%교훈%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 ItemDisplay[UNI !ID 6ws ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%망 %ORANGE%송%GOLD%의 %WHITE%교훈%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Swords
-ItemDisplay[UNI !ID 7cr]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%광검 %WHITE%OR %BLUE%푸른 서슬%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***
+ItemDisplay[UNI !ID 7cr]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%RED%광검 %WHITE%OR %BLUE%푸른 서슬%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 ItemDisplay[UNI !ID 7gd !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%대%ORANGE%선%GOLD%조%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****  <<UNIQUE>>
 ItemDisplay[UNI !ID 7gd ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%대%ORANGE%선%GOLD%조%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 //Unique Wands
