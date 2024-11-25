@@ -783,8 +783,15 @@ ItemDisplay[MAG rin ID ILVL=83]: %BLUE%%NAME%%GRAY%[CL87-] %CONTINUE%
 ItemDisplay[MAG rin ID ILVL=84]: %BLUE%%NAME%%GRAY%[CL86-] %CONTINUE%
 ItemDisplay[MAG rin ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL85-] %CONTINUE%
 ItemDisplay[MAG rin ID]: %BLUE%%NAME% %CONTINUE%
-ItemDisplay[MAG amu ID]:%NAME%{%NL%%BLUE%Jewel%WHITE%+%RED%Amulet%WHITE%+%GOLD%Ral%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}
-ItemDisplay[MAG rin ID]:%NAME%{%NL%%BLUE%Jewel%WHITE%+%CORAL%Ring%WHITE%+%GOLD%Amn%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}
+ItemDisplay[MAG amu ID]:%NAME%{%BLUE%Jewel%WHITE%+%RED%Amulet%WHITE%+%GOLD%Ral%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}%CONTINUE%
+ItemDisplay[MAG rin ID]:%NAME%{%BLUE%Jewel%WHITE%+%CORAL%Ring%WHITE%+%GOLD%Amn%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}%CONTINUE%
+
+ItemDispaly[(amu OR rin) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
+ItemDispaly[(amu OR rin) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
+ItemDispaly[(amu OR rin) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
+ItemDispaly[(amu OR rin) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
+ItemDispaly[(amu OR rin) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
+
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3) !ID]:%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %BLUE%%NAME% %ORANGE%[L%ILVL%] %WHITE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL% <<MAGIC>>
 ItemDisplay[MAG cm2 !ID]:%NAME% %ORANGE%[L%ILVL%]
