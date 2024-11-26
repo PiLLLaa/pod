@@ -11,6 +11,10 @@
   1. Reddit : DamageFunny3572
   2. Discord : pillla
 
+# Filter infor
+
+https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/edit?usp=sharing
+
 ## Please use this setting on your diablo
 
 ![image](https://github.com/PiLLLaa/pod/assets/76995697/3ecc14f4-2468-423d-8d1b-9d5505f1a43d)
