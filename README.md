@@ -164,6 +164,10 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
       1) Amulet/Ring/Weapon/Armor have comments for crafting
       2) Korean version changed Etherial marking to "에테"
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     18. 27.Nov,2024
+      1) No longer to use filter level "only selected unique" (deleted)
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
