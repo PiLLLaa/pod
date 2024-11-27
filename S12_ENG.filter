@@ -370,11 +370,11 @@ ItemDisplay[toa]:%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%-
 ItemDisplay[cx5]:%NL%%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%Orb %WHITE%of %ORANGE%Corruption %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬%NL%%GREEN%▼%NL%%CONTINUE% <<SPECIAL>>
 ItemDisplay[cx5]:%NAME%{%NL%HELM/ARM/SD/WP:SOC[1toMAX]%NL%BOOTS:AR[5to10%]%NL%BOOTS:DEX[5to15]%NL%BOOTS:CR[10%]%NL%GLOVE:IAS[10%]%NL%GLOVE:AR[5to10%]%NL%AMU:ALLSK[1]%NL%RING:FCR[10%]%NL%RING:FRW[10%]%NL%RING:PDR[5to6%]%NL%BELT:PIERCING[8%]%NL%ARROW:IAS[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
 ItemDisplay[cx7]:%NL%  %PURPLE%Key %WHITE%of %ORANGE%Chaos  %NL%%NL%   <<SPECIAL>>
-ItemDisplay[cx6]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
-ItemDisplay[cx8]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
+ItemDisplay[cx6]:%NL%%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%%NAME% %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬%NL%%GREEN%▼%NL% <<SPECIAL>>
+ItemDisplay[cx8]:%NL%%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%%NAME% %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬%NL%%GREEN%▼%NL% <<SPECIAL>>
 ItemDisplay[cx9]:%NL%  %PURPLE%Orb %WHITE%of %ORANGE%Alteration  %NL%%NL%{%GOLD%When Cubing, This relic will be changed to%RED%Same Tier Relic%GOLD%by %BLUE%Random%GOLD% %NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%Orb of Alternation %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**}<<SPECIAL>> 
 ItemDisplay[cx9]:%NAME%{%NL%%GOLD%Relic Option change - %WHITE%Cubing item%NL%%NL%}
-ItemDisplay[maz]:%RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
+ItemDisplay[maz]:%NL%%WHITE%♬%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%WHITE%[ %PURPLE%%NAME% %WHITE%]%PURPLE%--%BLUE%--%GREEN%--%YELLOW%--%ORANGE%--%RED%--%WHITE%♬%NL%%GREEN%▼%NL% <<SPECIAL>>
 ItemDisplay[UNI !ID cm4]:%NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
 //                                         MISC                                                //
 ItemDisplay[(leg OR ear)]:%GOLD%******************%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%GOLD%******************
