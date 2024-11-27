@@ -10,7 +10,7 @@ FilterLevel[4]: +ÿc2Large Charm Deletion //FILTLVL>2->3
 FilterLevel[5]: +ÿc3Craft Base Deletion //FILTLVL>3->4
 FilterLevel[6]: +ÿc4No All Magic+ÿc1HP+ÿc3MP //FILTLVL>4->5
 FilterLevel[7]: +ÿc8Set Deletion //FILTLVL>5->6
-FilterLevel[8]: +ÿc9NA //FILTLVL>6->7
+FilterLevel[8]: +ÿc9No Normal Unique //FILTLVL>6->7
 FilterLevel[9]: +All Normal Item Deletion //FILTLVL>7->8
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0 !AREALVL<1]: 
@@ -1372,7 +1372,7 @@ ItemDisplay[UNI !ID pac ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%C
 ItemDisplay[UNI !ID (rin)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Ring %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Am%PURPLE%ul%ORANGE%et %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (jew)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%**** <<UNIQUE>>
-//ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>7 !AREALVL<1]:
+ItemDisplay[UNI (WEAPON OR ARMOR) !ID NORM FILTERLVL>7 !AREALVL<1]:
 //UNIQUE NORMAL NAMING
 ItemDisplay[UNI !ID cap !ETH]:%NL%%GRAY%*%TAN%Biggin's Bonnet%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID cap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Biggin's Bonnet%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
