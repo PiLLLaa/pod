@@ -11,7 +11,7 @@ FilterLevel[4]: +ÿc2라지참 삭제 //FILTLVL>2->3
 FilterLevel[5]: +ÿc3크래프트 베이스 삭제 //FILTLVL>3->4
 FilterLevel[6]: +ÿc4매직 아이템+ÿc1HP+ÿc3MPÿc0포션 삭제 //FILTLVL>4->5
 FilterLevel[7]: +ÿc8세트 아이템 삭제 //FILTLVL>5->6
-FilterLevel[8]: +ÿc9(사용중지) //FILTLVL>6->7
+FilterLevel[8]: +ÿc9노말유니크삭제 //FILTLVL>6->7
 FilterLevel[9]: +모든 베이스템 삭제 //FILTLVL>7->8
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0 !AREALVL<1]: 
@@ -1341,7 +1341,7 @@ ItemDisplay[UNI !ID pac ETH]: %GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%
 ItemDisplay[UNI !ID (rin)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %CORAL%링 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %WHITE%아%PURPLE%뮬%ORANGE%렛 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (jew)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%NL% %RED%레%ORANGE%인%YELLOW%보%GREEN%우 %BLUE%쥬%PURPLE%얼 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
-//ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>7 !AREALVL<1]:
+ItemDisplay[UNI (WEAPON OR ARMOR) NORM !ID FILTERLVL>7 !AREALVL<1]:
 //UNIQUE NORMAL NAMING
 ItemDisplay[UNI !ID cap !ETH]:%NL%%GRAY%*%TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID cap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%에%BLUE%테%WHITE%] %TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
