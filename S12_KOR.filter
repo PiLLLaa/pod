@@ -1,7 +1,7 @@
 Attribute[Author]: ÿc2필라
 Attribute[Name]: ÿc8한글 필터, 폴더내 ÿc1Item.Filter ÿc8로 저장됨
 Attribute[Version]:ÿc3 1.3.1_S13
-Attribute[Date]: ÿc42024/11/27 
+Attribute[Date]: ÿc42024/11/28 
 //                                      Filter Level                                           //
 //ÿc5=회색,ÿc6=짙은회색,ÿc1=빨간색, ÿc2=녹색,ÿc3=파란색,ÿc4=금색,ÿc0=흰색,ÿc7=골드색,ÿc8주황색,ÿc9노란색
 FilterLevel[1]: 일반+매직화살통드랍 //FILTLVL>0 
@@ -395,24 +395,6 @@ ItemDisplay[hfh]:%PURPLE%[%RED%헬포지%PURPLE%] %BLUE%해머 <<QUEST>>
 ItemDisplay[ice]:%PURPLE%[%RED%마라%PURPLE%] %WHITE%포션 <<QUEST>>
 ItemDisplay[tr2]:%PURPLE%[%RED%스크롤%PURPLE%] %GREEN%오브 레지스턴스 <<QUEST>>
 ItemDisplay[(bbb OR ass OR bkd OR bks OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]: %TAN%%NAME%
-//                                        VENDOR                                               //
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%RED%+3하이드라 %BLUE%+3블리 %GREEN%+3에쉴 %ORANGE%[역병 베이스] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%RED%하이드라 %BLUE%블리 %GREEN%에쉴 %ORANGE%[역병 베이스] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%RED%하이드라 %GREEN%에쉴 %ORANGE%[역병 베이스] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%블리 %GREEN%에쉴 %ORANGE%[역병 베이스] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%프오브 %GREEN%에쉴 %ORANGE%[역병 베이스] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%쉬버 %GREEN%에쉴 %ORANGE%[역병 베이스] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%칠링 %GREEN%에쉴 %ORANGE%[역병 베이스] {%NAME%}
-//Wand +WHITE
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 본스피어  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK92>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 포노바  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK83>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 데서크레이트  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK74>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 시체폭발  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK67>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 티쓰  {%NAME%}
-//Vendor items
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%} <<ANTI>>
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 //                                        RUNE                                                 //
 ItemDisplay[(r01) FILTERLVL=2]:%TAN%엘%WHITE%룬 %GOLD%[1]{%BLUE%히트파워 화살통 : %GOLD%엘 %WHITE%+ %ORANGE%P %BLUE%사파이어 %WHITE%+ %BLUE%쥬얼%NL%%GREEN%세이프티 화살통 : %GOLD%엘 %WHITE%+ %ORANGE%P %GREEN%에메랄드 %WHITE%+ %BLUE%쥬얼%NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%엘 룬제조법 %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**%NL%} <<LRUNE>>
 ItemDisplay[(r02) FILTERLVL=2]:%TAN%엘%WHITE%드%BLUE%룬 %GOLD%[2]{%RED%블러드 화살통 : %GOLD%엘드 %WHITE%+ %ORANGE%P %RED%루비 %WHITE%+ %BLUE%쥬얼%NL%%PURPLE%캐스터 화살통 : %GOLD%엘드 %WHITE%+ %ORANGE%P %PURPLE%자수정 %WHITE%+ %BLUE%쥬얼%NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%엘드 룬제조법 %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**%NL%} <<LRUNE>>
@@ -756,11 +738,11 @@ ItemDisplay[MAG rin ID]: %BLUE%%NAME% %CONTINUE%
 ItemDisplay[MAG amu ID]:%NAME%{%BLUE%쥬엘%WHITE%+%RED%아뮬렛%WHITE%+%GOLD%랄%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}%CONTINUE%
 ItemDisplay[MAG rin ID]:%NAME%{%BLUE%쥬엘%WHITE%+%CORAL%링%WHITE%+%GOLD%엠%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}%CONTINUE%
 
-ItemDispaly[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음%SAGE%(캐릭 레벨 낮음)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
+ItemDispaly[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음%SAGE%(캐릭 레벨 낮음)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 
 ItemDispaly[rin MAG ID ILVL>94 CLVL>79]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L(높은 착용 레벨) %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDispaly[rin MAG ID ILVL<95 ILVL>92 CLVL>79]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
@@ -994,9 +976,9 @@ ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0)]: %PURPLE%맥뎀 %RED%추뎀 %YELL
 ItemDisplay[aq2 RARE ID]: %GRAY%%NAME%
 //ItemDisplay[aq2 RARE ID (!STAT218>0 OR !STAT22>0)]: %NAME%{%RED%(레벨당 최대 데미지,데미지 추가 옵션 모두 없음)}
 //Belt&Boots&Claw
-ItemDisplay[(EQ5) RARE ID !(STAT96>0 AND STAT99>0)]:%NAME%{%GOLD%****      %GOLD%주요 옵션없음      %GOLD%****%NL%%NAME%}%CONTINUE%
-ItemDisplay[(EQ6) RARE ID !STAT99>0]:%NAME%{%GOLD%****      %GOLD%주요 옵션없음      %GOLD%****%NL%%NAME%}%CONTINUE%
-ItemDisplay[(CL5) RARE ID STAT17<201]:%NAME%{%GOLD%****      %GOLD%주요 옵션없음      %GOLD%****%NL%%NAME%}%CONTINUE%
+ItemDisplay[(EQ5) RARE ID !STAT96>0]:%NAME%{%GOLD%****      %GRAY%주요 옵션없음      %GOLD%****%NL%%NAME%}%CONTINUE%
+ItemDisplay[(EQ6) RARE ID !STAT99>0]:%NAME%{%GOLD%****      %GRAY%주요 옵션없음      %GOLD%****%NL%%NAME%}%CONTINUE%
+ItemDisplay[(CL5) RARE ID STAT17<201]:%NAME%{%GOLD%****      %GRAY%주요 옵션없음      %GOLD%****%NL%%NAME%}%CONTINUE%
 ItemDisplay[EQ5 RARE ID (STAT96>0 AND STAT99>0)]: %PURPLE%달려 %RED%패히트 %YELLOW%부츠{%NAME%}%CONTINUE%
 ItemDisplay[EQ5 RARE ID (STAT96>0 AND (STAT39>30 OR STAT41>30 OR STAT43>30 OR STAT45>30))]: %PURPLE%달려 %GREEN%저항 %YELLOW%부츠{%NAME%}%CONTINUE%
 ItemDisplay[EQ5 RARE ID (STAT96>0 AND (STAT39>30 OR STAT41>30 OR STAT43>30 OR STAT45>30) AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%달려 %RED%패히트 %GREEN%저항 %YELLOW%부츠%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}%CONTINUE%
@@ -3181,28 +3163,28 @@ ItemDisplay[(amd OR ame) NMAG !RW ETH ED=15 TABSK2>2 SOCK=5]:%WHITE%[%PURPLE%에
 ItemDisplay[(amd OR ame) NMAG !RW !ETH ED=15 TABSK2>2 SOCK=4]:%NAME% %PURPLE%+15%%BLUE%증뎀{%NAME%}
 ItemDisplay[(amd OR ame) NMAG !RW !ETH TABSK2>2 SOCK=4]:%NAME%%BLUE%{%NAME%}
 //Staves//
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+쉬버 %RED%+하이드라 %GOLD%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+칠링 %RED%+하이드라 %GOLD%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+쉬버 %RED%+하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+쉬버 %RED%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+칠링 %RED%+하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+칠링 %RED%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0)]:%NAME%%NL% %ORANGE%+3에쉴 %BLUE%+쉬버 %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0)]:%NAME%%NL% %ORANGE%+3에쉴 %BLUE%+칠링 %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 에쉴 %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 에쉴 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %RED%+%SKILL(62)%하이드라 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %RED%+%SKILL(62)%하이드라 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %RED%+%SKILL(62)%하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %RED%+%SKILL(62)%하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0)]:%NAME%%NL% %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0)]:%NAME%%NL% %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL% %WHITE%+3에쉴 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL% %WHITE%+3에쉴 %ORANGE%[기억베이스] {%NAME%}
 ItemDisplay[!SUP (wst OR 8ws OR 6ws) !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 에쉴 (큐빙4솟도전!) %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+쉬버 %RED%+하이드라 %GOLD%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+칠링 %RED%+하이드라 %GOLD%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+쉬버 %RED%+하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+쉬버 %RED%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+칠링 %RED%+하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3에쉴 %BLUE%+칠링 %RED%+프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0)]:%NAME%%NL% %ORANGE%+3에쉴 %BLUE%+쉬버 %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0)]:%NAME%%NL% %ORANGE%+3에쉴 %BLUE%+칠링 %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 에쉴 %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 에쉴 %ORANGE%[기억베이스] {%NAME%}
-ItemDisplay[!SUP (wst OR 8ws OR 6ws) !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 에쉴 (큐빙4솟도전!) %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %RED%+%SKILL(62)%하이드라 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %RED%+%SKILL(62)%하이드라 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %RED%+%SKILL(62)%하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %RED%+%SKILL(62)%하이드라 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %SAGE%+%SKILL(64)%프오브 %ORANGE%[기억베이스] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0)]:%NAME%%NL% %WHITE%+3에쉴 %BLUE%+%SKILL(50)%쉬버 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0)]:%NAME%%NL% %WHITE%+3에쉴 %BLUE%+%SKILL(60)%칠링 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %WHITE%+3에쉴 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %WHITE%+3에쉴 %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[!SUP (wst OR 8ws OR 6ws) !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %WHITE%+3에쉴 (큐빙4솟도전!) %ORANGE%[기억베이스] {%NAME%}
 //ETH ARCON STAVES
 ItemDisplay[6ws !RW NMAG ETH ED=15 (SOCK=6)]:%WHITE%[%PURPLE%에%BLUE%테%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+15%%BLUE%증뎀 %ORANGE%[죽음의 숨결 재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* {%NAME%}<<MONEY>>
 ItemDisplay[6ws !RW NMAG ETH ED>0 ED<15 (SOCK=6)]:%WHITE%[%PURPLE%에%BLUE%테%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %PURPLE%+%EDAMAGE%%%BLUE%증뎀 %ORANGE%[죽음의 숨결 재료] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* {%NAME%}<<MONEY>>
@@ -3240,9 +3222,27 @@ ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15]:%PURPLE%+15%%
 //Dream helm+Shield
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) ED=15]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%15%방상{%NAME%}
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) STAT91=-10]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%10%리콰{%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%15%방상{%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%NAME%}
-ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%10%리콰{%YELLOW%(헬멧소켓:%GOLD%랄%WHITE%+%GOLD%주울%WHITE%+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%15%방상{%NAME%}
+ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME%%NL% %ORANGE%[드림재료] %WHITE%10%리콰{%NAME%}
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%%NL% %ORANGE%[드림재료]{%NAME%}
+//                                        VENDOR                                               //
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%RED%+3하이드라 %BLUE%+3블리 %GREEN%+3에쉴 %ORANGE%[역병 베이스] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%RED%+%SKILL(62)%하이드라 %BLUE%+%SKILL(59)%블리 %GREEN%+%SKILL(58)%에쉴 %ORANGE%[역병 베이스] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%RED%+%SKILL(62)%하이드라 %GREEN%+%SKILL(58)%에쉴 %ORANGE%[역병 베이스] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(59)%블리 %GREEN%+%SKILL(58)%에쉴 %ORANGE%[역병 베이스] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(64)%프오브 %GREEN%+%SKILL(58)%에쉴 %ORANGE%[역병 베이스] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(50)%쉬버 %GREEN%+%SKILL(58)%에쉴 %ORANGE%[역병 베이스] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(60)%칠링 %GREEN%+%SKILL(58)%에쉴 %ORANGE%[역병 베이스] {%NAME%}
+//Wand +WHITE
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%ORANGE%+3 본스피어{%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK92>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%GREEN%+3 포노바{%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK83>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%WHITE%+3 데서크레이트{%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK74>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%PURPLE%+3 시체폭발{%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK67>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%BLUE%+3 티쓰{%NAME%}
+//Vendor items
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%} <<ANTI>>
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 //6 sox good weapon bases
 ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6 DIFFICULTY<2]:%GRAY%%NAME% %NL%%PURPLE%[%GOLD%이아이템은 나이트메어 이하에서만 드랍됨%NL%%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
 ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
@@ -3471,6 +3471,13 @@ ItemDisplay[SET ID amu ALLSK>0 STAT43>0 STAT45>0 STAT78>0]:%NAME%{%RED%**%ORANGE
 ItemDisplay[SET ID amu CLSK1>0 STAT50>0 LIFE>0 MANA>0 STAT41>0]:%NAME%{%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%NL%%GREEN%탈 라샤의 %RED%어%ORANGE%쥬%YELLOW%디%PURPLE%케%GREEN%이%RED%션 %GOLD%목걸이%NL%%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**}
 
 ItemDisplay[SYNTH]:%RED%♻%SAGE%%BASENAME%%RED%♻%NL%%PINK%%ITEMNAME%{%PURPLE%유 %RED%니 %ORANGE%크 %GOLD%합 %WHITE%성  %SAGE%아 이 템%NL%%NAME%}%CONTINUE% <<SPECIAL>>
+ItemDisplay[SOCK=1 SYNTH]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=2 SYNTH]:%NAME% %COBALT%(2){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=3 SYNTH]:%NAME% %PINK%(3){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=4 SYNTH]:%NAME% %GREEN%(4){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=5 SYNTH]:%NAME% %RED%(5){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=6 SYNTH]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
+
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE=35000 !STAT360>0]:%NAME%%WHITE%($35K){%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE<35000 PRICE>33999 !STAT360>0]:%NAME%%WHITE%($34K){%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE<34000 PRICE>32999 !STAT360>0]:%NAME%%WHITE%($33K){%NAME%}%CONTINUE%
