@@ -408,23 +408,6 @@ ItemDisplay[hfh]:%PURPLE%[%RED%Hellforge%PURPLE%] %BLUE%Hammer <<QUEST>>
 ItemDisplay[ice]:%PURPLE%[%RED%Malah's%PURPLE%] %WHITE%Potion <<QUEST>>
 ItemDisplay[tr2]:%PURPLE%[%RED%Scroll%PURPLE%] %GREEN%of Resistance <<QUEST>>
 ItemDisplay[(bbb OR ass OR bkd OR bks OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]: %TAN%%NAME%
-//                                        VENDOR                                               //
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%RED%+3Hydra %BLUE%+3Bli %GREEN%+3Es %ORANGE%[Plague Base] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%RED%Hydra %BLUE%Bli %GREEN%Es %ORANGE%[Plague Base] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%RED%Hydra %GREEN%Es %ORANGE%[Plague Base] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%Bli %GREEN%Es %ORANGE%[Plague Base] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%Fob %GREEN%Es %ORANGE%[Plague Base] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%Sa %GREEN%Es %ORANGE%[Plague Base] {%NAME%}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%NL%%BLUE%Ca %GREEN%Es %ORANGE%[Plague Base] {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME% %ORANGE%+3 Bonespear  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK92>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME% %ORANGE%+3 Pnova  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK83>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME% %ORANGE%+3 Dc  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK74>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME% %ORANGE%+3 CorpsEx  {%NAME%}
-ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK67>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME% %ORANGE%+3 Teeth  {%NAME%}
-//Vendor items
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%} <<ANTI>>
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
 //                                        RUNE                                                 //
 ItemDisplay[(r01) FILTERLVL=2]:%TAN%E%WHITE%l %GOLD%[1]{%BLUE%Hit Power Quiver : %GOLD%EL %WHITE%+ %ORANGE%P %BLUE%Sapphire %WHITE%+ %BLUE%jewel%NL%%GREEN%Safety Quiver : %GOLD%EL %WHITE%+ %ORANGE%P %GREEN%Emerald %WHITE%+ %BLUE%jewel%NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%EL rune recipes %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**%NL%} <<LRUNE>>
 ItemDisplay[(r02) FILTERLVL=2]:%TAN%E%WHITE%l%BLUE%d %GOLD%[2]{%RED%Blood Quiver : %GOLD%ELD %WHITE%+ %ORANGE%P %RED%Ruby %WHITE%+ %BLUE%jewel%NL%%PURPLE%Caster Quiver : %GOLD%ELD %WHITE%+ %ORANGE%P %PURPLE%Amethyst %WHITE%+ %BLUE%jewel%NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%ELD rune recipes %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**%NL%}<<LRUNE>>
@@ -3201,25 +3184,25 @@ ItemDisplay[(amd OR ame) NMAG !RW ETH ED=15 TABSK2>2 SOCK=5]:%WHITE%[%PURPLE%E%W
 ItemDisplay[(amd OR ame) NMAG !RW !ETH ED=15 TABSK2>2 SOCK=4]:%NAME% %WHITE%+15%%BLUE%Ed{%NAME%}
 ItemDisplay[(amd OR ame) NMAG !RW !ETH TABSK2>2 SOCK=4]:%NAME%{%NAME%}
 //Staves//
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Sa %RED%+Hyd %GOLD%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Ca %RED%+Hyd %GOLD%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Sa %RED%+Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Sa %RED%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Ca %RED%+Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Ca %RED%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0)]:%NAME%%NL% %ORANGE%+3Es %BLUE%+Sa %ORANGE%[Memory] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0)]:%NAME%%NL% %ORANGE%+3Es %BLUE%+Ca %ORANGE%[Memory] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %RED%+%SKILL(62)%Hyd %SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(60)%Ca%RED%+%SKILL(62)%Hyd %SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %RED%+%SKILL(62)%Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(60)%Ca%RED%+%SKILL(62)%Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(60)%Ca%SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0)]:%NAME%%NL% %ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %ORANGE%[Memory] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0)]:%NAME%%NL% %ORANGE%+3Es %BLUE%+%SKILL(60)%Ca %ORANGE%[Memory] {%NAME%}
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 Es %ORANGE%[Memory] {%NAME%}
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 Es %ORANGE%[Memory] {%NAME%}
 ItemDisplay[!SUP (wst OR 8ws OR 6ws) !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 Es %ORANGE%[Memory] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Sa %RED%+Hyd %GOLD%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Ca %RED%+Hyd %GOLD%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Sa %RED%+Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Sa %RED%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Ca %RED%+Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+Ca %RED%+Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0)]:%NAME%%NL%%ORANGE%+3Es %BLUE%+Sa %ORANGE%[Memory] {%NAME%}
-ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0)]:%NAME%%NL%%ORANGE%+3Es %BLUE%+Ca %ORANGE%[Memory] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %RED%+%SKILL(62)%Hyd %SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(60)%Ca%RED%+%SKILL(62)%Hyd %SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %RED%+%SKILL(62)%Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK62>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(60)%Ca%RED%+%SKILL(62)%Hyd %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0 AND SK64>0)]:%NAME%%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+3Es %BLUE%+%SKILL(60)%Ca%SAGE%+%SKILL(64)%Fob %ORANGE%[Memory] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}<<MONEY>>
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK50>0)]:%NAME%%NL%%ORANGE%+3Es %BLUE%+%SKILL(50)%Sa %ORANGE%[Memory] {%NAME%}
+ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) (SK58>2 AND SK60>0)]:%NAME%%NL%%ORANGE%+3Es %BLUE%+%SKILL(60)%Ca %ORANGE%[Memory] {%NAME%}
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL% %ORANGE%+3 Es %ORANGE%[Memory] {%NAME%}
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL%%ORANGE%+3 Es %ORANGE%[Memory] {%NAME%}
 ItemDisplay[!SUP (wst OR 8ws OR 6ws) !RW NMAG (SOCK=4) SK58>2]:%GRAY%%NAME%%NL%%ORANGE%+3 Es %ORANGE%[Memory] {%NAME%}
@@ -3264,6 +3247,23 @@ ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3) STAT91=-10]:%NAME%
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) ED=15]:%NAME%%NL% %ORANGE%[Dream] %WHITE%15%Def{%NAME%}
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=0) STAT91=-10]:%NAME%%NL% %ORANGE%[Dream] %WHITE%10%Req{%NAME%}
 ItemDisplay[(msk OR uh9 OR ush OR urg) NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%%NL% %ORANGE%[Dream]{%NAME%}
+//                                        VENDOR                                               //
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%RED%+3Hydra %BLUE%+3Bli %GREEN%+3Es %ORANGE%[Plague Base] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%RED%+%SKILL(62)%Hydra %BLUE%+%SKILL(59)%Bli %GREEN%+%SKILL(58)%Es %ORANGE%[Plague Base] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%RED%+%SKILL(62)%Hydra %GREEN%+%SKILL(58)%Es %ORANGE%[Plague Base] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(59)%Bli %GREEN%+%SKILL(58)%Es %ORANGE%[Plague Base] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(64)%Fob %GREEN%+%SKILL(58)%Es %ORANGE%[Plague Base] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(50)%Sa %GREEN%+%SKILL(58)%Es %ORANGE%[Plague Base] {%NAME%}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]:%GRAY%%NAME%%NL%%BLUE%+%SKILL(60)%Ca %GREEN%+%SKILL(58)%Es %ORANGE%[Plague Base] {%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%ORANGE%+3 Bonespear  {%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK92>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%GREEN%+3 Pnova  {%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK83>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%RED%+3 Dc  {%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK74>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%BLUE%+3 CorpsEx  {%NAME%}
+ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK67>2 (SOCK=0 OR SOCK=2)]:%GRAY%%NAME%%NL%%WHITE%+3 Teeth  {%NAME%}
+//Vendor items
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%} <<ANTI>>
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
 //6 sox good weapon bases
 ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6Soc Base%PURPLE%] {%GOLD%This Item only be dropped before hell%NL%%NAME%}
 ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6Soc Base%PURPLE%] {%NAME%}
