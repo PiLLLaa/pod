@@ -168,6 +168,14 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
      18. 27.Nov,2024
       1) No longer to use filter level "only selected unique" (deleted)
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     19. 29.Nov,2024
+      1) Boot/Belt High roll comments modified
+      2) Normal Staves has changed naming
+      3) Unidentified Unique items has item grade when drop
+      4) All rares be dropped before hell
+      5) Magic Arrow/bolt+Rare Bolt be dropped when choose filter level1
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
