@@ -790,11 +790,11 @@ ItemDisplay[MAG rin ID]: %BLUE%%NAME% %CONTINUE%
 ItemDisplay[MAG amu ID]:%NAME%{%BLUE%Jewel%WHITE%+%RED%Amulet%WHITE%+%GOLD%Ral%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}%CONTINUE%
 ItemDisplay[MAG rin ID]:%NAME%{%BLUE%Jewel%WHITE%+%CORAL%Ring%WHITE%+%GOLD%Amn%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}%CONTINUE%
 
-ItemDispaly[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
-ItemDispaly[(amu) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting%RED%(Char.Level Low)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}
+ItemDispaly[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDispaly[(amu) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting%RED%(Char.Level Low)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 
 ItemDispaly[rin MAG ID ILVL>94 CLVL>79]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L(high required level) %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDispaly[rin MAG ID ILVL<95 ILVL>92 CLVL>79]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
@@ -3491,6 +3491,13 @@ ItemDisplay[SET ID amu ALLSK>0 STAT43>0 STAT45>0 STAT78>0]:%NAME%{%RED%**%ORANGE
 ItemDisplay[SET ID amu CLSK1>0 STAT50>0 LIFE>0 MANA>0 STAT41>0]:%NAME%{%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%NL%%GREEN%Tal Rasha's %RED%A%RED%d%ORANGE%ju%YELLOW%d%YELLOW%i%PURPLE%ca%GREEN%ti%RED%on%NL%%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**}
 
 ItemDisplay[SYNTH]:%RED%♻%SAGE%%BASENAME%%RED%♻%NL%%PINK%%ITEMNAME%{%PURPLE%S %RED%Y %ORANGE%N %GOLD%T %WHITE%H %GOLD%E %ORANGE%S %RED%I %PURPLE%Z %SAGE%E %CORAL%D%NL%%NAME%}%CONTINUE% <<SPECIAL>>
+ItemDisplay[SOCK=1 SYNTH]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=2 SYNTH]:%NAME% %COBALT%(2){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=3 SYNTH]:%NAME% %PINK%(3){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=4 SYNTH]:%NAME% %GREEN%(4){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=5 SYNTH]:%NAME% %RED%(5){%NAME%}%CONTINUE%
+ItemDisplay[SOCK=6 SYNTH]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
+
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE=35000 !STAT360>0]:%NAME%%WHITE%($35K){%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE<35000 PRICE>33999 !STAT360>0]:%NAME%%WHITE%($34K){%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE<34000 PRICE>32999 !STAT360>0]:%NAME%%WHITE%($33K){%NAME%}%CONTINUE%
