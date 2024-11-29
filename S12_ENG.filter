@@ -2204,6 +2204,7 @@ ItemDisplay[7fb NMAG !RW]:%GRAY%Colossus Sword%CONTINUE%
 ItemDisplay[7gd NMAG !RW]:%GRAY%Colossus Blade%CONTINUE%
 ItemDisplay[7gs NMAG !RW]:%GRAY%Balrog Blade%CONTINUE%
 ItemDisplay[7ls NMAG !RW]:%GRAY%Cryptic Sword%CONTINUE%
+ItemDisplay[7bs NMAG !RW]:%GRAY%Conquest Sword{%NAME%}%CONTINUE%
 
 //Staves
 ItemDisplay[6ws NMAG !RW]:%GRAY%Archon Staff%CONTINUE%
