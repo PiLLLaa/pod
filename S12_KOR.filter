@@ -2169,6 +2169,7 @@ ItemDisplay[7fb NMAG !RW]:%GRAY%콜로서스 소드{%NAME%}%CONTINUE%
 ItemDisplay[7gd NMAG !RW]:%GRAY%콜로서스 블레이드{%NAME%}%CONTINUE%
 ItemDisplay[7gs NMAG !RW]:%GRAY%발록 블레이드{%NAME%}%CONTINUE%
 ItemDisplay[7ls NMAG !RW]:%GRAY%크립틱 소드{%NAME%}%CONTINUE%
+ItemDisplay[7bs NMAG !RW]:%GRAY%컨퀘스트 소드{%NAME%}%CONTINUE%
 
 //Staves
 ItemDisplay[6ws NMAG !RW]:%GRAY%아콘 스태프{%NAME%}%CONTINUE%
