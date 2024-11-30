@@ -324,6 +324,11 @@ ItemDisplay[(ma8 OR ma5 OR ma2 OR ma7 OR ma6) !ID]:%NL%       %PURPLE%@@%WHITE%@
 //ItemDisplay[(ma4 OR ma8 OR ma9 OR ma13) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
 //ItemDisplay[(ma2 OR ma6 OR ma7 OR ma12) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[MAP !ID !(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14)]:%NL%       %PURPLE%@@%WHITE%@@       %NAME%       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
+
+ItemDisplay[(ma12 OR ma13) ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%SAGE%Tier1%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%NAME% {%NAME%}%CONTINUE%
+ItemDisplay[(ma9 OR ma1 OR ma4 OR ma14 OR ma10) ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%ORANGE%Tier2%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(ma8 OR ma5 OR ma2 OR ma7 OR ma6) ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%PINK%Tier3%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%NAME%{%NAME%}%CONTINUE%
+
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT372<800 STAT372>599 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT372>799 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma11) ID]:%NAME%{%GREEN%O      %RED%Co%ORANGE%w %GREEN%Re%PURPLE%lic      %GREEN%O%NL%%NAME%}%CONTINUE%
