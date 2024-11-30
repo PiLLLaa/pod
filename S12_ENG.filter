@@ -3042,7 +3042,7 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL<26 am7]:%NAME%{%YELLOW%(ItemLevel:%ORANGE%L%ILV
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 amc]:%NAME%{%YELLOW%(ItemLevel:%ORANGE%L%ILVL%,%WHITE% MaxSoc:%PURPLE%3 %RED%by larzuk%YELLOW%)%NL%%NAME%}%CONTINUE%
 
 ////Body Armor////
-ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0 OR !STAT91<0) (xld OR gth OR aar OR xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar) FILTERLVL>2 !AREALVL<1]:
+ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) !ETH !(ED>0 OR STAT91<0) (xld OR gth OR aar OR xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar) FILTERLVL>2 !AREALVL<1]:
 
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %DGREEN%%NAME% %PURPLE%+15%%BLUE%Def{%NAME%}
 ItemDisplay[NMAG ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %DGREEN%%NAME%%BLUE% -10%Req{%NAME%}
@@ -3108,7 +3108,7 @@ ItemDisplay[NMAG !ETH !RW !SUP SOCK=0 (xtp OR uui OR utu OR urs OR utp OR uld OR
 ItemDisplay[NMAG ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 ItemDisplay[NMAG !ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %GRAY%%NAME%{%NAME%}
 //shield
-ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0 OR !STAT91<0 OR !RES>0 OR !AR>0) (uit OR CL3) FILTERLVL>2 !AREALVL<1]:
+ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) !ETH !(ED>0 OR STAT91<0 OR RES>0 OR AR>0) (uit OR CL3) FILTERLVL>2 !AREALVL<1]:
 
 ItemDisplay[uit !ETH !RW NMAG ED=15 (SOCK=4 OR SOCK=0)]: %NAME%%BLUE% +15%Def {%NAME%}
 ItemDisplay[uit !ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]: %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% -10%Req %ORANGE%[Phoenix] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* {%NAME%}<<MONEY>>
@@ -3138,7 +3138,7 @@ ItemDisplay[CL3 ELT ETH NMAG !RW RES<45 RES>39 (SOCK=3 OR SOCK=4)]:%WHITE%[%PURP
 ItemDisplay[CL3 ELT ETH NMAG !RW AR>119 !SOCK=1]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %PURPLE%+%EDAMAGE%% %WHITE%+120%BLUE%Ar{%NAME%}
 ItemDisplay[CL3 ELT ETH NMAG !RW (SOCK=3 OR SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 //CRYSTAL SWORD/BROAD SWORD/LONG SWORD/MACE
-ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (crs OR fla OR 7fl OR bsd OR lsd) FILTERLVL>2 !AREALVL<1]:
+ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) !ETH !ED>0 (crs OR fla OR 7fl OR bsd OR lsd) FILTERLVL>2 !AREALVL<1]:
 
 ItemDisplay[crs !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=3]:%NAME% %WHITE%+15%%BLUE%Ed{%NAME%}
 ItemDisplay[crs ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %WHITE%+15%%BLUE%Ed{%NAME%}
@@ -3161,7 +3161,7 @@ ItemDisplay[(bsd OR crs) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]:%GRAY%%NAME
 ItemDisplay[(bsd OR lsd) !RW CLVL<55 !ETH NMAG SOCK=4]:%GRAY%%NAME%%NL%%PURPLE%[Spirits] {%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%before character level 55%NL%%NAME%}
 ItemDisplay[(bsd OR lsd) !RW CLVL>54 !ETH NMAG SOCK=4 !AREALVL<1]:
 //PHASE BLADE 7cr/LEGEND SWORD 72h/CADUCEUS 7ws/COLOSSUS SWORD 7fb+BLADE 7gd/BERSERKER AXE 7wa/GLORIOUS AXE 7gi/OGER MAUL 7m7/THUNDERMAUL 7gm/BALOG BLADE 7gs
-ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (7wd OR 7wa OR 7mp OR 7cr OR 7gd OR 7wa OR 7gi OR 7gm OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh OR 7ls OR 7bs) FILTERLVL>2 !AREALVL<1]:
+ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) !ETH !ED>0 (7wd OR 7wa OR 7mp OR 7cr OR 7gd OR 7wa OR 7gi OR 7gm OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7mp OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh OR 7ls OR 7bs) FILTERLVL>2 !AREALVL<1]:
 
 ItemDisplay[(7wa OR 7mp) ETH !RW NMAG ED=15 (SOCK=4)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* %PURPLE%+15%%BLUE%Ed %ORANGE%[Phoenix] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
 ItemDisplay[7cr !ETH !RW NMAG ED=15 (SOCK=0 OR SOCK=6)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* %PURPLE%+15%%BLUE%Ed %ORANGE%[LastWish] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
@@ -3176,7 +3176,7 @@ ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi 
 ItemDisplay[(7wd OR 7ls OR 7bs OR 7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs OR 7wh) !ETH !RW NMAG !SOCK=1]:%GRAY%%NAME%{%NAME%}
 ItemDisplay[(7cr OR 7ws) !ETH !RW NMAG !SOCK=1]:%GRAY%%NAME%{%NAME%}
 //Polearm+SPEAR ALL//giant thresher 7wc/ colossus voulge 7vo/thresher 7s8/great poleaxe 7h7/mancatcher 7br/war pike 7p7
-ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (7p7 OR 7wc OR 7s8 OR 7br OR 7vo OR 7h7) FILTERLVL>2 !AREALVL<1]:
+ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) !ETH !ED>0 (7p7 OR 7wc OR 7s8 OR 7br OR 7vo OR 7h7) FILTERLVL>2 !AREALVL<1]:
 
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* %PURPLE%+15%%BLUE%Ed %ORANGE%[BreathofDying] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED>0 ED<15]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* %PURPLE%+%EDAMAGE%%BLUE%Ed %ORANGE%[BreathofDying] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%}<<MONEY>>
@@ -3190,7 +3190,7 @@ ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) ETH !RW NMAG (SOCK=0 OR SOC
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) !SUP ETH !RW NMAG SOCK=0]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) ETH !RW NMAG (SOCK=0 OR SOCK>3)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%{%NAME%}
 //Amazon Spears//
-ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) (!ETH OR !ED>0) (CL7 OR amd OR ame) FILTERLVL>2 !AREALVL<1]:
+ItemDisplay[NMAG !RW (SOCK=0 OR SOCK=1) !ETH !ED>0 (CL7 OR amd OR ame) FILTERLVL>2 !AREALVL<1]:
 
 ItemDisplay[CL7 ELT NMAG ETH ED=15 TABSK2>2 SOCK=5]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %WHITE%+15%%BLUE%Ed{%NAME%}
 ItemDisplay[(amd OR ame) NMAG !RW ETH ED=15 TABSK2>2 (SOCK=6)]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %NAME% %WHITE%+15%%BLUE%Ed{%NAME%}
