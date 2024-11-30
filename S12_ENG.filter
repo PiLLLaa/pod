@@ -777,7 +777,8 @@ ItemDisplay[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %W
 ItemDisplay[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDisplay[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDisplay[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>81 ILVL<85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>85 CLVL<94]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>81 ILVL<85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDisplay[(amu) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting%RED%(Char.Level Low)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 
 ItemDisplay[rin MAG ID ILVL>94 CLVL>79]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L(high required level) %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
@@ -971,6 +972,7 @@ ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY<2]: %NAME%
 ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY=2]:
 ItemDisplay[cq2 RARE !ID CLVL<80]: %NAME%
 ItemDisplay[cq2 RARE !ID CLVL>79]:
+ItemDisplay[(aq2 OR cq2) MAG ID]:%NAME%{%NL%%GREEN%Safety: %GOLD%El%WHITE%+%GREEN%P Emerald%WHITE%+%COBALT%Jewel%NL%%PURPLE%Caster: %GOLD%Eld%WHITE%+%PURPLE%PAmethyst%WHITE%+%COBALT%Jewel%NL%%RED%Blood: %GOLD%Eld%WHITE%+%RED%P Ruby%WHITE%+%COBALT%Jewel%NL%%BLUE%Hitpower: %GOLD%El%WHITE%+%BLUE%P Sapphire%WHITE%+%COBALT%Jewel%NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%Crafting Recipe %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**%NL%}
 ItemDisplay[(aq2 OR cq2) RARE ID]:%NAME%{%NL%%BLUE%(2x~3x)sum be 40+ %GRAY%And...Frw+Skill+ManaLeech+MagicFind+Res%NL%%GOLD%Good option: %RED%Max damage%SAGE%(0.625(0.612) per level) %WHITE%with %GREEN%Flat damage}%CONTINUE%
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0 AND STAT62>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%Max %RED%Flat %ORANGE%%ORANGE%F%RED%r%PURPLE%w %TAN%Mana %YELLOW%Arrow%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0 AND STAT62>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%Max %RED%Flat %ORANGE%Ias %TAN%Mana %YELLOW%Arrow%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
