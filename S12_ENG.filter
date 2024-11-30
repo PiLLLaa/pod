@@ -2341,6 +2341,7 @@ ItemDisplay[7mp NMAG !RW]:%GRAY%War Spike%CONTINUE%
 ItemDisplay[9cr NMAG !RW]:%GRAY%Dimensional Blade%CONTINUE%
 ItemDisplay[2ax NMAG !RW]:%GRAY%Double Axe%CONTINUE%
 ItemDisplay[7bt NMAG !RW]:%GRAY%Decapitator%CONTINUE%
+ItemDisplay[7ta NMAG !RW]:%GRAY%Flying Axe%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%s%BLUE%u%PURPLE%p%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
