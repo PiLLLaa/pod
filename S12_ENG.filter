@@ -276,7 +276,7 @@ ItemDisplay[CRAFT ID EQ1 ED>9 STAT41>4 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%
 ItemDisplay[CRAFT ID EQ2 ED>9 STAT118>0 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ3 ED>9 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
 //                                            Relic                                            //
-ItemDisplay[(ma1) NMAG]:%GRAY%Icy %WHITE%Cavern %LIGHT_GRAY%Relic %CONTINUE%
+ItemDisplay[(ma10) NMAG]:%GRAY%Icy %WHITE%Cavern %LIGHT_GRAY%Relic %CONTINUE%
 ItemDisplay[(ma5) NMAG]:%GRAY%Frigid %WHITE%Plateau %LIGHT_GRAY%Relic %CONTINUE%
 ItemDisplay[(ma4) NMAG]:%GRAY%Desecrated %WHITE%Temple %GREEN%Relic %CONTINUE%
 ItemDisplay[(ma8) NMAG]:%GRAY%Musty %WHITE%Crypt %GREEN%Relic %CONTINUE%
@@ -288,7 +288,7 @@ ItemDisplay[(maz) NMAG]:Infernal %RED%Trial %CONTINUE%
 ItemDisplay[(ma11) NMAG]:%GRAY%Pleasant %WHITE%Pastures %RED%Relic%CONTINUE%
 ItemDisplay[(ma12) NMAG]:%GRAY%Baleful %WHITE%Alcazar %RED%Relic%CONTINUE%
 ItemDisplay[(ma13) NMAG]:%GRAY%Decomposing %WHITE%Settlement %RED%Relic%CONTINUE%
-ItemDisplay[(ma1) MAG]:%BLUE%Icy %TEAL%Cavern %WHITE%Relic %CONTINUE%
+ItemDisplay[(ma10) MAG]:%BLUE%Icy %TEAL%Cavern %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma5) MAG]:%BLUE%Frigid %TEAL%Plateau %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma4) MAG]:%BLUE%Desecrated %TEAL%Temple %GREEN%Relic %CONTINUE%
 ItemDisplay[(ma8) MAG]:%BLUE%Musty %TEAL%Crypt %GREEN%Relic %CONTINUE%
@@ -299,7 +299,7 @@ ItemDisplay[(ma7) MAG]:%BLUE%Burnt %TEAL%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(ma11) MAG]:%BLUE%Pleasant %TEAL%Pastures %RED%Relic %CONTINUE%
 ItemDisplay[(ma12) MAG]:%BLUE%Baleful %TEAL%Alcazar %RED%Relic %CONTINUE%
 ItemDisplay[(ma13) MAG]:%BLUE%Decomposing %TEAL%Settlement %RED%Relic %CONTINUE%
-ItemDisplay[(ma1) RARE]:%YELLOW%Icy %CORAL%Cavern %WHITE%Relic %CONTINUE%
+ItemDisplay[(ma10) RARE]:%YELLOW%Icy %CORAL%Cavern %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma5) RARE]:%YELLOW%Frigid %CORAL%Plateau %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma4) RARE]:%YELLOW%Desecrated %CORAL%Temple %GREEN%Relic %CONTINUE%
 ItemDisplay[(ma8) RARE]:%YELLOW%Musty %CORAL%Crypt %GREEN%Relic %CONTINUE%
@@ -342,7 +342,7 @@ ItemDisplay[ma7 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%Fire1,%YELLOW%Lightn.1,%W
 ItemDisplay[ma6 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%Fire1,%BLUE%Cold2,%YELLOW%Lightn.1,%WHITE%Physi.1 / %RED%Fire %CORAL%118 %BLUE%Cold %TEAL%117,127 %YELLOW%Lightn. %ORANGE%118 %WHITE%Physi. %LIGHT_GRAY%100 %GREEN%Poison %SAGE%80 %ORANGE%Magic %YELLOW%80 %PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma11 ID]:%NAME%{%PURPLE%[%GOLD%Immunes: %GREEN%Free / %RED%Fire %CORAL%50 %BLUE%Cold %TEAL%50 %YELLOW%Lightn. %ORANGE%50 %WHITE%Physi. %LIGHT_GRAY%50 %GREEN%Poison %SAGE%33 %ORANGE%Magic %YELLOW%33 %PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma14 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%YELLOW%Lightn.1 %GREEN%Poison1 / %RED%Fire %CORAL%80 %BLUE%Cold %TEAL%88 %YELLOW%Lightn. %ORANGE%124 %WHITE%Physi. %LIGHT_GRAY%80 %GREEN%Poison %SAGE%111 %ORANGE%Magic %YELLOW%80 %PURPLE%]%NL%%NAME%}%CONTINUE%
-//****ItemDisplay[ma10 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%Fire %CORAL%50 %BLUE%Cold %TEAL%50 %YELLOW%Lightn. %ORANGE%50 %ORANGE%Magic %YELLOW%33 %WHITE%Physi. %LIGHT_GRAY%50 %GREEN%Poison %SAGE%33%PURPLE%]%NL%%NAME%}%CONTINUE%
+ItemDisplay[ma10 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%Fire1, %WHITE%Physi.1 / %RED%Fire %CORAL%140 %BLUE%Cold %TEAL%87 %YELLOW%Lightn. %ORANGE%80 %ORANGE%Magic %YELLOW%80 %WHITE%Physi. %LIGHT_GRAY%100 %GREEN%Poison %SAGE%80%PURPLE%]%NL%%NAME%}%CONTINUE%
 //
 //ItemDisplay[ma1 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%1,%YELLOW%2,%WHITE%1,%GREEN%1 %RED%Fire %CORAL%120 %YELLOW%Lightning %ORANGE%100~120 %WHITE%Phys %LIGHT_GRAY%100 %GREEN%Poison %SAGE%120%PURPLE%%NL%%NAME%}%CONTINUE%
 //ItemDisplay[ma4 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%BLUE%1,%RED%1,%YELLOW%5,%GREEN%2 %RED%Fire %CORAL%120~140 %BLUE%Cold %TEAL%145~190 %YELLOW%Lightning %ORANGE%100 %GREEN%Poison %SAGE%120%PURPLE%]%NL%%NAME%}%CONTINUE%
