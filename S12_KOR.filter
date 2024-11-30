@@ -2306,6 +2306,8 @@ ItemDisplay[7mp NMAG !RW]:%GRAY%워 스파이크%CONTINUE%
 ItemDisplay[9cr NMAG !RW]:%GRAY%디멘셔널 블레이드%CONTINUE%
 ItemDisplay[2ax NMAG !RW]:%GRAY%더블 엑스%CONTINUE%
 ItemDisplay[7bt NMAG !RW]:%GRAY%데피케이터%CONTINUE%
+ItemDisplay[7ta NMAG !RW]:%GRAY%플라잉 엑스%CONTINUE%
+
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%슈%BLUE%페%PURPLE%리%RED%얼%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
