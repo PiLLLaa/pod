@@ -742,6 +742,7 @@ ItemDisplay[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %W
 ItemDisplay[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDisplay[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDisplay[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>85 CLVL<94]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDisplay[(amu) MAG ID ILVL>81 ILVL<85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 ItemDisplay[(amu) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음%SAGE%(캐릭 레벨 낮음)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
 
@@ -932,12 +933,13 @@ ItemDisplay[aq2 RARE !ID]:%NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %Y
 //ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<80]: %NAME%
 //ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>79]:
 ItemDisplay[(aq2 OR cq2) UNI !ID]:%TAN%%NAME%%NL%%GOLD%[화살통]<<UNID>>
-ItemDisplay[(aq2 OR cq2) MAG !ID FILTERLVL=1]:%NAME%{%NL%%WHITE%+%PURPLE%+%ORANGE%+    %RED%필터 레벨 1에서 드랍됨 %BLUE%1이상 선택시 삭제    %ORANGE%+%PURPLE%+%WHITE%+%NL%%NAME%}
+ItemDisplay[(aq2 OR cq2) MAG !ID FILTERLVL=1]:%NAME%{%WHITE%+%PURPLE%+%ORANGE%+    %RED%필터 레벨 1에서 드랍됨 %BLUE%1이상 선택시 삭제    %ORANGE%+%PURPLE%+%WHITE%+%NL%%NAME%}
 ItemDisplay[(cq2) RARE !ID FILTERLVL=1]:%NAME%{%NL%%WHITE%+%PURPLE%+%ORANGE%+    %RED%필터 레벨 1에서 드랍됨 %BLUE%1이상 선택시 삭제    %ORANGE%+%PURPLE%+%WHITE%+%NL%%NAME%}
 ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY<2]:%NAME%
 ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY=2]:
 ItemDisplay[cq2 RARE !ID CLVL<80]: %NAME%
 ItemDisplay[cq2 RARE !ID CLVL>79]:
+ItemDisplay[(aq2 OR cq2) MAG ID]:%NAME%{%NL%%GREEN%세이프티: %GOLD%엘%WHITE%+%GREEN%P 에메랄드%WHITE%+%COBALT%쥬엘%NL%%PURPLE%캐스터: %GOLD%엘드%WHITE%+%PURPLE%P 자수정%WHITE%+%COBALT%쥬엘%NL%%RED%블러드: %GOLD%엘드%WHITE%+%RED%P 루비%WHITE%+%COBALT%쥬엘%NL%%BLUE%히트파워: %GOLD%엘%WHITE%+%BLUE%P 사파이어%WHITE%+%COBALT%쥬엘%NL%%NL%%RED%***%BLUE%**%PURPLE%**%ORANGE%**     %WHITE%[ %GOLD%크래프팅 제조법 %WHITE%]     %RED%***%BLUE%**%PURPLE%**%ORANGE%**%NL%}
 ItemDisplay[(aq2 OR cq2) RARE ID]:%NAME%{%NL%%BLUE%(2x~3x)합이 40이상 %GRAY%그리고...달려+스킬+마흡+매직파인드+레지%NL%%GOLD%필수 옵션: %RED%맥뎀%SAGE%(캐릭레벨당 0.625(0.612))%WHITE%+%GREEN%추뎀}%CONTINUE%
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0 AND STAT62>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %TAN%마흡 %YELLOW%애로우%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0 AND STAT62>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%마흡 %YELLOW%애로우%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
