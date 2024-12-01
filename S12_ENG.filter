@@ -2347,6 +2347,10 @@ ItemDisplay[9cr NMAG !RW]:%GRAY%Dimensional Blade%CONTINUE%
 ItemDisplay[2ax NMAG !RW]:%GRAY%Double Axe%CONTINUE%
 ItemDisplay[7bt NMAG !RW]:%GRAY%Decapitator%CONTINUE%
 ItemDisplay[7ta NMAG !RW]:%GRAY%Flying Axe%CONTINUE%
+ItemDisplay[ob3 NMAG !RW]:%GRAY%Smoked Sphere%CONTINUE%
+ItemDisplay[ob4 NMAG !RW]:%GRAY%Clasped Orb%CONTINUE%
+ItemDisplay[obe NMAG !RW]:%GRAY%Vortex Orb%CONTINUE%
+ItemDisplay[ob2 NMAG !RW]:%GRAY%Sacred Globe%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%s%BLUE%u%PURPLE%p%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
