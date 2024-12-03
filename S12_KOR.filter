@@ -3258,7 +3258,7 @@ ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK6
 
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK50>0)]:%NAME%{%NAME%}
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) (SK58>2 AND SK60>0)]:%NAME%{%NAME%}
-ItemDisplay[!SUP (wst OR 8ws OR 6ws) !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %WHITE%+3에쉴 (큐빙4솟도전!) %ORANGE%[기억베이스] {%NAME%}
+ItemDisplay[!SUP (wst OR 8ws OR 6ws) !RW NMAG (SOCK=0) SK58>2]:%GRAY%%NAME%%NL% %WHITE%(큐빙4솟) %ORANGE%[기억베이스] {%NAME%}
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SOCK=0) SK58>2]:%NAME%{%NAME%}
 
 ItemDisplay[WP11 !sst !lst !8ss !8ls !6ss !6ls !RW NMAG (SK58>2 OR SK50>2 OR SK62>2 OR SK64>2 OR SK38>2 OR SK44>2 OR SK48>2 OR SK64>2 OR SK53>2 OR SK59>2 OR SK63>2 OR SK65>2)]:%NAME%{%NAME%}
