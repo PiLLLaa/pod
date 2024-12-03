@@ -176,6 +176,10 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
       4) All rares be dropped before hell
       5) Magic Arrow/bolt+Rare Bolt be dropped when choose filter level1
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     20. 03.Dec,2024
+      1) All base item rebuild to express and drop
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
