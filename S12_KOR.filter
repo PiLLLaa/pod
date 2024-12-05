@@ -349,7 +349,7 @@ ItemDisplay[ma11 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수: 없음 %RED%파이어 %
 ItemDisplay[ma14 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수:%YELLOW%라이트닝1 %GREEN%독1 / %RED%파이어 %CORAL%80 %BLUE%콜드 %TEAL%88 %YELLOW%라이트닝 %ORANGE%124 %WHITE%물리 %LIGHT_GRAY%80 %GREEN%독 %SAGE%111 %ORANGE%매직 %YELLOW%80 %PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma10 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수:%RED%파이어1, %WHITE%물리1 / %RED%파이어 %CORAL%140 %BLUE%콜드 %TEAL%87 %YELLOW%라이트닝 %ORANGE%80 %WHITE%물리 %LIGHT_GRAY%100 %GREEN%독 %SAGE%80 %ORANGE%매직 %YELLOW%80 %PURPLE%]%NL%%NAME%}%CONTINUE%
 //
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) STAT80>0]:%NAME% %SAGE%매찬{%NAME%} %CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) STAT80>0]:%NAME% %SAGE%매찬{%NL%%SAGE%☻       %RED%매직 아이템 %GOLD%+ %RED%골드 증가 맵       %SAGE%☻%NL%%NL%%NAME%} %CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) STAT360>0]:%NAME% %WHITE%[%RED%타락됨%WHITE%] {%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID]:%NAME%{%NAME%}
 //                                          Essences                                           //
