@@ -180,6 +180,12 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
      20. 03.Dec,2024
       1) All base item rebuild to express and drop
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     21. 05.Dec,2024
+      1) Base filter bug fixed
+      2) Map has special comment when they have "Magic Find option corrupted"
+      3) Can not be frozen option has special comments
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
