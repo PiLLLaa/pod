@@ -185,6 +185,7 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
       1) Base filter bug fixed
       2) Map has special comment when they have "Magic Find option corrupted"
       3) Can not be frozen option has special comments
+      4) Two HFD options have special comments 
 ----------------------------------------------------------------------------------------------------------------------
 :
 :
