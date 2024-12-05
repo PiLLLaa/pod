@@ -778,17 +778,17 @@ ItemDisplay[MAG rin ID]: %BLUE%%NAME% %CONTINUE%
 ItemDisplay[MAG amu ID]:%NAME%{%BLUE%Jewel%WHITE%+%RED%Amulet%WHITE%+%GOLD%Ral%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}%CONTINUE%
 ItemDisplay[MAG rin ID]:%NAME%{%BLUE%Jewel%WHITE%+%CORAL%Ring%WHITE%+%GOLD%Amn%WHITE%+%ORANGE%P %PURPLE%Amethyst%NL%%PURPLE%Caster Craft}%CONTINUE%
 
-ItemDisplay[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>85 CLVL<94]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>81 ILVL<85]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID CLVL<82]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting%RED%(Char.Level Low)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>85 CLVL<94]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID ILVL>81 ILVL<85]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[(amu) MAG ID CLVL<82]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %RED%Not recommended for crafting%RED%(Char.Level Low)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
 
-ItemDisplay[rin MAG ID ILVL>94 CLVL>79]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L(high required level) %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[rin MAG ID ILVL<95 ILVL>92 CLVL>79]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
-ItemDisplay[rin MAG ID CLVL<80]:%NAME%{%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%Your level is too low to add all afiixes     %ORANGE%*%BLUE%*%WHITE%*%NL%%NAME%}%CONTINUE%
+ItemDisplay[rin MAG ID ILVL>94 CLVL>79]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L(high required level) %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[rin MAG ID ILVL<95 ILVL>92 CLVL>79]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%You can add all affixes through crafting     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[rin MAG ID CLVL<80]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%Item Level: %YELLOW%%ILVL%L %GOLD%Your level is too low to add all afiixes     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
 
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3) !ID]:%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %BLUE%%NAME% %ORANGE%[L%ILVL%] %WHITE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL% <<MAGIC>>
