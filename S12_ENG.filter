@@ -325,13 +325,13 @@ ItemDisplay[(ma8 OR ma5 OR ma2 OR ma7 OR ma6) !ID]:%NL%       %PURPLE%@@%WHITE%@
 //ItemDisplay[(ma2 OR ma6 OR ma7 OR ma12) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
 ItemDisplay[MAP !ID !(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14)]:%NL%       %PURPLE%@@%WHITE%@@       %NAME%       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
 
-ItemDisplay[(ma12 OR ma13) ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%SAGE%Tier1%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%NAME% {%NAME%}%CONTINUE%
+ItemDisplay[(ma12 OR ma13 OR ma11) ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%SAGE%Tier1%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%NAME% {%NAME%}%CONTINUE%
 ItemDisplay[(ma9 OR ma1 OR ma4 OR ma14 OR ma10) ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%ORANGE%Tier2%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(ma8 OR ma5 OR ma2 OR ma7 OR ma6) ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%PINK%Tier3%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%NAME%{%NAME%}%CONTINUE%
 
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT372<800 STAT372>599 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT372>799 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
-ItemDisplay[(ma11) ID]:%NAME%{%GREEN%O      %RED%Co%ORANGE%w %GREEN%Re%PURPLE%lic      %GREEN%O%NL%%NAME%}%CONTINUE%
+
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID]:%NAME%{%GOLD%Cubing Recipe : %WHITE%Relic %GOLD%T1%LIGHT_GRAY%(White Relic)*%GREEN%4 = %YELLOW%Yellow Relic%WHITE%(T2) %NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID]:%NAME%{%GOLD%Cubing Recipe : %YELLOW%Relic %GOLD%T2%LIGHT_GRAY%(Yellow Relic)*%GREEN%4 = %RED%Red Relic%WHITE%(T3) %NL%%NAME%}%CONTINUE%
 
@@ -362,7 +362,8 @@ ItemDisplay[ma10 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%Fire1, %WHITE%Physi.1 / 
 //ItemDisplay[ma12 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%WHITE%1,%BLUE%1,%RED%3,%ORANGE%2,%GREEN%2 %RED%Fire %CORAL%110~140 %BLUE%Cold %TEAL%150 %YELLOW%Lightning %ORANGE%25~75 %ORANGE%Magic %YELLOW%100 %WHITE%Phys %LIGHT_GRAY%100 %GREEN%Poison %SAGE%110~140%PURPLE%]%NL%%NAME%}%CONTINUE%
 //ItemDisplay[ma13 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%WHITE%1,%BLUE%3,%RED%1,%YELLOW%2,%ORANGE%1,%GREEN%2 %RED%Fire %CORAL%120 %BLUE%Cold %TEAL%120~160 %YELLOW%Lightning %ORANGE%100 %ORANGE%Magic %YELLOW%100 %WHITE%Phys %LIGHT_GRAY%100 %GREEN%Poison %SAGE%120%PURPLE%]%NL%%NAME%}%CONTINUE%
 //ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID]:%NAME%{%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%NL%%NAME%}
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT80>0]:%NAME% %SAGE%MF {%NL%%SAGE%☻       %RED%Magic Item %GOLD%+ %RED%Gold Find       %SAGE%☻%NL%%NL%%NAME%} %CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT80>0]:%NAME% %SAGE%MF {%NL%%SAGE%☻       %GREEN%Magic Item %WHITE%+ %GOLD%Gold Find       %SAGE%☻%NL%%NL%%NAME%} %CONTINUE%
+ItemDisplay[(ma11) ID]:%NAME%{%NL%%GREEN%☻      %RED%Co%ORANGE%w %GREEN%Re%PURPLE%lic      %GREEN%☻%NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID STAT360>0]:%NAME% %RED%C  {%NAME%}%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13 OR ma14) ID]:%NAME%{%NAME%}
 //                                          Essences                                           //
