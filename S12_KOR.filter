@@ -743,17 +743,23 @@ ItemDisplay[MAG rin ID]: %BLUE%%NAME% %CONTINUE%
 ItemDisplay[MAG amu ID]:%NAME%{%BLUE%쥬엘%WHITE%+%RED%아뮬렛%WHITE%+%GOLD%랄%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}%CONTINUE%
 ItemDisplay[MAG rin ID]:%NAME%{%BLUE%쥬엘%WHITE%+%CORAL%링%WHITE%+%GOLD%엠%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}%CONTINUE%
 
-ItemDisplay[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>85 CLVL<94]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID ILVL>81 ILVL<85]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[(amu) MAG ID CLVL<82]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음%SAGE%(캐릭 레벨 낮음)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[amu MAG ID ALVL>89]:%NAME%{%NL%%PURPLE%[%CORAL%Affix 레벨:%PURPLE%L%ALVL% %ORANGE%크래프팅 %GOLD%모든 %RED%접사가 %GOLD%붙음%PURPLE%]%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[amu MAG ID ALVL<90]:%NAME%{%NL%%PURPLE%[%CORAL%Affix 레벨:%PURPLE%L%ALVL% %ORANGE%크래프팅 %RED%추천 %GOLD%하지 않음%PURPLE%]%NL%%NL%%NAME%}%CONTINUE%
 
-ItemDisplay[rin MAG ID ILVL>94 CLVL>79]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L(높은 착용 레벨) %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[rin MAG ID ILVL<95 ILVL>92 CLVL>79]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[rin MAG ID CLVL<80]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음%SAGE%(캐릭 레벨 낮음)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[rin MAG ID ALVL>85]:%NAME%{%NL%%PURPLE%[%CORAL%Affix 레벨:%PURPLE%L%ALVL% %ORANGE%크래프팅 %GOLD%모든 %RED%접사가 %GOLD%붙음%PURPLE%]%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[rin MAG ID ALVL<86]:%NAME%{%NL%%PURPLE%[%CORAL%Affix 레벨:%PURPLE%L%ALVL% %ORANGE%크래프팅 %RED%추천 %GOLD%하지 않음%PURPLE%]%NL%%NL%%NAME%}%CONTINUE%
+
+//ItemDisplay[(amu) MAG ID ILVL>85 CLVL>93]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(amu) MAG ID ILVL>89 CLVL<93 CLVL>89]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(amu) MAG ID ILVL>93 CLVL<90 CLVL>85]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(amu) MAG ID ILVL>97 CLVL<86 CLVL>81]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(amu) MAG ID ILVL>85 CLVL<94]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(amu) MAG ID ILVL>81 ILVL<85]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[(amu) MAG ID CLVL<82]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음%SAGE%(캐릭 레벨 낮음)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+
+//ItemDisplay[rin MAG ID ILVL>94 CLVL>79]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L(높은 착용 레벨) %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[rin MAG ID ILVL<95 ILVL>92 CLVL>79]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %SAGE%크래프팅%GOLD%이 모든 접사가 붙을수 있음     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
+//ItemDisplay[rin MAG ID CLVL<80]:%NAME%{%NL%%WHITE%*%BLUE%*%ORANGE%*     %WHITE%아이템 레벨: %YELLOW%%ILVL%L %RED%크래프팅 추천 하지 않음%SAGE%(캐릭 레벨 낮음)     %ORANGE%*%BLUE%*%WHITE%*%NL%%NL%%NAME%}%CONTINUE%
 
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3) !ID]:%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%* %WHITE%[ %BLUE%%NAME% %ORANGE%[L%ILVL%] %WHITE%] %ORANGE%*%BLUE%*%PURPLE%*%COBALT%*%NL%%NL% <<MAGIC>>
