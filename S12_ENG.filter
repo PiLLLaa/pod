@@ -2359,6 +2359,8 @@ ItemDisplay[ob3 NMAG !RW]:%GRAY%Smoked Sphere%CONTINUE%
 ItemDisplay[ob4 NMAG !RW]:%GRAY%Clasped Orb%CONTINUE%
 ItemDisplay[obe NMAG !RW]:%GRAY%Vortex Orb%CONTINUE%
 ItemDisplay[ob2 NMAG !RW]:%GRAY%Sacred Globe%CONTINUE%
+ItemDisplay[9wn NMAG !RW]:%GRAY%Burnt Wand%CONTINUE%
+ItemDisplay[7tk NMAG !RW]:%GRAY%Flying Knife%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%s%BLUE%u%PURPLE%p%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
