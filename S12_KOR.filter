@@ -1901,6 +1901,10 @@ ItemDisplay[UNI !ID pae ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%에%BLUE%테%WHITE%] %TA
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (aq2 OR cq2)]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%WHITE%[%PURPLE%에%BLUE%테%WHITE%] %TAN%%NAME%%RED%*
+ItemDisplay[UNI ID ELT (WEAPON OR ARMOR)]:%CORAL%%BASENAME%%NL%%GOLD%%ITEMNAME%{%NAME%}%CONTINUE%
+ItemDisplay[UNI ID EXC (WEAPON OR ARMOR)]:%BROWN%%BASENAME%%NL%%GOLD%%ITEMNAME%{%NAME%}%CONTINUE%
+ItemDisplay[UNI ID NORM (WEAPON OR ARMOR)]:%LIGHT_GRAY%%BASENAME%%NL%%GOLD%%ITEMNAME%{%NAME%}%CONTINUE%
+ItemDisplay[(WEAPON OR ARMOR) UNI ID !NMAG ETH]:%WHITE%[%PURPLE%에%BLUE%테%WHITE%] %NAME%{%NAME%}%CONTINUE%
 //                                      SETS                                                  //
 ItemDisplay[SET !ID (ulg)]:%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%사도%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<SET>>
 ItemDisplay[SET !ID (uui OR xlb OR umc)]:%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%사도%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<NSET>>
