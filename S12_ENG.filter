@@ -277,40 +277,40 @@ ItemDisplay[CRAFT ID EQ1 ED>9 STAT41>4 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%
 ItemDisplay[CRAFT ID EQ2 ED>9 STAT118>0 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT ID EQ3 ED>9 STAT34>0 STAT35>0]:%GREEN%Safety %ORANGE%%NAME%{%NAME%}%CONTINUE%
 //                                            Relic                                            //
-ItemDisplay[(ma10) NMAG]:%GRAY%Icy %WHITE%Cavern %LIGHT_GRAY%Relic %CONTINUE%
-ItemDisplay[(ma5) NMAG]:%GRAY%Frigid %WHITE%Plateau %LIGHT_GRAY%Relic %CONTINUE%
+ItemDisplay[(ma10) NMAG]:%GRAY%Icy %WHITE%Cavern %GREEN%Relic %CONTINUE%
+ItemDisplay[(ma5) NMAG]:%GRAY%Frigid %WHITE%Plateau %RED%Relic %CONTINUE%
 ItemDisplay[(ma4) NMAG]:%GRAY%Desecrated %WHITE%Temple %GREEN%Relic %CONTINUE%
-ItemDisplay[(ma8) NMAG]:%GRAY%Musty %WHITE%Crypt %GREEN%Relic %CONTINUE%
+ItemDisplay[(ma8) NMAG]:%GRAY%Musty %WHITE%Crypt %RED%Relic %CONTINUE%
 ItemDisplay[(ma9) NMAG]:%GRAY%Dim %WHITE%Cellar %GREEN%Relic %CONTINUE%
 ItemDisplay[(ma2) NMAG]:%GRAY%Forgotten %WHITE%Desert %RED%Relic %CONTINUE%
 ItemDisplay[(ma6) NMAG]:%GRAY%Ruined %WHITE%Citadel %RED%Relic %CONTINUE%
 ItemDisplay[(ma7) NMAG]:%GRAY%Burnt %WHITE%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(maz) NMAG]:Infernal %RED%Trial %CONTINUE%
 ItemDisplay[(ma11) NMAG]:%GRAY%Pleasant %WHITE%Pastures %RED%Relic%CONTINUE%
-ItemDisplay[(ma12) NMAG]:%GRAY%Baleful %WHITE%Alcazar %RED%Relic%CONTINUE%
-ItemDisplay[(ma13) NMAG]:%GRAY%Decomposing %WHITE%Settlement %RED%Relic%CONTINUE%
-ItemDisplay[(ma10) MAG]:%BLUE%Icy %TEAL%Cavern %WHITE%Relic %CONTINUE%
-ItemDisplay[(ma5) MAG]:%BLUE%Frigid %TEAL%Plateau %WHITE%Relic %CONTINUE%
+ItemDisplay[(ma12) NMAG]:%GRAY%Baleful %WHITE%Alcazar %WHITE%Relic%CONTINUE%
+ItemDisplay[(ma13) NMAG]:%GRAY%Decomposing %WHITE%Settlement %WHITE%Relic%CONTINUE%
+ItemDisplay[(ma10) MAG]:%BLUE%Icy %TEAL%Cavern %GREEN%Relic %CONTINUE%
+ItemDisplay[(ma5) MAG]:%BLUE%Frigid %TEAL%Plateau %RED%Relic %CONTINUE%
 ItemDisplay[(ma4) MAG]:%BLUE%Desecrated %TEAL%Temple %GREEN%Relic %CONTINUE%
-ItemDisplay[(ma8) MAG]:%BLUE%Musty %TEAL%Crypt %GREEN%Relic %CONTINUE%
+ItemDisplay[(ma8) MAG]:%BLUE%Musty %TEAL%Crypt %RED%Relic %CONTINUE%
 ItemDisplay[(ma9) MAG]:%BLUE%Dim %TEAL%Cellar %GREEN%Relic %CONTINUE%
 ItemDisplay[(ma2) MAG]:%BLUE%Forgotten %TEAL%Desert %RED%Relic %CONTINUE%
 ItemDisplay[(ma6) MAG]:%BLUE%Ruined %TEAL%Citadel %RED%Relic %CONTINUE%
 ItemDisplay[(ma7) MAG]:%BLUE%Burnt %TEAL%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(ma11) MAG]:%BLUE%Pleasant %TEAL%Pastures %RED%Relic %CONTINUE%
-ItemDisplay[(ma12) MAG]:%BLUE%Baleful %TEAL%Alcazar %RED%Relic %CONTINUE%
-ItemDisplay[(ma13) MAG]:%BLUE%Decomposing %TEAL%Settlement %RED%Relic %CONTINUE%
-ItemDisplay[(ma10) RARE]:%YELLOW%Icy %CORAL%Cavern %WHITE%Relic %CONTINUE%
-ItemDisplay[(ma5) RARE]:%YELLOW%Frigid %CORAL%Plateau %WHITE%Relic %CONTINUE%
+ItemDisplay[(ma12) MAG]:%BLUE%Baleful %TEAL%Alcazar %WHITE%Relic %CONTINUE%
+ItemDisplay[(ma13) MAG]:%BLUE%Decomposing %TEAL%Settlement %WHITE%Relic %CONTINUE%
+ItemDisplay[(ma10) RARE]:%YELLOW%Icy %CORAL%Cavern %GREEN%Relic %CONTINUE%
+ItemDisplay[(ma5) RARE]:%YELLOW%Frigid %CORAL%Plateau %RED%Relic %CONTINUE%
 ItemDisplay[(ma4) RARE]:%YELLOW%Desecrated %CORAL%Temple %GREEN%Relic %CONTINUE%
-ItemDisplay[(ma8) RARE]:%YELLOW%Musty %CORAL%Crypt %GREEN%Relic %CONTINUE%
+ItemDisplay[(ma8) RARE]:%YELLOW%Musty %CORAL%Crypt %RED%Relic %CONTINUE%
 ItemDisplay[(ma9) RARE]:%YELLOW%Dim %CORAL%Cellar %GREEN%Relic %CONTINUE%
 ItemDisplay[(ma2) RARE]:%YELLOW%Forgotten %CORAL%Desert %RED%Relic %CONTINUE%
 ItemDisplay[(ma6) RARE]:%YELLOW%Ruined %CORAL%Citadel %RED%Relic %CONTINUE%
 ItemDisplay[(ma7) RARE]:%YELLOW%Burnt %CORAL%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(ma11) RARE]:%YELLOW%Pleasant %CORAL%Pastures %RED%Relic %CONTINUE%
-ItemDisplay[(ma12) RARE]:%YELLOW%Baleful %CORAL%Alcazar %RED%Relic %CONTINUE%
-ItemDisplay[(ma13) RARE]:%YELLOW%Decomposing %CORAL%Settlement %RED%Relic %CONTINUE%
+ItemDisplay[(ma12) RARE]:%YELLOW%Baleful %CORAL%Alcazar %WHITE%Relic %CONTINUE%
+ItemDisplay[(ma13) RARE]:%YELLOW%Decomposing %CORAL%Settlement %WHITE%Relic %CONTINUE%
 //s10
 ItemDisplay[(ma14) NMAG]:%GRAY%Abyssal Furnace %GREEN%Relic%CONTINUE%
 ItemDisplay[(ma14) MAG]:%BLUE%Abyssal Furnace %GREEN%Relic%CONTINUE%
@@ -318,9 +318,10 @@ ItemDisplay[(ma14) RARE]:%YELLOW%Abyssal Furnace %GREEN%Relic%CONTINUE%
 
 ItemDisplay[(ma11) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME%       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
 
-ItemDisplay[(ma12 OR ma13) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
-ItemDisplay[(ma9 OR ma1 OR ma4 OR ma14 OR ma10) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
-ItemDisplay[(ma8 OR ma5 OR ma2 OR ma7 OR ma6) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
+ItemDisplay[(ma12 OR ma13) !ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%SAGE%Tier1%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%PURPLE%@@%WHITE%@@       %NAME%        %WHITE%@@%PURPLE%@@<<SPECIAL>>
+ItemDisplay[(ma9 OR ma1 OR ma4 OR ma14 OR ma10) !ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%ORANGE%Tier2%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%PURPLE%@@%WHITE%@@       %NAME%       %WHITE%@@%PURPLE%@@<<SPECIAL>>
+ItemDisplay[(ma8 OR ma5 OR ma2 OR ma7 OR ma6) !ID]:%WHITE%*%BLUE%*%CORAL%*%SAGE%*          %WHITE%[%PINK%Tier3%WHITE%]          %SAGE%*%CORAL%*%BLUE%*%WHITE%*%NL%%PURPLE%@@%WHITE%@@       %NAME%       %WHITE%@@%PURPLE%@@<<SPECIAL>>
+
 //ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
 //ItemDisplay[(ma4 OR ma8 OR ma9 OR ma13) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
 //ItemDisplay[(ma2 OR ma6 OR ma7 OR ma12) !ID]:%NL%       %PURPLE%@@%WHITE%@@       %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3       %WHITE%@@%PURPLE%@@       %NL%%NL% <<SPECIAL>>
