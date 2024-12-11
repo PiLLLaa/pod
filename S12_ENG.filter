@@ -175,7 +175,7 @@ ItemDisplay[tsc DIFFICULTY>0 !AREALVL<1]:
 ItemDisplay[isc DIFFICULTY<1]:%RED%[%WHITE%Id %CORAL%Scroll%RED%]
 ItemDisplay[isc DIFFICULTY>0 !AREALVL<1]:
 ItemDisplay[rvl]:%PURPLE%[Rp%SAGE%70%%PURPLE%]{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}<<RP>>
-ItemDisplay[rvs]:%PURPLE%[Rp%WHITE%35%%PURPLE%]
+ItemDisplay[rvs]:%PURPLE%[Rp%WHITE%35%%PURPLE%]<<RP>>
 ItemDisplay[key CLVL<30]:%WHITE%[%GRAY%Key%WHITE%]
 ItemDisplay[key CLVL>29 !AREALVL<1]:
 ItemDisplay[wms CLVL<20]:%WHITE%[Tha]
