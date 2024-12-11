@@ -1978,6 +1978,9 @@ ItemDisplay[SET !ID (xrn OR 9vo OR xcl)]: %GREEN%%NAME%%NL%%SAGE%[Hwanin]<<NSET>
 ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %GREEN%%NAME%%NL%%SAGE%[Naj]<<NSET>>
 ItemDisplay[SET !ID (bwn OR vgl)]: %GREEN%%NAME%%NL%%SAGE%[Sander]<<NSET>>
 ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*<<NSET>>
+ItemDisplay[SET ID ELT (WEAPON OR ARMOR)]:%SAGE%%BASENAME%%NL%%GREEN%%ITEMNAME%{%NAME%}%CONTINUE%
+ItemDisplay[SET ID EXC (WEAPON OR ARMOR)]:%TEAL%%BASENAME%%NL%%GREEN%%ITEMNAME%{%NAME%}%CONTINUE%
+ItemDisplay[SET ID NORM (WEAPON OR ARMOR)]:%DGREEN%%BASENAME%%NL%%GREEN%%ITEMNAME%{%NAME%}%CONTINUE%
 //                                     CRAFTING                                               //
 //ItemDisplay[(xvg OR uvg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[Blood]%WHITE%Craft Gloves%YELLOW%[L%ILVL%]
 //ItemDisplay[(xvg OR uvg) !ETH MAG ID]:%NAME%{%NL%%YELLOW%Crafting:%WHITE%Nef+%RED%P_Ruby%WHITE%+Jewel%NL%%NAME%}%CONTINUE%
