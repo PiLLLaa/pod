@@ -187,6 +187,13 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
       3) Can not be frozen option has special comments
       4) Two HFD options have special comments 
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     22. 11.Dec,2024
+      1) MAP DROP EXPRESSION CHANGE
+      2) Set/Unique item has different color for base name.
+      3) Gheed's fortune expression change
+      4) All item has Etherial marking when identified
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
