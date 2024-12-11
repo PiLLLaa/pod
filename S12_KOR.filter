@@ -225,6 +225,7 @@ ItemDisplay[SOCK=6 !NMAG !RW]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) NORM]:%NAME%{%WHITE%[%ORANGE%노말%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) EXC]:%NAME%{%WHITE%[%GREEN%익셉셔널%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ELT]:%NAME%{%WHITE%[%CORAL%엘리트%WHITE%]}%CONTINUE%
+ItemDisplay[(WEAPON OR ARMOR) ID !NMAG ETH]:%WHITE%[%PURPLE%에%BLUE%테%WHITE%] %NAME%{%NAME%}%CONTINUE%
 //                                            CRAFT                                              //
 ItemDisplay[CRAFT amu STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT rin STAT2>0 STAT78>0]:%BLUE%히트파워 %ORANGE%%NAME%{%NAME%}%CONTINUE%
