@@ -136,7 +136,7 @@ ItemDisplay[NMAG (mxb) !ID]:%NL% %RED%  Pus Spitter %NL%%GOLD%**** %CORAL%[%RED%
 ItemDisplay[NMAG (hxb) !ID]:%NL%  %GOLD%  Hellrack %NL%%RED%  	Buriza-Do Kyanon %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (rxb) !ID]:%NL%  %GOLD%  Gut Siphon %NL%%RED%  	Demon Machine %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (cst) !ID]:%NL%  %GOLD%  %GREEN%Naj's Puzzler%NL%%NL%Ondal's Wisdom %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
-ItemDisplay[NMAG (bst) !ID]:%NL%%RED%	Brimstone Rain%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
+//ItemDisplay[NMAG (bst) !ID]:%NL%%RED%	Brimstone Rain%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (wst) !ID]:%NL%%ORANGE%Skull Collector%NL%%RED%	Mang Song's Lesson%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (bwn) !ID]:%NL%  %GOLD%  Arm of King Leoric %NL%%GOLD% Boneshade %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (gwn) !ID]:%NL%%ORANGE%Blackhand Key%NL%%RED%	Death's Web%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
