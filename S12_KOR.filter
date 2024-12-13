@@ -1919,12 +1919,12 @@ ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %WHITE%---%SAGE%---%DGREEN%---%
 ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%탈 라샤%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<SET>>
 ItemDisplay[SET !ID uth]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%탈 라샤%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<SET>>
 ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%트랑 울%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<SET>>
-ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%사이곤%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<SET>>
 ItemDisplay[SET !ID (7gd OR 7wd)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%불카토스%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<NSET>>
 ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%그리스월드%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<SET>>
 ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%마비나%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<SET>>
 ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%오펀%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<NSET>>
 ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---%NL%%GREEN%%NAME%%NL%%SAGE%사자비%NL%%WHITE%---%SAGE%---%DGREEN%---%BLUE%---%COBALT%---%NAVY%---%PURPLE%---<<NSET>>
+ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %GREEN%%NAME%%NL%%SAGE%사이곤<<NSET>>
 ItemDisplay[SET !ID (rng OR sbr)]: %GREEN%%NAME%%NL%%SAGE%[천사]<<NSET>>
 ItemDisplay[SET !ID (skp OR ltp OR wst)]: %GREEN%%NAME%%NL%%SAGE%[아칸나]<<NSET>>
 ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb)]: %GREEN%%NAME%%NL%%SAGE%[혹한]<<NSET>>
