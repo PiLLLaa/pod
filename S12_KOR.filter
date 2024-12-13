@@ -528,7 +528,7 @@ ItemDisplay[gpy]:%ORANGE%P %GOLD%퍼펙트 %YELLOW%토파즈{%NL%%GREEN%세트 �
 ItemDisplay[skz]:%ORANGE%P %GOLD%퍼펙트 %TAN%해골{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*3개%WHITE%+%YELLOW%레어템%NL%} <<ANTI>>
 //                                       RARE&MAGIC                                            //
 ItemDisplay[RARE EQ7 !ETH !ID]:%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%NL%%NL% %GREEN%[ %YELLOW%%NAME% %GREEN%] %NL%%NL%%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*%COBALT%*%PURPLE%*%BLUE%*%ORANGE%*<<RARE>>
-ItemDisplay[RARE EQ7 ETH !ID]: %YELLOW%***************%NL%%NL% %GREEN%[ %WHITE%[%PURPLE%에%BLUE%테%WHITE%] %YELLOW%%NAME% %GREEN%] %NL%%NL%%YELLOW%*************** <<RARE>>
+ItemDisplay[RARE EQ7 ETH !ID]: %YELLOW%***************%NL%%NL% %WHITE%[%PURPLE%에%BLUE%테%WHITE%] %YELLOW%%NAME% %NL%%NL%%YELLOW%*************** <<RARE>>
 ItemDisplay[(RARE OR CRAFT) EQ7 !ETH ID (CLSK1>1 AND STAT105>0)]: %YELLOW% %NAME% %NL% %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%+2 소서리스 %ORANGE%패캐 %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*  {%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR CRAFT) EQ7 !ETH ID (CLSK2>1 AND STAT105>0)]: %YELLOW% %NAME% %NL% %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%YELLOW%+2 네크로맨서 %ORANGE%패캐 %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*  {%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR CRAFT) EQ7 !ETH ID (CLSK3>1 AND STAT105>0)]: %YELLOW% %NAME% %NL% %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%WHITE%+2 팔라딘 %ORANGE%패캐 %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*  {%NAME%}%CONTINUE%
