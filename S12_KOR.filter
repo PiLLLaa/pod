@@ -2340,6 +2340,7 @@ ItemDisplay[obe NMAG !RW]:%GRAY%보어텍스 오브%CONTINUE%
 ItemDisplay[ob2 NMAG !RW]:%GRAY%세이크리드 글러브%CONTINUE%
 ItemDisplay[9wn NMAG !RW]:%GRAY%번트 완드%CONTINUE%
 ItemDisplay[7tk NMAG !RW]:%GRAY%플라잉 나이프%CONTINUE%
+ItemDisplay[ywn NMAG !RW]:%GRAY%유완드%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%슈%BLUE%페%PURPLE%리%RED%얼%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
