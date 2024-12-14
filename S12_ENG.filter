@@ -2382,6 +2382,7 @@ ItemDisplay[7tk NMAG !RW]:%GRAY%Flying Knife%CONTINUE%
 ItemDisplay[ywn NMAG !RW]:%GRAY%Yew Wand%CONTINUE%
 ItemDisplay[obd NMAG !RW]:%GRAY%Demon Heart%CONTINUE%
 ItemDisplay[ob6 NMAG !RW]:%GRAY%Glowing Orb%CONTINUE%
+ItemDisplay[7wd NMAG !RW]:%GRAY%Mythical Sword%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%s%BLUE%u%PURPLE%p%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
