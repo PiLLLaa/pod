@@ -2344,6 +2344,7 @@ ItemDisplay[7tk NMAG !RW]:%GRAY%플라잉 나이프%CONTINUE%
 ItemDisplay[ywn NMAG !RW]:%GRAY%유완드%CONTINUE%
 ItemDisplay[obd NMAG !RW]:%GRAY%데몬 하트%CONTINUE%
 ItemDisplay[ob6 NMAG !RW]:%GRAY%글로잉 오브%CONTINUE%
+ItemDisplay[7wd NMAG !RW]:%GRAY%미지컬 소드%CONTINUE%
 
 ItemDisplay[(WEAPON OR ARMOR) NMAG SUP]:%WHITE%(%GREEN%슈%BLUE%페%PURPLE%리%RED%얼%WHITE%) %GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 NMAG !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
