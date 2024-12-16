@@ -9,17 +9,23 @@ FilterLevel[3]: +ÿc5No Basic Base ÿc2Ethok  //FILTLVL>2
 FilterLevel[4]: +ÿc2Large Charm Deletion //FILTLVL>2->3
 FilterLevel[5]: +ÿc3Craft Base Deletion //FILTLVL>3->4
 FilterLevel[6]: +ÿc4No All Magic+ÿc1HP+ÿc3MP //FILTLVL>4->5
-FilterLevel[7]: +ÿc8Set Deletion //FILTLVL>5->6
+FilterLevel[7]: +ÿc8Strict Mode //FILTLVL>5->6
 FilterLevel[8]: +ÿc9No Normal Unique //FILTLVL>6->7
 FilterLevel[9]: +All Normal Item Deletion //FILTLVL>7->8
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0 !AREALVL<1]: 
 ItemDisplay[MAG (cm2) FILTERLVL>3 !AREALVL<1]:
-ItemDisplay[(mp5 OR hp5 OR yps) FILTERLVL>5 !AREALVL<1]:
+ItemDisplay[(mp5 OR hp5) FILTERLVL>5 !AREALVL<1]:
 //ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>4]:
 //ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>4]:
 ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>5 !AREALVL<1]:
-ItemDisplay[SET (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
+
+ItemDisplay[RARE !EQ4 !EQ5 !EQ7 !WP5 !CL4 !CL5 !CL6 (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
+ItemDisplay[SET NORM (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
+ItemDisplay[amu MAG !ID FILTERLVL>6 !AREALVL<1]:
+ItemDisplay[CL3 NMAG (NORM OR EXC) FILTERLVL>6 !AREALVL<1]:
+ItemDisplay[WEAPON NMAG !WP12 !WP11 !WP13 (NORM OR EXC) FILTERLVL>6 !AREALVL<1]:
+
 ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>8 !AREALVL<1]:
 //                                     Map Icon Text                                           //
 ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = HIGH
@@ -3399,6 +3405,7 @@ ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0 DIFFICULTY<2]:%NAME%%NL
 ItemDisplay[WP13 !RW NMAG !SOCK=1 !SOCK=2 (SK121>2 OR SK118>2 OR SK101>2 OR SK102>2 OR SK114>2 OR SK99>2 OR SK109>2 OR SK124>2 OR SK113>2 OR SK123>2 OR SK112>2 OR SK117>2)]:%NAME%{%NAME%}
 
 //Vendor items
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1 FILTERLVL>6]:
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%} <<ANTI>>
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%Selling %PURPLE%Items %GOLD%**********%NL%%NAME%}
@@ -3408,6 +3415,7 @@ ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6]:%GR
 ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6Soc Base%PURPLE%] {%NAME%}
 
 //imbue
+ItemDisplay[ci3 !ETH NMAG SOCK=0 FILTERLVL>6]:
 ItemDisplay[ci3 !ETH NMAG SOCK=0]:%NAME% %ORANGE%[imbue] {%NAME%}
 
 //Polearm 4Soc
