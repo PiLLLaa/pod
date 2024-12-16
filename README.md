@@ -197,11 +197,11 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
 ----------------------------------------------------------------------------------------------------------------------
      23. 16.Dec,2024
       1) Filter Level Change (SET item deletion change to Strict mode)
-         -. Rare be disabled except for Gloves/Boots/Circlets/Throwing/Nec Sheild/Claws/Staves
+         -. Rare(Weapon/Armor) be disabled except for Gloves/Boots/Circlets/Throwing/Nec Sheild/Claws/Staves
          -. Normal Set items be disabled
          -. Magic Amulet be disabled
          -. Normal Paladin Shield base item be disabled
-         -. Normal/Exceptional Weapon be disabled except for Wand/Staves/Scepter
+         -. Normal/Exceptional Weapon base item be disabled except for Wand/Staves/Scepter
          -. Price item be disabled (Throwing and Wands(No 3skills))
          -. Imbue Tiara be disabled
       2) Armor base item has marking for Defence.
