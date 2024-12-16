@@ -204,6 +204,7 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
          -. Normal/Exceptional Weapon be disabled except for Wand/Staves/Scepter
          -. Price item be disabled (Throwing and Wands(No 3skills))
          -. Imbue Tiara be disabled
+      2) Armor base item has marking for Defence.
 ----------------------------------------------------------------------------------------------------------------------
 :
 :
