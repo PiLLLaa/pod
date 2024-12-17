@@ -200,7 +200,7 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
          -. Rare(Weapon/Armor) be disabled except for Gloves/Boots/Circlets/Javeline/Nec Sheild/Claws
          -. Normal Set items be disabled
          -. Magic Amulet be disabled
-         -. Normal Paladin Shield base item be disabled
+         -. Normal/Exceptional Paladin Shield base item be disabled
          -. Normal/Exceptional Weapon base item be disabled except for Wand/Staves/Scepter
          -. Price item be disabled (Throwing and Wands(No 3skills))
          -. Imbue Tiara be disabled
