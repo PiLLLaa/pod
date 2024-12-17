@@ -20,7 +20,7 @@ ItemDisplay[(mp5 OR hp5) FILTERLVL>5 !AREALVL<1]:
 //ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>4]:
 ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>5 !AREALVL<1]:
 
-ItemDisplay[RARE !EQ4 !EQ5 !EQ7 !WP5 !CL4 !CL5 !CL6 (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
+ItemDisplay[RARE !EQ4 !EQ5 !EQ7 !WP6 !CL4 !CL5 (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
 ItemDisplay[SET NORM (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
 ItemDisplay[amu MAG !ID FILTERLVL>6 !AREALVL<1]:
 ItemDisplay[CL3 NMAG (NORM OR EXC) FILTERLVL>6 !AREALVL<1]:
