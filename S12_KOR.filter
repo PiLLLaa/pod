@@ -25,7 +25,7 @@ ItemDisplay[RARE !EQ4 !EQ5 !EQ7 !WP6 !CL4 !CL5 (WEAPON OR ARMOR) !ID FILTERLVL>6
 ItemDisplay[SET NORM (WEAPON OR ARMOR) !ID FILTERLVL>6 !AREALVL<1]:
 ItemDisplay[amu MAG !ID FILTERLVL>6 !AREALVL<1]:
 ItemDisplay[CL3 NMAG (NORM OR EXC) FILTERLVL>6 !AREALVL<1]:
-ItemDisplay[WEAPON NMAG !WP12 !WP11 !WP13 (NORM OR EXC) FILTERLVL>6 !AREALVL<1]:
+ItemDisplay[WEAPON NMAG !WP12 !WP11 !WP13 !leg (NORM OR EXC) FILTERLVL>6 !AREALVL<1]:
 
 ItemDisplay[NMAG (WEAPON OR ARMOR) FILTERLVL>8 !AREALVL<1]:
 //                                     Map Icon Text                                           //
