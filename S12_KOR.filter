@@ -3107,15 +3107,15 @@ ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>299
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 
 //6 sox good weapon bases
-ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6 DIFFICULTY<2]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%GOLD%이아이템은 나이트메어 이하에서만 드랍됨%NL%%NAME%}
-ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
+ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6 DIFFICULTY<2]:%GRAY%%NAME% %PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%GOLD%이아이템은 나이트메어 이하에서만 드랍됨%NL%%NAME%}
+ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
 
 //imbue
 ItemDisplay[ci3 !ETH NMAG SOCK=0 FILTERLVL>6]:
-ItemDisplay[ci3 !ETH NMAG SOCK=0]:%NAME%%NL%%ORANGE%임뷰용 {%NAME%}
+ItemDisplay[ci3 !ETH NMAG SOCK=0]:%NAME% %ORANGE%임뷰용 {%NAME%}
 
 //Polearm 4Soc
-ItemDisplay[(WP7 OR WP8) NORM !RW NMAG SOCK=4 CLVL<80]:%NAME% %NL% %PURPLE%[통찰]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(WP7 OR WP8) NORM !RW NMAG SOCK=4 CLVL<80]:%NAME% %PURPLE%[통찰]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM !RW NMAG SOCK=4 CLVL>79 !AREALVL<1]:
 
 //Nec Shield (Ryme base)
@@ -3125,19 +3125,19 @@ ItemDisplay[(WP7 OR WP8) NORM !RW NMAG SOCK=4 CLVL>79 !AREALVL<1]:
 //ItemDisplay[(WP12 OR CL4) NMAG !RW SK477=2 (SOCK=0 OR SOCK=2) CLVL>79 !AREALVL<1]:
 
 //Shield (Ryme base)
-ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[제왕운시]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %PURPLE%[제왕운시]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(EQ3) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 
 //Chest (Stealth base)
-ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[스텔스]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %PURPLE%[스텔스]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(EQ2) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 
 //Helm (Lore base)
-ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %NL% %PURPLE%[학식]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL<80]:%NAME% %PURPLE%[학식]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(EQ1) NMAG !RW (SOCK=2) CLVL>79 !AREALVL<1]:
 
 //Bow (Edge base)
-ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL<80]:%NAME% %NL% %PURPLE%[모서리]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
+ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL<80]:%NAME% %PURPLE%[모서리]{%WHITE%+%RED%캐릭터 레벨 80이전 까지%WHITE%+ %CORAL%활성화%NL%%NAME%}
 ItemDisplay[(WP9) NMAG !RW (SOCK=3) CLVL>79 !AREALVL<1]:
 
 //leaf base
