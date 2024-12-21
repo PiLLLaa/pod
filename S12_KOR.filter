@@ -3377,7 +3377,7 @@ ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>299
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 
 //6 sox good weapon bases
-ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6 DIFFICULTY<2]:%GRAY%%NAME% %NL%%PURPLE%[%GOLD%이아이템은 나이트메어 이하에서만 드랍됨%NL%%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
+ItemDisplay[WEAPON !RW NMAG (crs OR mpi OR wax OR hal OR spt OR lbb) SOCK=6 DIFFICULTY<2]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%GOLD%이아이템은 나이트메어 이하에서만 드랍됨%NL%%NAME%}
 ItemDisplay[WEAPON !RW NMAG (7mp OR 7wa OR 7gi OR 7gm OR 9cr OR 7gd) SOCK=6]:%GRAY%%NAME% %NL%%PURPLE%[%TEAL%6소켓 베이스%PURPLE%] {%NAME%}
 
 //imbue
