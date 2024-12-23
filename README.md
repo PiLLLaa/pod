@@ -206,6 +206,10 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
          -. Imbue Tiara be disabled
       2) Armor base item has marking for Defence.
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     24. 22.Dec,2024
+      1) Expression of Base Item was changed, Now stat/skill name be above base item name.
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
