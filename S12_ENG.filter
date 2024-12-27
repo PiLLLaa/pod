@@ -1,7 +1,7 @@
 Attribute[Author]: ÿc2PILLLA
 Attribute[Name]: ÿc8English Version filterÿc1(Item.Filter in Folder)
 Attribute[Version]:ÿc3 1.4.0_S13
-Attribute[Date]:ÿc4 22/Dec/2024 
+Attribute[Date]:ÿc4 27/Dec/2024 
 //                                      Filter Level                                           //
 FilterLevel[1]: Standard+Arrow //FILTLVL>0 
 FilterLevel[2]: No Ring+ÿc1LowRuneNoti.  //FILTLVL>1
@@ -2917,40 +2917,40 @@ ItemDisplay[NMAG !ETH !RW ED=15 (uui OR utu OR utp) SOCK=3]:%NAME%%NL%%RED%*%YEL
 ItemDisplay[NMAG !ETH !RW ED=15 (uui OR utu OR utp) (SOCK=0 OR SOCK=4)]:%NAME%%NL%%RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% %ORANGE%[Fortitude] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*{%NAME%} <<SPECIAL>>
 
 //High Def ETH armors
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uui DEF>664]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uea DEF>668]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ula DEF>674]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utu DEF>684]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ung DEF>695]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ucl DEF>705]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP urs DEF>710]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uhn DEF>718]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP upl DEF>730]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utp DEF>735]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utp DEF>620]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uld DEF>744]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ult DEF>754]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uth DEF>768]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uul DEF>792]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>849]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>720]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uui DEF>664]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uea DEF>668]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 ula DEF>674]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 utu DEF>684]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 ung DEF>695]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 ucl DEF>705]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 urs DEF>710]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uhn DEF>718]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 upl DEF>730]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>735]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>620]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uld DEF>744]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 ult DEF>754]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uth DEF>768]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uul DEF>792]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>849]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
-ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>720]:%GRAY%%NAME% %COBALT%(highest Def){%NAME%}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uui DEF>664]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uea DEF>668]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ula DEF>674]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utu DEF>684]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ung DEF>695]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ucl DEF>705]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP urs DEF>710]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uhn DEF>718]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP upl DEF>730]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utp DEF>735]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utp DEF>620]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uld DEF>744]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ult DEF>754]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uth DEF>768]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uul DEF>792]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>849]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>720]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uui DEF>664]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uea DEF>668]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 ula DEF>674]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 utu DEF>684]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 ung DEF>695]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 ucl DEF>705]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 urs DEF>710]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uhn DEF>718]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 upl DEF>730]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>735]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>620]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uld DEF>744]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 ult DEF>754]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uth DEF>768]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uul DEF>792]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>849]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
+ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>720]:%GRAY%%NAME% %COBALT%(highest Def) %WHITE%- %ORANGE%%STAT(31)%
 
 ItemDisplay[NMAG !RW !SOCK=1 ED>0 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%NAME%{%NAME%}
 ItemDisplay[NMAG !RW !SOCK=1 STAT91<0 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]:%NAME%{%NAME%}
