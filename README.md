@@ -210,6 +210,10 @@ https://docs.google.com/document/d/1upbC2Dp0pKiQVgCJAEvKQBBxFynD9lXYjdSDHmFBeFI/
      24. 22.Dec,2024
       1) Expression of Base Item was changed, Now stat/skill name be above base item name.
 ----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+     25. 27.Dec,2024
+      1) High defence of chest armor will be shown for their defense when drop.
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
