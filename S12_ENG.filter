@@ -1,7 +1,7 @@
 Attribute[Author]: ÿc2PILLLA
 Attribute[Name]: ÿc8English Version filterÿc1(Item.Filter in Folder)
 Attribute[Version]:ÿc3 1.4.0_S13
-Attribute[Date]:ÿc4 27/Dec/2024 
+Attribute[Date]:ÿc4 04/Jan/2025 
 //                                      Filter Level                                           //
 FilterLevel[1]: Standard+Arrow //FILTLVL>0 
 FilterLevel[2]: No Ring+ÿc1LowRuneNoti.  //FILTLVL>1
@@ -16,6 +16,7 @@ FilterLevel[9]: +All Normal Item Deletion //FILTLVL>7->8
 ItemDisplay[MAG rin !ID FILTERLVL>0 !AREALVL<1]: 
 ItemDisplay[MAG (cm2) FILTERLVL>3 !AREALVL<1]:
 ItemDisplay[(mp5 OR hp5) FILTERLVL>5 !AREALVL<1]:
+ItemDisplay[(yps) FILTERLVL>6 !AREALVL<1]:
 //ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>4]:
 //ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>4]:
 ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>5 !AREALVL<1]:
