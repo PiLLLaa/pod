@@ -1,7 +1,7 @@
 Attribute[Author]: ÿc2필라
 Attribute[Name]: ÿc8한글 필터, 폴더내 ÿc1Item.Filter ÿc8로 저장됨
 Attribute[Version]:ÿc3 1.4.0_S13
-Attribute[Date]: ÿc42024/12/27 
+Attribute[Date]: ÿc42025/01/04 
 //                                      Filter Level                                           //
 //ÿc5=회색,ÿc6=짙은회색,ÿc1=빨간색, ÿc2=녹색,ÿc3=파란색,ÿc4=금색,ÿc0=흰색,ÿc7=골드색,ÿc8주황색,ÿc9노란색
 FilterLevel[1]: 일반+매직화살통드랍 //FILTLVL>0 
@@ -17,6 +17,7 @@ FilterLevel[9]: +모든 베이스템 삭제 //FILTLVL>7->8
 ItemDisplay[MAG rin !ID FILTERLVL>0 !AREALVL<1]: 
 ItemDisplay[MAG (cm2) FILTERLVL>3 !AREALVL<1]:
 ItemDisplay[(mp5 OR hp5) FILTERLVL>5 !AREALVL<1]:
+ItemDisplay[(yps) FILTERLVL>6 !AREALVL<1]:
 //ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>4]:
 //ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>4]:
 ItemDisplay[MAG (WEAPON OR ARMOR) !ID FILTERLVL>5 !AREALVL<1]:
