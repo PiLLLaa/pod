@@ -1,7 +1,7 @@
 Attribute[Author]: ÿc2PILLLA
 Attribute[Name]: ÿc8English Version filterÿc1(Item.Filter in Folder)
-Attribute[Version]:ÿc3 1.4.0_S13
-Attribute[Date]:ÿc4 04/Jan/2025 
+Attribute[Version]:ÿc3 1.4.1_S13
+Attribute[Date]:ÿc4 01/Feb/2025 
 //                                      Filter Level                                           //
 FilterLevel[1]: Standard+Arrow //FILTLVL>0 
 FilterLevel[2]: No Ring+ÿc1LowRuneNoti.  //FILTLVL>1
@@ -1392,6 +1392,10 @@ ItemDisplay[UNI !ID pa9 !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%
 ItemDisplay[UNI !ID pa9 ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Her%ORANGE%ald %GOLD%of %WHITE%Zak%GOLD%aru%ORANGE%m%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 ItemDisplay[UNI !ID pac !ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%PURPLE%Al%ORANGE%ma %GOLD%Ne%WHITE%gr%GOLD%a%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>
 ItemDisplay[UNI !ID pac ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Al%ORANGE%ma %GOLD%Ne%WHITE%gr%GOLD%a%NL%%NL%%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***<<UNIQUE2>>		
+//s13
+ItemDisplay[UNI !ID 8bs !ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL% %PURPLE%Wa%ORANGE%rp%GOLD%sp%WHITE%ea%GOLD%r %NL%%LIGHT_GRAY%%NAME% %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID 8bs ETH]:%GOLD%***%PURPLE%***%WHITE%***%CORAL%***%PINK%***%COBALT%***%RED%***%NL%%NL% %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Wa%ORANGE%rp%GOLD%sp%WHITE%ea%GOLD%r %NL%%LIGHT_GRAY%%NAME% %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%*****<<UNIQUE>>
+
 //Unique Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID (rin)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Ring %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Am%PURPLE%ul%ORANGE%et %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
@@ -1815,8 +1819,7 @@ ItemDisplay[UNI !ID 8ls !ETH]:%NL%%GRAY%*%TAN%Ribcracker%GRAY%*%NL%%LIGHT_GRAY%%
 ItemDisplay[UNI !ID 8ls ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Ribcracker%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID 8cs !ETH]:%NL%%GRAY%*%TAN%Chromatic Ire%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID 8cs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Chromatic Ire%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
-ItemDisplay[UNI !ID 8bs !ETH]:%NL%%GRAY%*%TAN%Warpspear%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
-ItemDisplay[UNI !ID 8bs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Warpspear%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+
 ItemDisplay[UNI !ID 8ws !ETH]:%NL%%GRAY%*%TAN%Skull Collector%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID 8ws ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Skull Collector%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID ssd !ETH]:%NL%%GRAY%*%TAN%Rixot's Keen%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
